@@ -1,0 +1,1289 @@
+<!doctype html><html lang="ht"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#0b4b37"><meta name="description" content="APLS — jesyon manm, reyinyon, finans ak pwojè. Vèsyon demonstrasyon pou iPhone, Android ak òdinatè."><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="APLS"><title>APLS — Jesyon Entegre | iPhone • Android • Òdinatè</title><style>:root{--green:#0b4b37;--deep:#082e26;--nav:#0c3028;--gold:#d4a43a;--text:#1b2d26;--muted:#64776e;--bg:#f5f7f3;--line:#dfe8e1;--white:#fff;--shadow:0 7px 30px rgba(12,47,33,.055);--r:16px}*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:var(--bg);color:var(--text);font-size:14px}button,input,select,textarea{font:inherit}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.5}input,select,textarea{width:100%;padding:11px 12px;border:1px solid #ccd9d0;border-radius:9px;color:var(--text);background:white;outline:none}input:focus,select:focus,textarea:focus{border-color:#6aa58d;box-shadow:0 0 0 3px #0a6c3c14}textarea{min-height:98px;resize:vertical}label{font-size:12px;color:#45584e;font-weight:700;display:block;margin-bottom:7px}a{color:var(--green)}button{border:0}.app{display:flex;min-height:100vh}.sidebar{width:260px;position:fixed;top:0;bottom:0;left:0;background:linear-gradient(165deg,#0e4734,#092a24 80%);color:#e6f3e8;z-index:30;overflow-y:auto;padding:24px 14px 18px;scrollbar-width:thin}.brand{display:flex;align-items:center;gap:12px;padding:4px 10px 22px;border-bottom:1px solid #ffffff24;margin-bottom:17px}.brand img{height:49px;width:49px;border-radius:50%;background:white;object-fit:contain;border:2px solid #cbaa52}.brand strong{display:block;font-size:21px;letter-spacing:.08em;color:#fff}.brand small{display:block;font-size:10px;letter-spacing:.01em;color:#bfd8c9;line-height:1.4}.navlabel{font-size:10px;text-transform:uppercase;letter-spacing:.16em;color:#90b4a4;margin:19px 12px 9px}.navbutton{display:flex;align-items:center;gap:11px;width:100%;color:#e1eee6;background:transparent;border-radius:10px;text-align:left;padding:11px 12px;margin:2px 0;font-weight:550;transition:.15s}.navbutton:hover{background:#ffffff11}.navbutton.active{background:#d6ebdd19;box-shadow:inset 3px 0 0 var(--gold);color:#fff}.navbutton .ico{display:inline-flex;align-items:center;justify-content:center;width:21px;font-size:16px}.sidebar-bottom{border-top:1px solid #ffffff25;margin-top:22px;padding:17px 12px;color:#b6d7c6;line-height:1.6;font-size:11px}.workspace{margin-left:260px;min-width:0;flex:1}.topbar{height:73px;background:#fff;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding:0 33px;position:sticky;top:0;z-index:11}.crumb{color:#71857b;font-size:12px}.topname{font-weight:800;font-size:18px;margin-top:3px}.toolbar{display:flex;gap:9px;align-items:center}.tag{font-weight:700;font-size:11px;padding:7px 11px;border-radius:100px;background:#e6f3e9;color:#146145;white-space:nowrap}.tag.gold{background:#fff4d9;color:#7d5c14}.tag.grey{background:#edf1ed;color:#5a6b62}.tag.red{background:#faeceb;color:#9c4538}.avatar{width:34px;height:34px;border-radius:50%;background:#ddede1;color:#276445;display:grid;place-items:center;font-weight:800}.main{max-width:1460px;margin:auto;padding:28px 32px 70px}.hero{background:linear-gradient(110deg,#0c513d,#0b382f 79%);position:relative;color:#fff;border-radius:20px;padding:32px 34px;overflow:hidden;min-height:184px;display:flex;justify-content:space-between;gap:20px;align-items:center}.hero:after{content:"";position:absolute;right:-75px;top:-130px;width:360px;height:360px;border:55px solid #ffffff0b;border-radius:50%}.hero:before{content:"";position:absolute;right:140px;bottom:-150px;width:260px;height:260px;border:1px solid #d9ba6270;border-radius:50%}.hero-text{position:relative;z-index:1}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.15em;color:#b3ddc4;font-weight:750;margin-bottom:10px}.hero h1{font-size:29px;font-weight:800;line-height:1.15;margin:0 0 10px}.hero p{color:#d5e6db;margin:0;max-width:560px;line-height:1.65}.hero img{width:124px;height:124px;object-fit:contain;background:#ffffffed;border-radius:50%;padding:5px;z-index:1;box-shadow:0 8px 26px #021b1255}.actions{display:flex;gap:9px;flex-wrap:wrap}.btn{padding:11px 14px;border-radius:10px;background:#eef4ef;color:#214e34;font-weight:750;display:inline-flex;align-items:center;gap:8px;justify-content:center;min-height:40px}.btn:hover{filter:brightness(.97)}.btn.primary{background:#0c6142;color:white}.btn.gold{background:#e4b850;color:#2b281d}.btn.outline{background:#fff;border:1px solid var(--line);color:#385449}.btn.danger{background:#f9e6e3;color:#9b3224}.btn.small{padding:7px 10px;font-size:12px;min-height:32px}.menu-open{display:none;background:transparent;font-size:24px;color:#1d4b36}.stack{display:grid;gap:18px}.grid4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px}.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.stat{border:1px solid var(--line);padding:19px 20px;border-radius:15px;background:#fff;box-shadow:var(--shadow);min-width:0}.stat .statname{color:var(--muted);font-size:12px;margin-bottom:11px}.stat .statnum{font-size:30px;font-weight:850;letter-spacing:-.03em}.stat .statfoot{font-size:11px;color:#608071;margin-top:8px}.stat .bubble{height:30px;width:30px;display:grid;place-items:center;background:#edf6ef;border-radius:9px;float:right}.panel{background:white;border:1px solid var(--line);border-radius:16px;padding:21px;box-shadow:var(--shadow);min-width:0}.panelhead,.sectionhead{display:flex;justify-content:space-between;gap:15px;align-items:flex-start;margin-bottom:18px}.sectionhead{margin-bottom:20px}.panel h2,.sectionhead h2{font-size:19px;letter-spacing:-.02em;margin:0 0 6px;font-weight:800}.panelhead h3{font-size:16px;margin:0 0 5px}.subtitle{font-size:12px;color:#718178;line-height:1.55;margin:0}.fine{font-size:12px;line-height:1.6;color:#718178}.notice{padding:13px 15px;border:1px solid #efd797;background:#fff8e9;color:#73581d;border-radius:12px;font-size:12px;line-height:1.6}.notice.green{background:#eff7f1;border-color:#cce5d3;color:#245941}.notice.red{background:#fff2f1;border-color:#f2d3d0;color:#8d352e}.table-wrap{overflow:auto;max-width:100%}table{width:100%;border-collapse:collapse;font-size:12px}th{background:#f6f8f5;text-transform:uppercase;letter-spacing:.055em;color:#60756a;font-size:10px;font-weight:800;text-align:left;padding:12px 11px;white-space:nowrap}td{border-bottom:1px solid #eff3ef;padding:12px 11px;vertical-align:middle}tr:last-child td{border-bottom:0}td .sub{font-size:11px;color:#87948b;margin-top:4px}td strong{font-weight:750}.search-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:16px}.search-row input{flex:1;min-width:175px}.search-row select{width:auto;min-width:135px}.empty{min-height:175px;display:flex;align-items:center;justify-content:center;flex-direction:column;color:#86958a;text-align:center;gap:10px;padding:25px}.empty b{color:#345747;font-size:14px}.empty span{font-size:12px;max-width:330px;line-height:1.55}.inline-actions{display:flex;gap:5px;flex-wrap:wrap}.linkbtn{color:#136246;background:transparent;font-weight:750;padding:6px}.linkbtn:hover{text-decoration:underline}.twofields{display:grid;grid-template-columns:1fr 1fr;gap:13px}.threefields{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.field{min-width:0}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field.full{grid-column:1/-1}.field .hint{font-size:11px;color:#809184;margin-top:6px;line-height:1.5}.checkline{display:flex;align-items:start;gap:10px;line-height:1.5;color:#42574a;font-size:12px}.checkline input{width:auto;margin-top:3px}.modal-scrim{position:fixed;z-index:55;inset:0;background:#091d15b9;display:flex;align-items:center;justify-content:center;padding:18px}.modal{width:min(750px,100%);background:white;border-radius:18px;max-height:92vh;overflow-y:auto;box-shadow:0 24px 80px #0005}.modal-top{padding:20px 23px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;background:white;z-index:2}.modal-top h2{margin:0;font-size:19px}.modal-body{padding:23px}.modal-bottom{padding:15px 23px;border-top:1px solid var(--line);display:flex;gap:9px;justify-content:flex-end;position:sticky;bottom:0;background:white}.modal-x{background:none;color:#53685b;font-size:22px}.mini{font-size:11px;color:var(--muted)}.feature{display:flex;gap:12px;padding:13px 2px;border-bottom:1px solid #edf1ed}.feature:last-child{border:0}.feature-ico{width:36px;height:36px;flex-shrink:0;background:#ecf5ef;color:var(--green);border-radius:11px;display:grid;place-items:center;font-size:17px}.feature h4{margin:0 0 4px}.feature p{font-size:12px;color:#69796f;line-height:1.55;margin:0}.activity{display:flex;align-items:start;gap:11px;padding:13px 0;border-bottom:1px solid #f0f3ef}.activity:last-child{border:0}.activity .dot{height:9px;width:9px;margin-top:5px;background:#c9a64b;border-radius:50%;flex-shrink:0}.barline{display:flex;align-items:center;gap:14px;margin:12px 0}.barline .barname{width:125px;white-space:nowrap;font-size:12px;color:#65786b}.barline .bar{flex:1;height:8px;border-radius:6px;background:#ecf0ea;overflow:hidden}.barline .bar>span{display:block;height:100%;background:#448d69;border-radius:6px}.barline .count{min-width:28px;text-align:right;font-weight:800;font-size:12px}.cardline{border:1px solid var(--line);border-radius:13px;padding:16px;background:#fff;min-width:0}.cardline h4{margin:0 0 7px;font-size:13px}.cardline p{color:#6a8072;font-size:12px;line-height:1.55;margin:0 0 12px}.position{display:flex;align-items:center;justify-content:space-between;border:1px solid #e2ece4;padding:15px 16px;border-radius:12px;gap:10px;background:#fff;min-width:0}.position .num{display:grid;place-items:center;background:#e6efe8;border-radius:10px;width:32px;height:32px;font-size:12px;font-weight:900;color:#286846;flex-shrink:0}.position .position-title{font-size:12px;font-weight:770;line-height:1.45}.position .position-sub{font-size:11px;color:#798c7e;margin-top:5px}.founder{display:flex;gap:23px;align-items:center;background:linear-gradient(130deg,#eff7ec,#fefcf2);padding:30px;border-radius:17px;border:1px solid #dceadb}.founder .round{background:#0f5039;color:#fff;border:4px solid #dfc677;width:100px;height:100px;display:grid;place-items:center;font-size:40px;font-weight:900;flex-shrink:0;border-radius:50%}.founder h2{font-size:25px;margin:4px 0}.founder p{font-size:13px;line-height:1.65;color:#576c5d}.quote{border-left:3px solid #e0ad41;padding:6px 15px;margin-top:14px;color:#44604d;font-style:italic}.rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.rule{border:1px solid var(--line);border-radius:13px;padding:15px;cursor:pointer;background:#fff}.rule:hover{border-color:#9abda4}.rule h4{font-size:13px;margin:7px 0}.rule p{font-size:12px;color:#6d8073;line-height:1.6;margin:0}.footer-note{margin:34px 0 0;color:#829087;text-align:center;font-size:11px}.hide{display:none!important}.mobile-shade{display:none}.toast{position:fixed;bottom:24px;right:25px;border-radius:11px;background:#0d4d38;color:#fff;padding:13px 19px;box-shadow:0 12px 34px #0003;z-index:99;max-width:min(380px,90%)}.statusrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.code{font-variant-numeric:tabular-nums;font-weight:850;color:#205940;font-size:12px}.micro{font-size:11px;color:#7b8e80}.pill-note{border-radius:999px;border:1px solid #dae8dc;padding:5px 9px;font-size:10px;font-weight:700;color:#557263}.side-foot-logo{font-size:12px;color:#d5b660;font-weight:800;letter-spacing:.04em}.hero .hero-btn{margin-top:18px;background:#e8bd61;color:#203d28}.firstrow{display:flex;align-items:center;gap:12px}.symbol{height:34px;width:34px;display:grid;place-items:center;background:#eef5ef;border-radius:9px;color:#2e744d;font-size:18px}@media(max-width:1150px){.grid4{grid-template-columns:repeat(2,1fr)}.grid3{grid-template-columns:repeat(2,1fr)}}@media(max-width:880px){.sidebar{transform:translateX(-102%);transition:transform .2s}.sidebar.open{transform:translateX(0)}.mobile-shade.open{display:block;position:fixed;inset:0;background:#081c15a8;z-index:20}.workspace{margin-left:0}.menu-open{display:block}.main{padding:23px 19px 45px}.topbar{padding:0 20px}.hero{padding:24px}.hero h1{font-size:24px}.hero img{height:85px;width:85px}.grid2{grid-template-columns:1fr}}@media(max-width:600px){.topbar{height:65px}.toolbar .tag{display:none}.main{padding:14px 13px 40px}.hero{min-height:180px;padding:23px}.hero h1{font-size:22px}.hero img{height:62px;width:62px;align-self:start}.hero p{font-size:12px}.grid4,.grid3,.rules{grid-template-columns:1fr 1fr;gap:10px}.stat{padding:15px}.stat .statnum{font-size:26px}.panel{padding:16px}.formgrid,.twofields,.threefields{grid-template-columns:1fr}.sectionhead{flex-direction:column}.founder{flex-direction:column;text-align:center}.actions{width:100%}.actions .btn{flex:1}.rules{grid-template-columns:1fr}.topname{font-size:15px}.panelhead{flex-direction:column}.position{padding:12px}.modal-body{padding:15px}.modal-top{padding:15px}}@media print{.sidebar,.topbar,.footer-note,.actions,.no-print,.btn{display:none!important}.workspace{margin-left:0}.main{max-width:none;padding:0}.panel{border:0;box-shadow:none}.hero{color:black;background:white}.toast{display:none}} 
+
+/* Adaptasyon pou telefòn: gwo bouton ak meni rapid anba ekran. */
+.mobile-tabs{display:none}
+@media (max-width:880px){
+  .mobile-tabs{display:flex;align-items:stretch;justify-content:space-around;position:fixed;left:0;right:0;bottom:0;z-index:15;background:#fff;border-top:1px solid #dce6dd;box-shadow:0 -5px 25px #082e2616;padding:7px 4px max(7px,env(safe-area-inset-bottom));}
+  .mobile-tab{background:transparent;color:#64766b;border:0;min-height:55px;min-width:0;flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:3px;font-size:10px;font-weight:750;border-radius:12px;padding:4px 2px;}
+  .mobile-tab .tab-symbol{font-size:21px;line-height:1.1}
+  .mobile-tab.active{background:#e9f3ec;color:#0b4b37}
+  .main{padding-bottom:calc(107px + env(safe-area-inset-bottom))}
+  input,textarea,select{font-size:16px}
+}
+@media (max-width:420px){.mobile-tab{font-size:9.5px}}
+
+@media (max-width:880px){.apls-install-link{min-height:42px;display:inline-flex;align-items:center;justify-content:center}}
+@media (max-width:360px){.mobile-tab{padding-inline:2px;font-size:9px}.grid4{gap:8px}.stat{padding:12px}.main{padding-left:10px;padding-right:10px}.hero{padding:18px 14px}.hero img{height:49px;width:49px}.hero h1{font-size:20px}}
+.apls-install-link{white-space:nowrap;color:#245941;background:#edf6ee;border:1px solid #c9dfd0;padding:8px 11px;border-radius:8px;font-weight:700;text-decoration:none}
+.apls-install-link:hover,.apls-install-link:focus-visible{background:#d8eedf;outline:2px solid #8fc2a3;outline-offset:2px}
+</style><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="./apple-touch-icon.png"><link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png"><meta name="format-detection" content="telephone=no"><meta name="robots" content="noindex,nofollow"><style id="apls-public-demo-styles">.apls-demo-banner{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:#fff8dc;border:1px solid #e7d389;border-radius:12px;margin:0 0 16px;padding:11px 13px;color:#5e4c17;font-size:12px;line-height:1.45}.apls-demo-banner strong{color:#765109;white-space:nowrap}.apls-demo-banner span{flex:1;min-width:190px}.apls-demo-banner button{background:transparent;color:#725116;border:1px solid #cdb974;border-radius:8px;padding:7px 10px;font-size:12px;font-weight:700}@media(max-width:550px){.apls-demo-banner{gap:6px}.apls-demo-banner span{flex-basis:100%}.apls-demo-banner button{width:100%}}@media print{.apls-demo-banner{display:none}}</style></head><body><div id="app"></div><script>const LOGO="data:image/webp;base64,UklGRqKEAABXRUJQVlA4IJaEAAAwhwGdASquAa4BPkkejUQioaMiKbR80GAJCWhu0Xi71uP1A/t/DJisyn/D/vXW1eI79/jv2z/v37e/MhY/7z/ef8n/pP7d+4/3F/vu9X4f/f/8D7pPg685/bf9t/gf8z+v/y1/2X/B/zfur/Qn+x/yP70fQF/HP6F/tP71/mf2R+jn+u/6P+T96v+M/3//V/xv+0+BP9O/uv/X/zf79/NT/s//D/sPdz/mv9D/4f8n/vPkG/r39l/6/58/Pr6mn7p///3B/61/uv/x7P//O/cT9//pX/qv+z/+f+q/33//+iL+h/4j/w/n/8gH/79rz+Af/vrD+0P+P/J33sfGf3r/D/4H9vP7n/4/Yf8Y+q/wf92/a3+4f934MNF/ZJqR/Hfu1+Z/u/7g/5D9zvnL/mf5Lxz/Mv4b/m/5b8pPkI/Fv5X/fv7f+2X93/bD62fve8M3f/d/+j/OewX7nfQ/87/ff89/4f8n8Lnz//M9I/4z/S/8H3Af1b/0v+D/eP/If///7fFL4Pvp3sBfz7+w/9L/D/l/9NH9T/6P8v/t/3V9zf5z/kv/F/lf9R8hv8u/r3/E/vn+i/9n+w////4+93/7e7X9w///7tP7Xf/9v6C9UHA7BOYaK37mbWAC1XByO12AdfxCTmA1qcmf/P0uoOhPUKnL+WC6ZHLpKg4Hg/LJiNN4GTIf/+JaPR/20+/5L6v+isxMpyPKhZLP3501jVOcUx0CywjbSHDsz13yaO+VDBjm2SaC5nBoCQ/SazV+fd6iWmXJPt6q/n1slPKsP1LGfdR0eMWypvb+z18oUk76dIjXtRokrrlVPqNczvaVKsKx6ltuWup5pjnKIRpjhE3kryAVxHnpT63R2sUWRHbMXaPXVJ8/NifwYn3WNMPsv5ZMR0FAKDh9VxaZntXbeBhG+GxY96/6O4CjSEQyJfngmewMt//iWbn1R/IckTx9MjIJWMnR9zZw0Kxwbr8l7C11eH2lZFZQvgb9gS6a7yrM6j0CUrYthKe/gQDhzBUz4SGIPZc7AcHgAWAdnqII6uIiMD/nXy4JVfd2YO1q7ffe/kwK3L1Rf/3ci///3hxxdsorQ9ZJrg16NE2572RjSZM9yH4dZ6Kn+INYismPQuC+y0TX46CvmDmd/xBzK2QSiVxRkx9syiQ0HyHv00ow383hpeasXunsXB8H2FFMIcSDNvCibuWL3jLdxU8uHXI4w830tcEjbDiXxVdGBNd8BktH5vXA9OZnlqryEEcuzmYWg+FwaY34yAkg3W90kk7FpWj/m+JCH8zsk+6L64Cty6QcLKx5Hm7//PtkgkkcSh35bxNp2DEjUa+JLQn7ehkhJK4OZaOQinVB/L7zaRQB7/VKbV9Y6QHdc8B0duvashT1CHFyCIXI6FwtkPd7iW5jgvsDHzBCIc6FFU2h6ZggFvRdDkIqn5eWDINeFlZG+MyjSppGfqVdKQ3bXUxmcrF4oYn62fuJCQ9pHttzzFkgpW2x7rwAvyaMxACpLGkEeuJqXcGwrDPqD+QS56kNS+2VrMBU5G5PhAG2Ncjf9MjUe0OfLOtXjkbcFiTbEv/IUd+tIBn5XL88+RT5wEHdlFjpIgU8HFciDeOmYE18Mikgu7oeh41bmwKykT9UHxbKBivOILMs0wW5LT3xT8aujqQQgChK5DpijXX7VVO0zQZbIyWOv+4nhfAZHGOYOtNiOiChUa3VkINmbXItv4nONR6nFyAum8P62O9Mx+hu3tFPh28qTNMKFnchb+x3YXF/W7U4Uzs1JCWuwD9jrgMk1z3CRhXLuWq8x+yZ/mIllpzNBj6v4rVvz0oH3Bs4llB6eWDXB79RrhIxY2dxcyc99K87OlansUqFxNp9MDEBl8HJEQQUqBciCy086J3iJrdbEpYe6hu7nSOaJ6AvgL+7v3IQrkfS3ajHwW+CpV6iEoUodmNiPE7L+DuFwByP20thDMJi2g6DlVhTizYfxRO2qNAaU1SDuJzGUtFGNzFq1n5wPJQGMEKUxhUbAeADXskuYjRGHpp8AjzgWYenEKLE+KeBKJMbfOKwqOWt3RfpOrsbUjNI2gTIrrgVLfbUt2yt5k2y5TgJzm/ixyvc/gtW0byYU/+y395LAhIpvnukXxh2dpov/FV8uZfRyY5JHT6rl+FRxtbiT0PX/cZPluKEOwX1d6dz885JB4tnKsqF2Kxj9QGpM3uKUE8tutTaSsgZ0Uvuk2o5Np5vjnigyij0pjLp0YH9kt3VQ8kdliRRWS3qIAoLr+rMKx6YTfXFkL/mTAob0TnVUpNdacaG+toK2VSLGz0oGPzgQSDHsHdzd8zUWnwWR0AnPC2nD8WsrZYvRwZS2+4Ky0RlpDx9CtRdMGQ4WR9GhZlFOdfcBl7aPTbuxEPy1BtaYog/NnsY5pWyOyn39RFJrRFOQnQ1LI4zWP3T5i2fxEew/g3cst1N35lrgYDtJ38dMOmjjE4r7r6STRSCjWFCBE/MTwCwBGnHi+hcJCM4WDrV+QZxcwI7Y4eu2rhF4iIBOR7QBbdPV93t/TqQJLtqytfnMVox4Tsrq7/8wKW9vpT62iydh5MfrgOozlWb7c71OMG7n0B+CQ15ZX/eG7/5HH8pfgCo99DdP6DRHGv5SN98UZkFWRK8rBMI9xe3d9QuooGUwNidVcy4aOlA3Epy44KBBj9SNwvHf5khlq/FWqK2z58DxV+JiHdGWGMdQ3deJOZ+HAb8J13U8M6/2tIcNN0BXVFvnlZz70yBpv//AmG69Zmyh6GC6u7TFr2y/CbaSjjuhwf2qzkA12xgjiLgJRrO2Mjhun2+DqSeqyLTLUeATZe/amQZ9JHfp7pt2ilZNES/ul9XOu8+l6efm4c3hU/9ndaNBrM0TrhTw9bvFNy/qc4qUaYgkUUdtgg5dvXmtNqyq3ga5h+cTXKb/1rhhXiKES7/gZxsS2eVnuP56Nf/U0Aghu4euP2dDci1JD/aJp1MiplwRyHfD4nhMXPoh94VKuyocJ3Ti5OUgZdQ4X9bmA3GYW4YFdLSHfajlhGZ15J4TglZP0wPoQxY1XsbBKVKjBc95+tKzk8uwcNusV8i/1F7tS0Ouc3JB3O2tt4JT/1KkP2lSstQtg9YEK8X+eSkfr+P+0bjMScwAJPHoHBGYZkDYKmVMYSwpu8QLqf4rxVlWUHVMi2Pu6E8BoSUvFnG7yx4TSJrUc6L70JrSLHPCYv0PqYoshX/mrke59U8CI70ikBLA2SofHxHKS+FFhkqQ3B2MsaJQly2vg9ggw5P0CMuFfQVV/jRGEEMiJ7WeUCKDfBFlc7r5tzrTT+90w01QeZ4ARUBtRj8kspBmQ94a/51zEsEk29uONjYXlydo8vY1fJrB/3hC///tCC/7s5ZpUhiLG+Z2Z6/gku0OO/0VC5MeyMEcOiullhqJGBhdrokAatCTpqqfqSmOqrpKOCcei96dwqogJR4vR9NI3A0NbiXLBOk4VqrHpwz+9GKMf5AMjLbkDjY1Vq7ElJTt0qT//oQaQRQWYc/ndj6aP0OvVVaWJ0b/2WS7HEFmj/k7zZBUD+qt7GCsnGXTjLo/JTzSVqYD/RC8j3Zq9ZWED269skn/m1AK5xc+RXLPSdPw5dud5sSqkcGZOEX7WyBL1i6De1u3QuemKopjzFcfpsI49cmK/W4E0Z/yZPhSfgb3HR+IacLS2B5bpByrAR4k/MDJe7YLc/imiEXrJhfq4iwgxbfybZeu/bRJJf1coHkchYCfzkRUNUIi+ur6tFsEHXuFw1ob1BYBs9ZMpQwDyO0uayaoRM7EAwKNSmD/hfgxKeLbDo7Qpb4zpa2EkX/2kIBZd68Ip4icbFWrzD76LA0Exug6n9BnhhsJHWfEq9E16M86Q8p0b3k9VvEhxAXTiC7L7xs0Ix4HdRQhZ/8mYRuftvvpjiMzsVrQSgBP5nOSRGusrTb5+GCtwfYOSQOTxql0qyZtfY+MZE5GP+KoTvLFtaQGsY5REDZ5BgXfAPm5wQbpZ3caLgadzqBHfD7j9MrbL9dr7wkNURpqIrhADI5b0nTiNWHdftI9EVp9nvnTJ24/ttbU7A/6n/kkNMpB4ryOqhNhqgXnSXUUJ21D/eIVojPG5LPAg58k6UfLJgf17STjh//pH/oI/9/mJP1nxG0dBL89rVG4iQn2WuucLIAodWduaqPTPVPmAQ03IAA/v71ZYtPJoJoGmg/Ry27XsYY/TR3mfzcFia01R3LMSQ5x1cd38F34H3WQzVzDnCdKZFofupD1dYlTZO9ZDR1HM/rtmktvlu1EDeCDsy2/Io7tSpSnBc3ffes5gwFPIP8xgSEYI9ZEXmlh2xGveiVoKQbrpb25mkSDzxFEyUAB6aFqGliFVouA7gjgfpV5xtNdO1SlZ+AkoGXkMEBMz9wzOFtn2ZEBSqNr4ntTMzRtEnczxql3xxAEA67NQ9rKPMh2Y+4EaCdQmbMCUgPXcXjNfwxoFWJlWgSyvnFpYn5wuzcLu4+VOtzt3P7xB3TPUtHYdAv/IWCQtOqdaK1+gu1i1J8MxtwVxn699gr+YCJteYbsof7Pes7AIz6VytKfHCZfDkNSaB4YkxmtEs3046s2BbZSbit2h9It/Wh6IuTCVEGFdceQQnj/0P9ZEdvEnzJGpXp0iu7hevAbCOniys5CMfDAoe5utUH0OFk4Jls64HOD3UF9suMGMsqLYgSXY3U0TzEvaGYmTsUJoieL4585SFncwztll4wXIf3YuHFQF8eW24sW9eVSKL/kKSFOk7JKzulHl91yMr2T2kmFaqfspp3NmKNqAozZIyLlPVF+K4CMaqMLBPWgl11LtIiQvYQWisfVE3uR8EGazMSqS/gXtV+NV6z8hRNg9vjx47XgAJTHMlm1dZAzhVV49gsg8HJW5s51Z3pZ7UAdaBA0d2tJILht2XlmoEraPdrkT6nJqc+ebJLp8rzhIAWQs2tLSf3VqAlZm5VLYLnz9UQbNyBV2nbEv/FLrc62vw/Ni7h7+dUFvCdGlKZLuSPthnkb5zluD0X3xBnKGMr627NA29c2OIuI2s5TZHPp/fDNlChdeIQXhpOpEwCE4aI+D60AG/guBA2XTRZ00QkA6zxt67xwhqD/YFLX+xGjMQUv5eTtgWBGYOw+uZa8Fa+PYe8gQNXfA5oNr+xwOIdPKjdBmdfqdixEs1F8Btut1F766M/RnktXGVtZuecTQTE/tFjtflwb8HH5CpzbaL5DCpy3Ky13OOCPIgwrl2HaViNMpgnth+2PXpktMPGXCBmG9I6gdtzJtq6uruVI7nQrlHb+TZwRNpMTccubM1dwXQVhPbx2Xodqw2uPwHMAsoGadv7c2X5dt8CPp/7+fn8bYKU4QZzv0oe51bucm//fIMXC86zNFguWwTg3xwGFH2eNPddRaZ/Z2iOkgbJmt5qpaPO3Buevg6Xiw2+vGvD2THt0oFwBVI9AlqGgI0NTfPEQKzn3GW2ZHFoRAa4D4KpkdsDptBHe+AWsgLh5/OXbdvFwAwadvhETKhc1G+dD5NuzAP6vO9Spcf5bw1pQfsP1B//FsWiQOLiyBVDHRl9gmyJlDBmvJkDDS596K4o+4OKK/zh8Nt4jpmpHt19sxVoiJxjRsYvs5XAxM8gjivmo+3/Wnox5QTwu2cXm0LPcRmkm6oJ3hmMBWmpZLghISdv3scbLeb0/n+MOqy4aXg14XoNSkwzqco6cuiM73elPvASEGk9lO5l0CbfrppSULJ+US8iND4/yjy+Lw7jkXk4QoZ8szw1wpYmD930S3q7LaYbEPFc+QRecDaYt0SEqpwa2fdw19f5tOovpMWu5I+nnRroA1t0n60kgX99uO1167pwDZr42X026ey6DyKR2FStEFEWTVI7Rx+nGd9kGA1Sf6UWBVSTCYh2DtCskfm+BmbfIl7RGBqmXd7tS/YO1PfYCFVuHqFmIsTJliRGVjK7yykSLoEE9X9wqNJma0hUh6RyTe1yDr3EpiAIH7cIJcVqm+CPcVuJ7p58ixoTQZXdCgEe3fuwG7CiI6kDr772maXg87BjuLgOHUK7SGyoKzf58f3ickR0T89V+IjurGCWCHzBEQFWmXIF4nYo9OP8n3KEhNCZDr0IKjn1xM0U9nQhiUSoX+7FlaH30fsE9TN2A8edrDH8ZCNocxHyUmkaqcN2nR1WmOIiqEYY8esU4MXIbrRy5up/tYvKff4H/LxL0TRCtEjfapx1JIAYNSSh+1Y1FUR6PKPUKe4k95gPj/WIxbZlsseUmvj6m56c+xOpgz5bqvWp90aeKiLmT6bTKdmu0Lcka8ObFOc92lvi+TO2uQrNMd56DCgRHMxhgf3pK2wcHVlm6fpsFxCuosf03vmRkFOXljqfLrUGUjZOUjMRKY1RKUnVdwVwxt3c3DTfUxEjNEs+qVslVl7Vrh4VBatPMMTazpWi2nP1o8c0KwWneBc+6dlgjnpye0uAt5ucQBQ9BOiqcyBNd4MGCRPZUdMB7KXvV3n3qog6QLUPj4ZhfMEZZScLXRtDTRVFh0OnaPMYtC9jhEYAGksGBv4RGW4az1Nr17fiMkpurspq74fHwDvyiZUri6k4OG0bE5ykx/gU3bVj0R6z7+2F97OQtAOaFAQoB4WPhg25bdG+75NM21QzucW0MGSRl7F54Sk6X9frBAuoUc0LLJdYIMMHzedWWiqv1Oe8kpGpXmB9OVA3KFImlGlTVVJ8Fp3MUGcG63d+U/zwglQGuCc+6EmpqN+h8wSMIEQPcywT/xqvARie4jqmRd51dJagIG+QcgsrygH3Ldt8bIpLOFCZvUfH6UMxX36wBJJR052RbfJgEUOGLC6xiGerFRV/Ldaq2ss5AbWAF+BoPBST1WNwhNhut4THEuNKx3uxNP4AZqTQFbNd8Mq30BQnt2NDyE0P0+cPsKQU2WdYJpTzHau1AFbfigcXXvj0EPgFe0NhtXYsnz3nbNHzYO5uJBucHCqN5N/oQC9VcQrbNSKe+1XNXdi0c3DRqZgALFopLLd/pp1SgBMeWp1o3cKS+e4Dsr+Lb/driLTa0+unGqcypbBf8RkDoyHQkT+29F9eIXgJhH4Nn7Nax6/aXQbko98yC+t53pwmeOi7Innn3r8OFiqyUdFb/GieBO0KvbePochdoyphdLZGbtpw6NKHMjrxLiC+Q63EdVKKxJTl0AwBiE/sMAvBMRjR7OyU/kXEzzek1wKoX/cshsxm5GcxfU79WIypAnSMjkkgXtWWLgaEj+UDS84N5PPUb5bGkZMi/9GsVxAqamTVE+EM+nJCPCHe63rBRURU91Tgog13PXav3KNdhg2p+38tqBcmXu+drF+s7UlcjoH8y/0+XuCRJXNYucHmxKpx/AnLM9b5/yj2Jmp+wqAqpf7nXVSFgACzFsiwjPv8fsayCbkJSsnpgPVK8PBjb1SX3rWa0T6V8tvdOOvuG4xiAYzYHySRt3oc7CCgsnNONsyPbdfkemNTX5c9sCZzaPX/x2x7qPGMTymZIVxi7R+rG3SPDY3BARqOSmrVXqTSQA6oxKV16x7BKnBoyDr4czC9L0MXKuJuV8GysmVkpKVEuEcRhRp5hKl3pmMgx5z+61cIlN3rm7/0WAswbVJ1Gk4+229kNlJFP/890t6egjh12K/IsnZ/r+kZYptMFy2CCnvkv49LWN87J/7/NIpVFpiTOgNRIznqYUipxhDxIjWeMNbsvvmY8YKGVqGlfQcHljWz/CNwrWdGrJ8eLL3PBaFSkJD7tZ3uTyDqzTfDmYuYJAb6Ow3/foXTKzrq+gwkJHZuoAcjiK8m0RBjAJQTyhhqwQ3wk25fccpWxwX+HadMQzzWM7zZ9iXyLRmb39sVUw1IdY7fc1PhFUzqrwbk4mgogzKc2qlCYSXgvr3Zo7p+sIMfB8D0SAxAolhyaBcDiYC7dejA95rVV3bEoEAhr5zpPCfysY+i5+sRNfYYu2kpsaA4gAI00+6kOkp11x6zaidlI+xk7goMS9Faxhh+NwIygyysYIWfsm0xMYK/XkMSh6AmZ427kfP7ZpdwGy+xxc33ZTTZ1taTRRMeqKtBzFU5cIm3d5ID/lAjNJ/vc3C2fHq5AYg3DXNt5SCtJ7m2IFy1xfpHBl3GYxYVlPu1zXJC/z9XNgU3CDJrc2HXsqv5cZx+cZedl0gr3iNUGOfVq/Nc7h1VGBmdOY3YqATcek4LHKWUMZ/ZkrHT+l+K52iyBSDGqVVS73pBu2qgUW8j4+Cfqd1pNm+1LjfqCe4tUJQO/Ursk2ClXJs+LCFzmNhXFbaudIuvrdNAKrLY/i2Tn6Bh+y7/VI863eSdA+SMRl8Ct/BdWdZDtl9d0Ou85QakJmS8q6s3m3IB+TTCUrukBEDOUAzm8l7AAVmZ9MU4vjRFhHN2UnzBr7iK3fX2wRuqt7psj7uVat5zmVCDwJbPK1ofjp3Qle53+gR9T3KkxnUJo8pfdbMWx/MAHypQQT3Fzrrk31GZIxUfldT98zyslIY3W4kwDlmcnqhDDhOjxdKCwsNDUetkt1dvAMr5S87olKlcPKaKcqEWySnGYRgEusZ3GP+MM3SO6bfjR5GVmi2EoBk/HU0xeGClAaw/p/P8WRs7yu1nhfACtyjxlEoArMCIKRU4DOkZLJbkOY1lEgLdOtsPyqVjDwC/7zvvpN0eJZudziGtur5/hCwTTvwE66V94AZHB7KQJbwW6W0nYyU5Yy/pv0R/NxWjG0kRq6LuGinu6V/9QQoIfconZMwq9eWYyhlyOXT6l/SKnxNqxATeT3zbMasu+J0sydKwny3PzxLfA4by5+mn06E5heW3UZ61RKlihI5QuzFZgvJH/mjDDNxWJbG7iW4kwPxwv6s0+fYeir7mKBI4MB41RHXNyMZWGlLNsyf4ki82nKL8rM7ZwAGdSZ5N9VnO6euPv3e2vxDssVx/i82TQ8b+ukrlgHPVbq2BbgqW5RuHTZx66nYP1rRsbK59nPUNlULvZF4VKrEl07xoLTPVKLAgjrqapWpYPua91vMVih/F+kCxlkQVnnCsmnfo+PhMi3mehvzKC60xKd41wghWY5sYcL6/ykVt9ooCH2sW/1kz2l47nN1n7r9EL9F58Lu73uLwcu35olOos4BvqpN85vLY++2n5nizq2h7y6aGRdakkW3/Mj+S6iwb9jWjbwAcuJ8ChGSB0fXfbIwb1xAyUQ7xBnbvCF6I0fh5FnEKkjvX5s+9PtU9BjbIPJBmGI7cchRjG4fvNJXndOS+3CQloBSnQTJR4N90h8+PckNlhBaZ42c/cBq+4/iMJ0phR82A2iOh9bP+FD7uiUKIlHRadnVy3IuWfG6vOFGpKLtuqmfavrngt6JJzS4IZApIUfdiQCHGVJH0Vw6wkk5mp2n8uNeVas/mnxMmKaang0oid0FWK+U0lYG7U8KllI/a2rjnw730JUdrnhZrsTosWc/Oinb7eBgwBQgyRmd0LrZxNDvbz4ZNEe9YrLCAO2pJXkyVwkjXzU9aIX+OlLgrNO6JfybIX8fx+QPnLdWWDiWx+xD5pwazdmLocjXxkLYmxzIga3c6HyN7/9uge5ORpM7q/aMtkOOw611R9LAZIlmT8zb0POSPmJZpAeewas2zQV37WjvXr8hAhAFiM5hqsuM9VTHQXPnpc/YvZC29pmTeBGl1sVEC0n1cKtnFR03X8glmHj/VGC/xSaFtiedbg/8RwLlQXHSzcIlctHeY3CwmUd+O2dSutSc7vTrxJ2BIjzUdIOIhc7ktGd3pZp0YfBbur5YMwN5op5/NDZIMpWC0UJOQZcR4POdrlVujKrdr5q6FGQcerGfdyA7iF31W+wRzgF9oGROtTjSiSjoh0AO7c7eo6rX761vuzmQqmQFFdGSwhJR6G/oiUBn35W/q874pFAMx6VqKcUGp3DMiSCqMVoPetTjTB4jT0iLCFhAnvoMYuvXAcvzj5kwYQ0++/RP2bHxfccG+RIpGewpgURQG0otUcGZYrQqs38PRcdPUX5/533r9R2wJlxrcVJ9UCQvs0qa9otURuva86aBh7h79JlW4oW03kx4CFS+zMXYO/wmF9Ln3rvm4BHd+9XuWQxGK62grNXT/RKhla6Q48SukT+pF0AakIaJmzrwISNYVx+wom6s0WKOdt/MVkBemIik+eha8EON5c63D3aADr2786Y0Of8JB38AeznUpQ8aQxZt3TeJ9k/dAMguS2ic827J6dOi0tc+wPToyG7cOXCvT9IhbhMV0kOfKSn4iF8pskr+0XdNTmy8g5+EzAYLEUemaD0FRpEcMXKIKlC+o+GKQh/V2M97XH04ChyT2sqN/PdD+bBwtdwC1R81tKdIHpO19Ey/XY+1QDkQWDyTKt12reJ6RAGfKAf4kh85Ya8YGtDiu+UPQHVW1VmVwoIA+XKOpYflB+eRd/bbVw5GFaxUda9H8lcE7mKN1tj8IyBozr5Q3cHTKWs9PGhaeNKx4+TXmlo/YoTX6Q8RgFUCvBM/bW8xJer82ghzNNr4dpSL1X39ZbsuX6z9wMJVqTDXkHfTdFDa/KAeutjoGe4ql1RSld00xICsthbhVDVhN49W997Y3tWzHcUCVE4lhT1W4/NB64bpCzM8IJe1yWHZ7FJ3D5B/cKmTZSAUhYTyNMo6aEd2qsWm7/m3DsctFoiqs2kL/zK6x7ZzcEXLusfDcXvqhwi/F9PYl8+iGwYcD4D97WYNa8L4++vFvB9T1UGUxYJUmUhlUHkaHB+48BEdDemlXOJMYNo/mnl3WRVS69NXMKMgrA6HKaLu3SkD5U76IkhM3sg8Qwk74RyYKxniyZpAizgCFT5Q3kU8VJx+DJlPuqeldLeyJG0GIN+WSsqeit7K2g8lu8vz22tLAyu21/h3jGE34DAD5SUQvMRV0USzDqdd0YQkKIBAbXyNrOoxFtmfgusVYGxBaXsqJa0wMJeC92SC5QiIrFWr4vNZT4EV+4xpPuGdomg+AdMcHSWIDF/b6BSIrIRxKtGJbFN9UijRjAErjcCsxcK7svjV80fBYFm5AlU0DvkGmewR8QDRr0bBMTEqBB5J93KzICSaZuWl7IOcOR+gyluFE8cAr2FzWXwyCDWOEivtvYvwq8fQXP2/RXiqQ0eWfaZAQsk5ia/zsNNulTfgiRwHMnkfiXHYYHHoyDp27KT477J5UW/0+OVe2m5vpB2V/OuNGivSwuq3czrWfr/gDvY31LhkiH8x5YR/fjwP37Xlx1GO700BA6NS6VKQ1p6tze4ds1/0lhZUv18Ablbsj14Ken+fCjdo82w4xM01e70mr27UbqS1yzQ/XePBmxutm4ZQkuRsGH4WdNXl5AR/aYVw3EiCufGMWe8xrJL2nYL6XM+W5XKPtsh4TZ07+HqMNFtXUu5AX1W7fXGL1z6kRlv4CZHAopPTYitWoZZ10tceKN3yOjO1xkddIxFHM6dIX1Nx4jgFTEmRbLIfLCNmrONk2feGMRO6iUPK6baVJlInyA0XHc5v1ruIL00iPRofFoI++nHxoscPXPwhy/dGW7eW42Mes/gmkfoyyxcQ7hwJ/DhAaI9y9ztM2glongexe8YNazwJ3/CGtTG4FE9TYbzPf17IQR7IAb4hfq3koHRzOeINk2uLGdUhcNg9c+O7yqk9eEfBqDAUOyNIvEJMendFDlCXu53KmLqGlmh5D5ajWwNg/BN9ahLXSwwi9iFQOag62OtW9UiV8crhSMAnLnZ7RS2ID0VG96SuNX9CNw3VuyBaS1pLVbzao3LFOOAZflqM4PCXUT6Ij5K9z0gULHFjIdajHSlMqXFVhHyPOk7SDyC/+TWL2wAsvGnKPzQ90rdJczGCuD8Mi4SBhONvmpDfPuEpqltK7Di0RwLH62rywccUJVOoCydI9vj7jFQ44dGvcpCCNTyT0FdLbFpKHizD5vwAkmyFZb+vWz2lHCbRSANwKvmRw1UBN0G2xR2sl46ACbKgmA3heUsZn8tt/svKSyZMCHuuGC/hoy2bNvNLFVtov8rR7mAoTKWRmRhvHvx6Q517NGu64xh1RYt+o2bQyRgEpume2oIm+98Wu+3xz5mZdSmGiM2TAgkRnfe/68wTX+laHbRSbjCBahcCQUIZ/Nkm9eEEhSZhbChj2EUb2rCKYFZ11RZ03YTgDVNxKXW6op8TICzKzXJ+MHhSs+bGqAkZbhfu+h8F+oAZ93bZYO2WJXjAT9STTr9kCI/wHhqYr2PWp86c4y+S57jB2OPbkLkW4d+LTtnSLFyRnNbUUdFlZi+8bHUiNA0JAuFWhM9wztmsDE8TBJZ4t2JxsIbJBFXrtfYnOM38tNwj5KYK3oaZx9+hbAqzR+WniLl52m/PEEr+USvfi9IOf0j2IjImx5S8bpJFXTrbpVqqNDJgywZcmoplw9p2yNpUoGCqPwVQnpaCAPYHXKyDnYur5R+9PallVvryzZZhp1G4wqOWuqCAWUjLcr/3bnoUw7R826Pv53oDi4aauUOBWBeJ0Kq+I8q9wAVCZFg3VgpXIgWkfguGgLX2N7m37U1Xe7KWNYSLkEFt3nkppsJq/g+cjaREHEGLvcOVoOwS54KKYywpngkaweBbFm27PGInit/b9nCTSfrj+a7XH5nBpRD+O5E90JOFmDpr9NmFSb2BJM5VDXGxdENtlo4Y09/0G8m74T+8ofo6v775tcbHJIOjQ1P7N4ztIOwuG1kReMoeSHBgDHNsN/q7Pp/mqFn+qIe07f7bKx+wiutmdVBATJeFP1y9H/mLhIsfdVi6TYuCstPiuFoPhKVcGLJBKwVOIvNIJuckbDt4H/MNDWQsHXk8roSV8gnm1jyWUmxMVK+A3CDvtGUoXJN46Zj0PxYq4WKWq/9F0ZH1z+Lv/XYJAtmyzlqWFq70Ku/XjZ/JxZtyFuMzPu5Eb+2LN+yOhhGUjXEdk2GioOwzrHHXH0uutwUeydn4Xha38jxmFYrAU40xI9vfw6ScFd9JFpveBwe2vjAIUBsCLer0wrIHEUV5JYibIJFrSdfLJe1h/39vaBUM/n/3XomQx2lySKCc6tuT0KXdao4/QjGKDlQYVehPXEI0WC9Kd6GEpeMtuWgO8CYskccXkGrB6BPpoOrOIEg1fC59tOoUpMMkBsc6WlAxnaykgtOQFCUqEatT6D7m1wUnWoOHsviLOIzUvUIZXGrKw8oiKm5mdw44AU6JFbVr9SsYGSOc3SyCkuvbYxDw5heycgijhpaOM+cFe6Gz40gdst4OLPqsBIQ7OCmtYHuJ5EyCotWJ2jlxU+4JlHc+1DT2Ds7b1rOaP/7HB9PAIoqzYp8u3gPdQJYlR0WLthhUP2Uf3KPN1AdIAhl8js9qgJTQLNEG1Jm+J+SYvjQrvx8zMjwoN1PMITz7/hcBRdh0nrLw2Z2X+bZalAj66OuNjy3mWqoTnbPbZwA4tzEE6ToFYeUw71T+mYkiSp+f7/P7Kz4wNR1KhBwD6qSlQDUe6ykFDU8+AR/O4EwRofMggXt5Whc4yf6BmLYJDRMPwC/780n7KKgvI2OIDX7Z4TKpRT2vzMT9NnToKHCPqkAM7XZfpgL+VlNrmynYkC614SdDsmjv5pnQx8GdQ0DuNreELp8n71j8zH7WNXxnbL3dcjFmnX8rtIURViBJ3iSxYhc5gxevJHBGJ7PBtewkvXiV+WpE0g1fcRaCjb27U6NGmEIKNxCuRrUWgPnK3ftTsOCewLWbBQu7iNANVWcAqgVwVnOQiiQgZ+YdNEMvc2DNuCh70jgMK7dXQVgJBeoQqO+ftSKbYy1HEHxRfJbHXZx3AyETkbUntF+huN9RBThxKrhN1k8J9DVkUorWLtuuOGBPy4h8qJnuX1q2yfHuQneaN5xev5ieOGeF4DAm6EmsG4ZHr7dM23kJy6ndkFPpRbJxQre8mN79Zu/l89bujj5H5fyqnDeII+km38ukhAkZBWvVEu+8LN+WHNGFFj3TtMGOp4Y3XMXc0DAyfqftPg+TsR10iCBnl2UHKCvRn7nZCEsnQ6677tirHOBtxpTGSofWfzrRRuORYzYfT+W2eSlEECjEx4Z0zjaB+xFUM49SlLEj+PWYTvPT3e2IwHcxg01eTUgoHFPqVa4vlWD/cmS+zgVGTh8xhG20Apnt25emLNy1F5MBkXrsgfoO1HXUeeYdue+34wXouaV6qnLXF+eX1w80HMIKd3PA+tphka1LKqrYrzp7hB3K9r9omflULXhX8AbgYnbu8yLxdjxl2KDb0MaREodIGYzDr+QN7+mYLUJiv7t3QDkhuGl5U9Qv8XHerOKHoxRfvwInaUVnN2l2LECxlRIt1xx3N6Ws9RbKXmnINgsZsKa/DUfH5ecZilh0TC+k61TFyT7Qo0PgMc4FF1+1WQGzCLDZFDD5PcvQQprWOQO4SkwPTQe4lT+eaYrr4+mHj1Fe+WgQEimi3EpL+Nw7km+vHkAVo2860KCs+brMj7tOuYVqtdSSg1TzQ1yv0vy1E4mMhnNVGAPY05xSzchGUXNnPHcWXMQNVgUWH5lDJ6vAU+1BSqjuC3kQgQ6xC8D8cMpp1E0jEmrHhVyrkjwY73ORPZVAABj/aFLqCtPXtapyE3aO7kc4cNMxezMm+rQkYEhEG2AD9L1LIqHGqnA+26dKCRbB6P3W+P8xOyBQdDpKTtIYmWFyFees47jYhCRzfY6WtWwbo/zwCFOJSATV4tkDz7/DF807tLpetwpaXP2CrTfLGNVlR3sLaikQopyQ24eANxg//cRH7XEHNU9kpRrcZx0z1h+t1LvGOvsLkWOuQ55t+QGi+CPkCj9FGfnAtJqVtyAc9A0mMTWommH6/FT8dcNWQLYpxx3nuhwStAPETfZvSiyH7B6cpHBZtzjMxSfkY3BqndH9gIFjuFojgloWoNve49dZvliIPdVlju33/aW6O8u+ZqfLxZOxf8YmbnpfSwhuqA0+2dOLYV4VIm+CUlw0085ehzcwQ/cztvRwAWl89BaNlJ7Dnwv0GZVZ2C/RSdVRW8W1rzR7GEVsbJ/7Npp7W7pooJIixkN4nG9vuMfxXB7Eq+Hdww1ewIknBW8Dhj32tr0iL5dzFINhMd9VqqUvql5ch8jeoZc0zqZz4eh+JZCwQ9EGvix67/CNQP/zS9hyjutxYUhSxasCcGP11steQjHHL5uiMKa9sTXF1+eHqVZX1B8Ajimh/kKGS6VmDh/ltxWQdIocorxb5uypv/EIWX7jj3kIuhQ/3WH02bxVNp4n/dY7aG/ASO0FOgWJcKr4grXMUK0qWkUgYhziNj+3v/1WN8qVGP83Q6jLHVhHDBStYg1/8r9MFbpCwFExMTetMnst/Mp1OLggBYE4AVob8JkEWEiaWW6wGRN/S2CZvHvt1ukpjVSWhc0GOC/8T9q7QIXGOkH/8WktyhQtpj51rGZ37vrUL10MhCHANuxlH/0zmwdzFrrA/uXGuugP5ruaBT86L037PVLtirEcEz+bo7J9zSKlcyOpWe8zCfzqCXQKVGug4lUSzakSgKgPCMU8BdPpa6w0OI/qOtqCg/qDrZv2TGGjoatysRsZfV0uu+mPriSA+DKf0F3t8CkJVJGbqn6bXhtgayKhi2oGTf/P9FpIhDSvPdoeWqMPWoG+V4dC+kSmnkiUjiIXZV27wf1fuWj9wgQwQrb/3hwZxJw3cF6RnkQT885R1pQLJa85EkDvbajt4mmIeBUCcsINom+wxIYqxYZibHSugjKat7C7Q0mDRGwTB5bd6mpHZrH8nB9nM03Alf2mtk4tf7szUvoW1XFKTkJOkPDl16yghLkgiCyNWlBWPx90I5oNjYsYjvI5wP4ikkoyNzKlEBhMy45hm4tgsbPDk/If0ncFQysEIexd5ZCOXk9nkh0DG34BLos4ru2FbNjfmmwGbkVxwmuK+6ZpaNxT/+RR6g1dX6IT+7CFO9dxnTK/PDA6qduGXGWDs3ByvMIVFFAC51s+3LlEBVq9BsbNyyYaDJM4v+LnFS3JJ+BZg+tzVZFRUMj+wIwJ/XJWA34BUQojvWtvaVisbpslLSOPfNMU4iyo8+OW1LKmVEi9njSn1tSdPAurqyeIwpZR63ChS3rfFr1ilI94cIcP34PQARsrca97NSYUAbWMyfZogNu5de02s+jUGUDovWFsS8erIBhnzJPgXIj2m4PESQ/XXfsKxWlVmJfZxzbLDcgoEVrUlwKMxVxov7UjTXdOV00JALng2aUTqaLbYJhXCzeOtKc++d8NtgnI3CLq8NuGnvFEYMN5nfmjh/sAu0hPujPlVCZJU49LrYeUmLFG7XmBNJcb62OyNJCJqiUCqSt4okZ8O8OpMrKSkma4iWeWCpBz+KezRRsvvFLp+hy8uZoln6N4aDbOhhbjn8nj+1Z0Yt9ZqfQLx1Ey3yi9T9j8HuPLs4+PFBM19OglXoIodovpYTIBe7VrDPhqp44MNPqMSle1fmE6Fm1hpn5HsnJsEgpxP4jhuhI+eVmY5aVLotH2I9AXaxkAwm99jycCfhDqjZlDVY38Nu/gWEvl0+NbGFN2JOfkGuPtxaO27u3D4yqH9hmurmsFGgJVH0tK0QoG2tb0IdXqc4QbqR4gNJnsKye2tdl1EKlsQFeNqrfL2cHUbvHt2eF48bX4bvw4NTmdxEZ1qkAiyJ/LSuKYrIQQSqnLUdeP0P+ygFwUx/VF7en316eDXkqphd2WafGYBIA3M9ZEt3mPrVfUtOZmOTc++oZh/DVcY9SCbENQksI0e48q9acjBJ4r7OQVNpA7AIORJp3XY9TsKRX0LNkeuwC8suHIOC3s3FpGwsHuHh9T0/NKT/zoVL/k2PKKLudDwyvRvUDpRcTqTYwYDUcl9l1qHiKxIyZ84k6PK2R9taiH3+FyPUw+cxpEB3QD33ws/InZUNC/SHdjLfM7fHMpTJYp8NII5D9NWHBz59MKOYET4o4o2sZ7eCpfX40S2/5ehHRXkPfkEC/0NbXD4vvYSxIRH8a9MjS2yPXAWHMxAonjOxs4Ppf9HKVvxk2cRhRARBk2Z/3fshyqpS069NBVf5EfstAC9mlOpi2X2gr5dRy8PNq9MSDDAvYg05Vq3g+jC8/fmjB4yHqKkcbAEjtZerOBLEwiKDHqesguVsH6zsSohkE9AUatysjnVwIyRZMxUkTaeNiRhnxEKIcnX4CYjFPxQsCjwmB/LA+aJtlxnFgvmoSSZ7oiBtiZW+yeLuU0mN51e1VgIDnHxMToMgTBTihPKS0jN85wmTzfUK66Kx0Q/CFXRIa6eE00NpkEir9HnmiVtbA9+irMfW4acHWo4PAK43Kg+QWBahGhllAC5vIEd0QvEfRm0q77tY6ZlSA2EcVcNuvcASKtmhevdqn5oDErF2j4kI5cilsUDzzatrVL2nLWrjBrP+6YZyp2K8BrpsOjViGXVQQASlJsims5q3L6hXYESFlFziI0dRREi+iVaZbdgRMmESxvGHPSeaXwohBAbxC8gO1jHpj4f0AfHgIF/9KuJgxW+pxEunmKtd50zgCyNuOsZpp/TJ55G6qJ+ulaffgvgETRqREHBl+kynQ859DuD+TtJXHbPH5SEqYJr0Zsvm1+cU+bTrL/BhFSpIzrkmm0IK2umGwkuUG4c5n8BoeaLN13YunaCyH4vS1CYaxOIvtQKDPAz3KQBbn6aJp139Ya9vj2zCf4//9Xh11T341fnCKd/KKMuqkqtkY3GjBeVPUsrbEwGbUkJU8UVbw3vjeVX0I0KuEBQ9v7FRWC/mQLx0zkrbTkbr2HXmhuzyKnUiT1Qqtg5VGaB+44Q58FXLFddJCn8hod/Wb6SjRVi2Y5sbx9ys+7DH4JHDldKOGzxCDjnFcTkKJ0RxAq27/S9t65ualLkVnyP2SVlzPktuOoasgcl06ZchZS97oEYoiPcFlxm8b2xoL5OVxpIxR4LtzAVS7cVVa/jXUzYWbPfHqHsI0UsbSAeXRi89T01yjJdx3yHlMHvNaiCr5lFhO7LRfVIo2WZLI/tcOz6wLs0qXs+AHboWIwgd0rnMnAKKzPErajoEMx0B4SCXavT9XFQJJId4A2Laaupir7+MrKrysRz62y5Qw5m6eGd8U5LrrljsWIBMb+wjMU5MhQLZUHRzxaa9ladZkgRd4LTsKsyviy6TGrhVnDFXma1AlKFiqWYQEfkV78rghB38pdROJpstPaQFi4yFIe1/xmvs4phWxjPZvL3B3DTZreTx7bxb8cadw7t/zl/7iQMq3LYFjUG018jqarNMmwPIDo9OWX/AFE3rKGBfWzEAtCOe476CIq4NZrsu/v2KfpafxnW5eqGAAcrYSi4Hs6O0wQNMVZmoOlISAqiHHj/rD4glGSFGvlN5egB4Ub93NJIM6SmZyVu78LW0qEQf7I954hA7x9zxmfcpntSmhifKaV+iswKc35sewy4Tsoo/M6FosBOL8j9SV/9ziuDdeU0CFMJcC587Lzc88uA9nuJbhyQZSFffRZff1I4aKVnrtJoJoj++l3sDemJqNCOlf7zfB9985kG6vo1MeOEuuJz3UdayMc46Wv2k44E3Slxh3Fsehb94VnSDHYBMUo8zwLz28kXU+4kkf9WO+3m2f8cwKwAGw0jxBPReQWo/i/fjqFI9qQx9/32a3AEgABoEVWTrH8Z0iI0uW+C5IgMUBv9GfSCqyuUZmiMobUL2XjVefrfKRbVxD7PXJnsyLyPGiQUOsaRyrx+ox1uMOtebhXao7il6QzSsMxW7ROoQdj01b5Z3vvKi9cQe2Rd4dMZaU1yudWETkYuIGAEH8JP2oZi/F0BRJaOOazhInlE3sDWrW3gx8din2gwfAThyIxT3Ha5gMEB15INcSIG0XT0lp0pITfK4VVF+SEbGkwYf7GsqYy1QQRgELIq2eNyzdl6oIdRoEfQbQFs1TDt2ESek6unHeyRLOPQi6y4yZb83yorapOK0pB4j9zLlpUSEbuv4pIbGYvn8AEEg5dkVf7ZBS93FuFZfC73a4L42RTSTC6NPtgK2x1ceLTz6b2rUeuEHv11IbA5qKP0EgalZjjw3C1HUYyobHOSfKbOu3YuYuHm0td7eU0sAxR8bGoz4T1ns+89QPU6ajFamsBySCzzmzlgFEhQAcws/j0icZBamgI59WDAYy5CYypmts/6jyzEvmCmaj7go29fIdKRIoRNFEdHLZ8GD0EjbRWrmqgfHzu7rSEyN4PS02AZeaEpnDtzaDBagwBdL0qpjcjSEjlS6kI3tt7/GAG0cxpUtxK6iC/5PQUTA5SKkIApyHIGuT26+7/4uS5Bnvu7QDkCfoIIqOIIDBuI+m3hNlKi0aZqDX/eC29euXMd4EFSygYP+7DvlOLZqDwOAqgDlDlWrAEkTaLGRWQhAF640VI7ikZ04J6NIiJeo/NhMI4vQPv1LqdWX0y42VOw5ts+oDkoP7qznN4aHLF5EFkgaT+iFvpGbhi7T9ixE5DW6HvzD05kNiLcP/rymHlo9gXaEmCfVnYGHypGaMTpoamSwB9QfH+Is3MTRm/zyI4JbHQMNqSJKU/q0hH6nxWLCnW+/mt9wzUGPnvgm60ZFljP+IfZuDmfBXF+VkJQiHPZmvP+7sCs7HzQGvMrDXNiRXABDGlghkAk4fiodwhYRhgiUK8Gm8H2OsJP+2WpLP8opICzXx6UluC97lC3I956a0PZ43fo0YlN+DoQ0d4UIL70RzG8WTfGswGSzpFewRAjR04uMKeJks1ISnWYtUuGkXQ+t4zgUhsg/dHDxgBVG5tr0wrXtdLLS1mMfExDcYEfHC6dBG8jLli1lXJRKQ9KIBBPu4oGCYaru3NqlLF0SQaN7Q/CRonfJ2UPQYc2jNpbyv7uwhqCTwqKJI/178OX45tMhJ+WYclSst7pnac0eK/AgQSUlTSCA7IgDyapLZPJNk/PkBFeTTS6KFJ+Lf5PD+9yZ/zCiSEzreAC4mdcfmZy3rgbZNpcZQw8UwWoEeJYTiDs+DqWE0oWo79Lk2F3Rqg9+smvrS6Lx/2anfNtNWxkXCeucQqmMqvF4Q1BJ/K9B3eh1a4z3EYcPzF8oVE2ag2WMOoCmtB2b5kSG/CI5Wf4Pfk1ucFsh37A/z9MPkMXv5HRQUQtJDirjsk+LMYaNt3X2mesRIHU2G47i2RjohKMXvwXUFilKaImc5VIAQSCTUT3VSfsp/nvOJPzSSurXo4E7qb5+G8YlS0vaKR5KAhwiiCkV48rSxGJIpDuJMtdGwfVPp//s5dQhNBoOz4TKzQ1c+p5Bif0oKAlFLPTpozTGdwTguNqe5enHktCjoTsJ9rrxejnNQlZLOaxr9zjgJpGM6Qw34NTUUbM0sXIIk3NO8jthS/iTttuGnXlwJm30AVHJIt6SFavhy/phCuHUf+IYW9TDbDfhxHN4O3CvCXb08oKPfVZ01ySocHubUQcyqMUUIzp3GCdNsRylnimtgPUPpmvVJmuIRGJBNoSdF9UodYjPVFTOcW6FsqNvvXD6zWype0VuEL9jS41Xm9dpnbLlMZsXVGOnsGmfBcbHTCM9hrxCSSPNX5PGeaS0xHWtHBq7VL+hWNYPjYkKfNGmIbUOvyZ69R85w4zg8WCwcA12AaH5ziD6rJ4FMVQPugf3wFNSb9spoGLqrrU1+2M/dQJmKv4RSZmda57Y2qQBqf6jdvFYnNrcqN8QEGCGgm8WPu2PmdurBMmsBWIGhJ2kQ2K8rA/9fsM7ADP2ydI5N6fhJBJW8jJD+JILqoW9MvOpGAOYm+q/507PW2Uqh05njCZ17mOeue+P91jj/gZhJrVq8/Dy7buSRbYRx3FSd9Jh2Vwjo6QB8GgJPfEEj/KV3zJQ+BFjv60REbn1bNFATd9MBpeW0fqHjCcmQr/tEF73tajvgvFn2evc++alum+q/WeLo2hFh43KZ06AZazgQ5D7sC0+TMsvF6SkkJ/e0QxF3eS9fqdpAXMqhfSSdTPHYb7bDxEPRB7+s7xfYMLLkbFUyAxsXmDMoLO6Cmz+Sybxm+yNhxkbPEbethC5lyeBqqD5cCKwMFl3hhKeBVgoGPqdPe7l/Zwuoz+loMVZVqP+QbXcsiE+rdbH85qWK6O5mljqT6x1z/PtTFf6IxmqVU3xCuVqW4YrIgMaXjnaKVEgn54RGKaAF0eboG7BRQoiQ87qgCIkhiTM5NJv+MAascFK9n/5NrnXjacc4Hc/AP1C9oaxBEMvNINPRg8Xr68YkDK/4IEh4dYbf61IEU24k76AnTxF2K1CwXy8Gsl49nFXvTYUntF6YSTUg8RbmCSkd8PB+iDVb3YNJzkgG2mrn4rHIGg4S9IL/ca3QlDGULjE2M5P4VbCeVWP8NOH8IzyqexlsghTuA5Z7cIB3+Wupvuynw8OIML0LF2pYaDze3WHRxagw1S50T3hbTYvodILBcM28JngpzbXQALF6YsdpZQzHf98FXp7ZiVB/v/NbcPjWrEcuI8Ro8u5bmWM2jGNfSLVOFz3eB4J1VRWH/1tXD3ZetWuTpdIJXE5QUdgSljoYMHTLpGiQTOafnDL4uhYs1llJVOEW7K9hohT1w7XPJJ+EOJMTxcEJ672nooDfQO8Rntn4gHq0e3+iTn2+H0cl1mEfFCg+4w+Uml9uJcy06Nwm61xwZMvpUM/wpYt0WBjVGxWdBqA6CFMpdH5lmTL99x0BpzYypIYV+A15skKDePAIeqKhiU7qNb2Snwpa7uesga4o/UqBHIxyzgw6HIa1jWXtlXUsyvpXpFSYLh6l9s9A2y9OVsJ6dxihIH6K5yTBVXqS7OBGm2iPcAXD07Ao4VYstxMDPuu1RzeQogoZyUJ+Bpb0wA1o78CBq+CJkSSYnld7lNT74HoX0odgCwdUbBopSI5RJ61CzpnRiFjKPTcmOfa3QRKjBCg99bIdbBs0lYAdTui104kjsneRSsvr1qAnCIXfFrjED3gcdX2yvto+ti/9SvEHAkqDpOZUmEkv3IWpaTaiVYXZkVjAd7kNbw85e2DjNapZdd8jX9Sgjavv1IptSi3SqBxvbRARS4X/vI86PgiOvrIZcLubKNydwlFfdgjDmKsMjchtitEE0+01S3T2yGb7KwXFb6p/mMBczQCKOHExj+pCX06mbfyPpgvlCvtbkSafwY0/sfbyShd4XAx6hnztjS6GR6U2uhYREN5zWxunZBki0+O1kHG/U4zpyGAQcrE4+jsuuiEnt31RNDm/tn4Oe2ODtlMBG+djMHGn0xnPPmuAow4MNtBv/LaJE2VGswZ9kaxXDrUI3JnnuESFmiLy4umnzurjPYVO06IS7YlLKPfK5/B2dC+jZMePs+4pQhwbmr+UWBH3kAAeA1LexD9jU+4U/jQ54B3lBA1Lfv3e8vUjILClpnP75dqQj6SZGp6xAgE4jo2hFRwDw2e6eJjqeg2KdI3e4IzvgUTvRCOzVISrKhspgz6w5D36GD2RXdRqwXMjzeQy2l1UyQbw1Gv4N9bp084O4FBrYbRKFVCT57hVyCd02Pm2k3xrJuyfGOoxUidcp5owKEl1d4qx5Z42qwVwvusm8wsmi5YAAGdSzcDCxWanOisxltlydgx1I4T8R2CBZUHueDu0MiAooLnaOfq9TjS0Sq4aheHaszmLR4c8k7xMKP/DHfnsyeH8T3p+jokmDOhEGE7anO48G/or1fy7sDvAFLMec3JUigKSK74594+ORmAL+OJT2yPKuW0HAT2X2pHYRXuPoCwHqdlCy0ZUCdviJSePeAHnr3tZykSsxdAtKaVZDwrNOhLg7b98LmUCtIOr4aeCcN4/np8kibnABDetkbKzbTN5poVwVa1VnC73rI+c29viHHLpowrtlacFEeWGawBS01ZOOItuFKK/U0muxng2xrxOPf9DbJLhcduBW4EeJ1M2nPQEC1OR07e0uh1fF/09zIzxscxDcNoy73RUiw/dvBg9MCVoUfdsACUcV2QQuPocJ0pqfdw6z5AQu18T2Hw8AQaH+Q4poHmzlk0/Bz1vO5IKKtR2iW7ZlFmszlhFE8PmbbT3wg2TkbOA6feYDaBzaChFWm5pqnjthJmBKzUMekxcfCvGP3X0raiRw2A3rKWwtaNslN4e1FjThhMm2BGkCDPWGLRiB6/h8iqYYcm27AI1p3UqBxn84MO2ZBlbwF7XCBkhlXvJWZxd4orJTdzGSZB549jyS4MQydRoZjxE9D45/iNQR5wLmBBo7cG8t2EwVQ35C1iIYml8ksdWE7QycB0DROJIeYTffg85vt+lprL8N7qRgA1RKU2LPLH6k083JfzYGgW1k5TwiaFTci3JS5BiQqrTs2XEcF396ZirhxB5npuCBYcuFqBQG7GiAvKrlT2F7nLn+7Mf0VJPnIcassZDO4ZnpYSRBVb1HKorB5NkrPAgKpKEEkElwh7iPgf/QM/9V7D5wuAsTqlZxSG+1mav/SIT9RQ5rmT+YPPhEyrc2vmCIK38Mva5pqlzdQNJ8HVQ5hvd2kfuhO197JiIpGd0LyE19c+Pe1P5qRt8KVIGLgudnUsuMWIyZJoy1scjlhOvgTt6yLD40stkcTRs0iSPVJta+AMdR3CKwwtEPWi5qEhauXi1zETLpL8PuHUy5SOPu03xv3GAq3J+KTLbBhxxc1QRfn0nfCYwIrkaVhcelTPhWGdbypzRJcX3Xfj6uRE2Hb3q6FXOOj8D8hRbvnErm3itqPvPWKHSA1PUe2+xnZ63A5VCv6iJ20N9d9u+biNFjBQQHK5W9bNUUgxIW/Nl9wBp3R8CyAzkcdkK1wWnirlcQRC+hREp4GoALCvDEhiUnPlSJR57NY0NdldOGHitWiAtxcGCPf+wLcLCI+OYI6wekCyTNREVt6BNCQivIGmXpmIR6rpV0KldAbc+G69Ap4PrH8R3FUongrD3jkrCmPgOmKwekNHMpGeEdcE8s1SugGNWBfULRSWH2C2ObhB54hw4k845zathUHpcL5kAlRhss5cJT+hJx4pitM9jB54QzHF/3fJnXkESkLzS+qfD2wBf2EkVLwNi5S9zB8rz9kMmCC6SN2yusxdwv2QTS6/yzx7REwW7qwDhJh69Qm1vSMNIF3TG8hO4D0nEb1DWzdadLlFtE8I350NyvTdXPHUDRPZGJWbkzGf5qVQ4QAj79sOT2stUJROaXdheioKIEmHrz6xKHxFi+P7WZwjTq++WUXln0PSe1RArhqtK3OroQvvcVS9P53roLJwHQLFKpUh/pRUKxjcgNgYhucMSTSVylWoY8RCqIqSH5aIsFFSZ0cOb0A7DQR+709SOoz18Ydce9QWYks8bMf5WydeGWTLDmaOMobj1BJBGDYYP0k1jushflHpU/y7OQcEZXXFAIFt0heDvbrgZbk45GZcWHMbDiEuBJgu7rNg9GamI3Go4zM95wJJgmbWAUQ4eZPeK1HsS0YLRxJunhAng0Cu9Ub6mTBpDnTfk7OVXqO0SqiGIx76dQgfOwV5epU/fbaNSkGgF86ViGGBNZTf3NBIctU1E7OgU3+rXGkvYnHNNo9gLhWf7jqQfHJRDK7Vb1w9vhVdW/YMKbWs4irfVOt7MHxQsTn7lPwQ4N9Q6/AjMmAFNEQPSAAHJgIbP0LxpDhbpNXhy99ADLpzaMTz2ltiLYS5oKQzM9wQhQVLMX++W8pI+MkM1qlFlrfUn7tKF0AnldpnCn+fhi9ja+5f6kcP/OfpULX+tKE3lnrlbvuY8ORsGl6a4D3SXtiBYYHRaoWFHcbJFHX9tfVxWW7APk0wrKE1cO/liV9tj/DtuxHZDKF10wkbgDf5SqSd0MSSMaAlRbJiqFbmIh6YSE0Aa6dXKI8seMZ1yU0kkSiRsrTQFTUXSJu1TU5EBlZob4csPPvs3uNgFLXuBfd2k2COJZ5YrXnK8cfv00wtD81N/HV9dv5pOAUSrXtvGtbO985+Caz77AxaUYa2WSXoFCbqqdaaN5latrY5MQL8fwvjzBj7DQ93rvJqczwIT6mqoDnOowzwjPTo5koeVa82Wwk5ZZlZEtCreM0ttILKz66XGOc/q54DArKHp4QAX8EP1oPJTNGjmMIdB0KV4EvukkjTB5Qv5be81fUMHSamoejnj9IZlwwgQMS6pafSspeExTh27J30j/9Q7EEiUCUMpOHItUF6BZtQl103ePlJXhEzIUyjcVFR6yuJ3fiNqP8SqQECuTcUH0Rj8haSbYrPLTTjsVEnXNpwMpmyzltsJiXHYavlorU1IMkng0sMlfKZ6mxd6ioEZxn+kNSN46p7bQrR6+NU/2MSA62wVy3YJOpK7idI2TCSYAfSh5sP5ugVtaSwyKBQ13SBXplGkeymRi+eeP2a5fYGomJH1DLJe2a2LrF9k4yOkUDUw8Vh+bxU1vNrDEti5yaL/T+bLzXkw+P7oY9UixEzbBeTPYJhpvN3mpEO9mkdv/v72tzOk3wAeNcIoB214Ec20ep6KE8pQoyp5rbepEtvE6XW+oVTMmej1RoIysKfyCaGKKtAzL/PeSj0Wj1OmLWRK7qwYoAu0An0K+iu0uX8m3yhVJ1SQZHuR7/I8qM4JnY0Cb72fmmO4QRAm2zea0wrRHkGNeh7eYRd6WlDVsdASb3+bbpKknpEDxesZncu3/OA/csSRHmVAjgX0Ae7d68kmAwJS6DpEI7O5JC3voJHrZsSl6fj3lo/GsRf9B0PmRVSEN21h1XImhyeuzFzSDiKl82vn5kq3Dy0R69KHDD1PJxMS6NrE0AJ17Zu+uF0LMJkqQ85LrTi7Wqu39CGM1NrWVJfJPROt1xQnovV1S/0MXb6jKf9IYQyxLsAL6lu1LhSp8bOOVvTfHqjZxmk01DVtaHd/INqIRQhpIJPsKUyvynp5filUU1DjsplV+vLpNZPw7Bdskfs5/gi3rakbSz3ixLvU/Ksccu4p2y8CWp6B/UI/QUxTK+VahOfzXvBYatuZDscSTlQkuruQI7pG/8LHrXVzwL9CizGW762bhCkyrpmB5KiN/IABIrk9MSy3c0d/eIZJutPgr9F9EBHBJFz4DATf+tMyM5WYLHzzb+4IiASRLgK1kJi7TUJDj80c9tFrln4mdVqpXxvCBojx6U8DJdZKuQg2fldr9obyY0321ZcCODHpOdI7aoKEn1aLtGdcwE8NKeqqU3T+HHiNaWK3NSV4C0ARwxKaNDAfnFBaLtiYVR5xBEeyDu8+BJo47yC3hdUTXEVaihAkDVsZs6QyvfmSf1TDfatibNqWIBx4pJEko7XiPlQ4L9E+gML/78W6KG8VBQ2l3ldOdinyO2GBf7KrqmrQHcc86hccmfbqcUajNNhEvGT+8thjRsz31UddrHayhoiqL1DHuIDxYgwaIDxkG+viy9KfD3uuGZ+RItayrJn2VkZEEAYsJaWEVy/wLlHePYB9pW0cAZC/wOLiyoAkwpeCyQxwWuBb2T1+Zs7nFBO7h9207Jbj9nANUynml/OHdknk0TPbrtjVrAogO3fjc3+2+KC5n4JBW4y5TgovDAgWnzazPd356pqOVBypP0AwlqO1CdPTorI04NwEjwNWc4UPJmFVyt/BGu2q+SQz1VCbqcMmlgcXgiqQ6Mu8SPTRsHucvmx2P4+kkR503B+4RWrmDGqxtkc8wDmoPSP+EJuMBozOVoE+s0Vdc9OFfc9YT2cWYAWwhYo3Dz21HtcDhTo9jBp7BcMmppuXdTRk4MZ9LLy+2ajQQ5EIN4vEorhqSX7iU4Mvv3Gg7WY7Gh+dZHtKYfpdDEg7C9NMhy9iKl/1GRLvdJvxMzKhD1wWWREQ1MxYsQ3UC+B7l41T7s5DZhT55Vz+0hSu/WUkxsNYlT3mRt0mx7zKJxfM7P7V6O/HPOJlL4wj8q14RQzUT/IcNkwdLCIq2/JXljE0U5yl+gKNl17SRCkvcHRofwWT9SIA3p91tnfdRFNDKKgIBPfme6+XT4qvDlJcPr96oDe2ZdQqbmMh3QR5wj+GYFrDpZNoMAsdew6kfkiwZ6QdI5Tjkx1xWS9BACXRIJzyU5sJsfP6pZnMkjKXR6GmudPUoUNMnYQ+HskNCmbBYHo6O7y5WlRYRVAbbieB5c2EE1cSxlDliOtArieXdvrFKMAsLNZIlSM6S6joPAv25etTuImV3PJ5SsBH9ANE2QrVU96luvGt9aONMmr8FluTdnedGwwpWNNrjbPQTJpPlKF56IjNGL8ek9G1X5SS/Vl9lQ1ARYXGNR3VEHSC/MJK+C2rBI3hzTBLOaRAVWXZ1HqhZtASSRK6sW6jFKJay3np3EUS4bbswpOmS9O5pC0k9KC0UaJasOu0FqtbHNy70T1/ojPcDWS5cDIaSo7vdupM4f2gLumnqVmjooamPbzijJzBI7hcsdH30qhnvGgMZpfa4siuxDapbLGLD706MbUsLqD7zTsTNsCqCF5r952yQ92Wcr1iF7emV0TsTUqBbLecKReZupWrNalgaItYcWVEIxLWMOSfLPw274hHSQcQL8wan/v5LNS0DnGbrxt7RJq9YmLmAuZeOJ7rbT9T4D6pn4lKYw2VNbcQgaVAjvfyrWPgBwPosCHzeRWIyyd4kEltfWmuOjSmbEvmd5SkFt4ISn4icp4nXeF3yPpHOiV0+snr+/gYhgbwNyS61dcSa4XW7lLCcrNnirwDkOKSii5J0uxZCU69owaKt2uh5eWrq+o7HR8sxMpiM9AQPZ86twk33EvTsrIBm7xP8dSP2AeCY+d91Mpxr/N6aDY99zlxNsET4ROoA3zdIIm0IzrOZHpQooAr4BBy9r4rp7tyKTo9+47tYP3b21AkyonBnCa/XjyxwbN1UNSApEjCbOo0781UzgFFV1uJS+QqsTNSmSEdNKBAwnwoEVdkWKyHEjpYRZuJJp4jsLtZkGqBU9i6AmMISC7dSTlnLLpAJbkYmzM1QS6wIGaxZsp2MBgKE0MCPMVGYwVLyEmyag1ua7dKWdHX5dHMH2VPNseeZcR0N5zOOtVIl2ovrV3y8DPLjLrw/7Fy6Q0hKOfv9zAH+fYiEZq5+CScszd9zG2aGRqU6nhu2g/KJWFqaIFfE4TcDwhBadQuwYXW8GjN+Fc8TeOXieqQgycHsTpt2K3P/p1LgDeOHpGxwbn05Or7S8/3WC2TBGY+qmakXEuqOU01Du0w3OSSZz9hJsubjsC/18N3WSUzA2bWnRGLpX1x5Oz15JZsAZDKM0+J1cZQEf9TqsKtyKJKMBGGAhSZmB8gWqf4ZDiqmkOYVCvAUFfxvRLKNvcC6yu2MaZYSpxOiF1/yBOZlxzJUCaDyaQh3N3JaDqTJMWtZ6/6KcRcZqa2EbW6/wuYlI8ivALnTcsEkIBUJ7tvNz5y8UbM5+GbFBat+vF8hoQs91VUvfxIFQeSoHfPdvhsaMcdqPx9kbgzZWI8APpLgkbej4BZ/CUlQyXTELFHI5g/jYOAgSG4+CWO5W47uAQPoG3GWNLxEcX8GXft6zSa4CVkue8/f6HNinZDrS2Fmq3hWD793QbhdS178gbkasomiNBdLM8c2WJUuUakA42vyN62woUNx8dveOzo4ETmQ9km8YrVhsAATDXzBv8XzNMqM0c/gcXXVhVGpfQtvSSVOWIjALqenP2yrsfugL8iRJm9WtkpWGm1NIEWTTkIknTI8MEjBszItvxJEwoEjP7DnROBlM5cKYtZyDxqMrjuJpahtN24otwCh+DJ+SXJS4Ud4MXHEKv5/ukNJWNgDvFFEoXpvoafh4MrcpCjbVWYuq3mNTMbWSXCCQHpdS7bk436ztrtRvW6zvum82faFbR4dJs70h4Vm5louBU88Dtu5U+75ng/N4qwNKkI7idt/GuHM3GVz1AuN6Zhwi4mainPaLLrfyFOsVee1l9geq1PnHdtk0AIACuykmemoksv3FQ8oBGqMECoRPtjvryWhHppKmz84W6BYd7AejBh+eXcIWjj4jfIuvUBeNBucZynIt+yclXzykezQJFW/Hb2djXRWc6yd3ooOg9yBW3l0UOiqBmVOUGcM5lv4JD6e3BuEcJpCKmwCO4x+4hDtEuqAAuro4qPgBqhbDDE/ywl3x6IyIj1mGOwAHD+8MmQeDu62DMHa/p/hBdyPxEuCNKn7eRbBRUfAH5yPpkN5PbBQHmuyHRrnBcEQPvg6D6Rq6e1wmLNnPUYKiVtxHRmkXpK2/hsOOqe8qH1yyI4g8nB49aaItPugfa2bF4j8c6pHbKm9VaePIaK1Qp4QfRU1MDl4rhAx/hi/pHuH1oWaQfkljykPj3npDBQixwz0vqhXcqOtLjP7uxOTNI0kX2vRx88G8zZRaHierqv64gek2cd35aJwglHuVJKtumPcDU+hAYiu8dFKrfuGFfhEUvdj1t7/zD6cXxDtftMjjxEgIKmh8mbcgEKdUcuFYfw0YvMbQDTBYB8Y1a+HT/sb0j23k2RnUShntR0E0HH7I5WvEo8+IZHNBdKHq0/odHzopRWjNKJ6dTUX0fLjQ+uQpkGmZ9oFsAq66I7xgEFUrvTuieLLCbpTvVAzb3nVD9tYqeVSzo3Orf2NJrIN+xZ8IQa7jtUEZdfABVSIDQEUH5zaPjj+iY2b31icxK+2/qrq6VizqvEzLklFJQfjTwSqxQi+zDNuifafT2fApPm3apENlmyw9RORZ63UGkpSwdAJMp4ukbsNh4hysErmqX/Acn2xmp82yITl3x7CVEVW4NxCxpC2ZvwWFZ2YZXLkp7PGFMCgj5WzLh77VC99QJdKdXICtVqD2mQZLkH6VGRlOAe4/UpAoY1cFRNCcLQTAGXnsbiI6HPdmgIi7hEGjXvPNafYWdiNOSZ4Yhg+W3TZDGNIgiDexTlXJku6VSoH0OODQCDgMKwKSP0WfetZkVDTBRBHClxGM/Q9PpAR39cujTW6V7gTXN0WUddBBJNUEZcBymwg1D7/CwA0EIsVs7wOYMuJfGijZiSnWjCPZORioGXqa//8yU9SOi8htG3n5rUiUULqTsUZq0T57iCuw5mO1qxpmVujavomc5JRKJ657mZTGutD+HcR3mdb1pqP5PiZ0Siifz30mKbJ7hGWTfF1mTh7KbGCipvNFMrNmJmTdeHlhpT6vouspm0g/4raJM/jCdPdKJbHv4uMyopbw6qkzt+KTBUqe0Dqgj2TOCDeB4BziqnRG2AJULyi8fyPo70JST0BeOq7E9Myxy2dszvl70ZVQ5aLHHR5+4DBTUt+GYg4MWPE3GtSYi8YABC0FGe4d0mbndIQum8SnpzJY+GOhLhMFKfVAvaJy04L8PJW0Yr2e/egfDEDgZxOic9ilTYW4wN6eWMhpeTMiVE95uHh7mkzfFSEYuC9PJTIa1vDXCMiGCpQG/XEx7MHDse0OQZFm0+I1UiP83mAsqLVIeHkCXww8G4UIluOag7rEY7Rlbkw6fPIfmlKxk5QqpfChydKhFgnxmXqBL6O21qae6I5OUGcH3/DUHWaicpldpfFoaCx4IyIpgTXM1trU7xBBzCtkUOkjR4RcL8E2pnXd8MvO+y1roXzUP7fg0qVXc6y7Sn6W0tA8Aoc/vv8UTtIWgDu16xR8+s/D87GqijBz1pgYNZkkBZIomA7NuECl8KCY9hIe1m5Z9AQhC6IdrANTN60RW8ruFGm5NdBeGmZ8rzfLT0g33McFQ1VlBr8IX58LkZIs83Kg1GFx1EzzmHncUlosyg+BAmnxtCcOJ/nxHVXfkvQvTeHeYf41v+O6D633y+uUKsA7tSUGA4cIk/ICa7tkGaUfz/9YekMYKct/Ke+u1JnfcvRclu+iiigiEEgUIemOFeQhQxHkVUTZCEhAqOti+bvy0UFp8hWtLIwRGJQWNeKE5JRN+456biwbrZL7Uc9zbP/X5xTJqz5jxnS4f03TQ2AOxLHqU4Mq8SELajqfVHSBv6ZEnVfqSwVkvt++7/zDB8UrLgFOW/h+m5UXCUaska/CQNSBdDxaGnO6YDGvaDT76pl1OtrhMf+gu0QunZGarl3ZviQFrsS4Y3zL1LajQ0hSO1R69hrC4DOcDk0kCyuVpXh/pnzIF6lnn1Sn81tFsuV9f6LQlTC/ukUHGKWVrkUteE5RzsJFgkU47qbqtXzVseD3qTj2AvowRM4yDtAglao7V4rzH20mf0gLgoGPFbF2WGaUlAHMpuhbOrjOUUlQRzkbYa8Au9Lfapi2AJz1xiFfpmJLDQsghhF2/gOjjv22ndV/j0Y9KB+EymuQKMWlMWgBjF1UzCtQlZF6f6XKD8EDQUmiRH4q2VzMyMEi59jEWGsdqYfj8SXUCYGdK7Dto1skNjLnAWBhAHiT9v+eh8KgQqqLQ91HGSAjQxFsXHs9ofe2LlNCQtNDrS5FjCFYQVkitlTdNWyHM/pzzuBYpodRnNxsu9mjECh8yI6cyTKicNcsfZz7a0GlGo2qhS6RX95NwjtgnvbXNUxzIHlBjRZ1oftVtVdzQeuMOB78QKAwW1Ad1w8hFNVpZTOpfkUosg8T1Zz1ReLi2184EjDCv2bKAuTG+NSRs7+AJELLIndaKkEtZeH2YtHWbKXSMrSLYj2FvcdubhpsUco2DEumpVVHMM4z8F/Quy8Lp7yyWZYcecWNDo8l4JkkyOij5iYE9nsyUELW+aHhTv0sbmFbmCCuhTQJ7xjLYhhDeSRTwNh04cDUw/PxAi4u0cx5Jy65C3nDMatdpy4pdIKTVus5LaZsXDYurcHVXzmzaGBL2t9aI1KmmpYLSWeQlxXFSB1BVrT2BCg6KAEtSUdk+9ued88GoTGlIX02Z66lqbkK6jZVZ8BENxRG4ri2aAQSy81yQCJEmgtZGG5aGAzxrxnWOJoH6CLND8G3o8RPYKixVLoi0Me8/KvCl6BqsdpMMHGPhQqRp+uKFoLRpnVTCQtpPpoBbwgncPq04kbIj3cjBDhM6Cnw0g4GeHC6JC7gPcReYwVgmzHJiUUBjqmQtHX/9noVERLbwKa0vTzeuwOo6XtIOAHyhlrkq35rXLh+IKBxgXcPUTz59NEGXbjRxJLocxOjfOUjijFkl65wjpTZiF4BGe1uk1TzZ2cD9eNcoGSaosFO5mHcyY7IBLHVfGlO/Gi9cI0uSgJiuKu+EVm8SJHyU+zrfDTJgDGr2VQ2IqZSoobanFJTnuoQvAkZQc7xvkAdDdvZozAvdEv3dfgoyFN7iE+Cl9Jv8X8KVt0HPhg1l7MhODnWWneV0vB0VtvC6IspCx7MECHKVJInlCOzGroConb7PuM8qKhNyoiFaNmdnHUChtI62NlcG6/16y9NnTX8/9QimoaNGK0k4SZaE3MaTuaSSpSU5ZUIHonkTLlHpbbZD094VjPvNkEHy4KEVCpcXmURE4CvkfmyxFEUP6MRt6H+TiLWJmcgw0PmlsVKCAFQyCbK5SBYbndq1fwgOKCAJZzdyfJ2U8etpw7wibLlgZFVpR/+PPgBs2XXtd22/rD09qgRAZJiX67EtdJyUQ0L82HvI/Cdwlg6CtXNWPw8ZX0eLMfHG7yMre5dvlFpYnmugFGk0Xf0LF2e3RpJictRG49pxi3URXJLPAsyhnZDHpVcDJFocO6VblnGTB3KqjaqqDKQnIPMWmB/1sxE5m+RoM34QtCXdzMzeaWnhAhqFrYeglH7iWIiAtzO7gZ4uzwoQHl0u6mxFwmNXIpIeLdL4PTbqrNT2gBwFKBigEsaOqdEx4CB2zt+iV9qKQ2lssifC6uf/XO+ouJB87qaevqUd9JKRL2cpNWFiSUPLF7KqrzBBpF9SNciD8OUGXSmHB/V4x6JO3uetJMHwwKtXYXSoficfMupJPq8ADy7rsIuG2XOVuEuH1HD950G7EfDzqEgGLlXTXDM4PuNT1H3F6MXAoNnYsNhtoRgK1CThGoSoNVEqhcN6evtKX2g1+obZ4OgZGl1GDfD0XW9BqBu6JvNq/e6PKzqkSwkI1Zn33LY+XDH8YcVNnqa/jRdu8Ft5OHQT5PNmE0ny2V40iEMqTpLOCoUzw0TkSuZDugm5YKOLaLbY/q40NifNRepZHxPZYBzj2/iIzARRKHn1nogc3dBwJa7lu312pKzSxRJOO0XO5qWdXkm53IW3QD7OdGWVZYw1x3dFpC7k1L1/SFDjbQla3zUopU28bniGVe5jQA5XLOVMO/UKyVdH5OgzzU3tIOgt8DB+rtgmWbqitcvvo7dgCJEJC1wTJGV3nncnjMC2is7dvzf6qsVMRDlFDSK8lLSYAKzJOJb3z8uLVkyNE19wvC0Pmbn1myDGtYOuNedubbC6CYrFIP9JDCLCje4ahA1YldTd0R8cuvnMfkPYT4wcDjXqVp7w8CC9Y/3tO+GAr7QkusEAvjpFILcxe3t/GV7uOfU2Z4k3Pn6wWbsoaRcyxWnMnLHQ0tOW9jqcuwVuDYnK+73rzkcEN3W9Vsioq7tW3rxtWanw64f+Gx91PjjxZzrChsvcnbiWTZAFmOskXqo5Q7bJdK9aa2yMyPkmUdmnLVYlWo72W4tFrNwEQVlFkokKBjtv0unqSjCUndRXuj1K80GKslGunFCks36DAtttOZ8zKb62ejbi2VduYy+74JH4iVi3nJEdgoTt1am1wfIDclrfRzek+1kjplyZkES/L0ANaoPaBz9rjRdNp9IJk4QJ12BkwdzeGwKqA7A4g3MwM8hdyUXRo4CsQbsQ+U8XwMPA+l60tj5fk5mtOqccWUQxHeRzL1x13BbIe6UYXgBLx/SWRaZegI/Sq0v96NiEM+gXAOm1vcFKsDZKCR5t7VVRr7DZNhX86YkjGCrM8DhcdelsYy73Q9gfgTHPXZ/WUP/P3+pzlISuTHFbiEvODvygJGBOd5SOTSDJ9eEdmfHslsuY3fewqHUaJzXcnFPxTXTm/6U4kr5o1vT8lAhRarsLz8BRNA2UfVUOKZSUveySV4XkuRsEJLhd/1vMIT6/ZDTHspU+njKiY82t07BAosZ9VPzAfCXpU5QRMF0TzRBntyYql6ickCm+YFzsJucqEHoLwodwzsrBtH9/82E4B5C01vAPRQ5T8u3a4ohDVkobbKwtAojYYbBSbpm/JzaISynuw8blJC8idoW/f7zQuxa3aqZxJBbWhRIpqViTYHOBexoKEfzkMx1evHJpCkmLAT6J3P8SDpwC2rHnDk5dw9zwzv1+y9TDFEuk2z/mus6rhGDDjMKNukLP5hFIqSmglpM5P7AUhZusdhlfFG8TK7bZw2Hk4WGjXah9jSyy5AE+JJvnf86uc3r9xeTMldn7GRdfnMKXn4TLk5m6zBZCq4UQuqYnWG7ZbSWUA1JVeQWppA6UEBOFCKJZgAxvf9kSHVRjEZfCwh7ejI5C3bWnmmjNwU69cSCeuTwHyaVLDJv9BCVpcaUKqLkksfGfCX4vjID829UqHKTUfvI4jx6vSTOsu269Mi8ukB4ew9xqnKGnA39wp+VH71OdT/l13vpdDWDzsnhTgvYHFzR1uA4ltbRP5cZnjMplqaTDWK+9qu5SNDgxg086nE1cFsOP4PIVnzwPeAxhBzh//+9R3f48LXPCC6/W4t6j+PFCzqiSSw2gYOqLnfTFs8XRwMgXB5N6L9cKwHXKOedAWwqpq+215WRA5ol5jzx1BF6XUkmQfkcoAPwg6V+5VZ8ugwwNGruM0+qMjipNwfMBZKhPOCPOmRusSsQ5buAqHdItP7RhY7WYF5lxYLu49qDIKvwPI09rVgqjwFqYI4yathxMHCJymIsqcgKGppkkyTqdBk+ee452h8MQqXAasrQ20VHxIbBjzRYo5Tvi1bVU+eVitaQF1CDcfitr+FcTxvsd384jS+vlR+ndUuLnbasj/xOKWkE4tuguX/PWhwtxmAcj4BoXgkXmKVIYe6FyTmA3UK1N4kTZcBAeRJ21uF4S6kjyTMTJuaWLMUFF53dQrBOLJYo7YG1MUBgLW39yq8BA78c2/b9AjmjPC8PE16WIdIQQDxXs3WbjH61QDI3jnFuBYcqXQgPm/ekFgRsOO7nQ2oP94jqY6aF+hqd0esMt90PI72Tjyd48qaO26eizhB8h9NFZlS1IX26UoWOIpdbcDcqw/cxg1hAszfGjZ2I71GDbhe8kpaOyvFMi+B9Hz4NGvJVsXjKygCP4Za0uYDOJ3yMSxiUHOQhRxXBBkCXfY8ZH7djR1Ozqo0OcdSeZEHkVmxMPWkauffXLdXPAJynn5UFIwV5A6T8Sy2vDdI3HDAkbw4ZVb4YveDX4fR7dd8b1cdzrXNn7X79AS/pqLW7Rh/1QKTM8Q0G+lfWSOzYoIT0dQIZhRIa4kdwLDKhdzUNR2L3caxaojRW9BCS4JrDurdWr/Th+1B93ySHNnbIyvHhfRxgjJvFU5P3aiRJ+4u+e1bmdHaPKOwzlArcTabE6+cZUvXENm3EMIxxgIr9CuoyLgiVbojWe22HIPRz/9m/u5SCsDGfNjqFgSxceXd4zvU4CmBTULWIruMtCNUU0D9GUQr3eMO+Vz+Vz+lzQ2UMn0+ww9fndnOBt6mMz1qKn/csIvej4TVGbUOroJ8d7U5OFSun7pbdqwg91THztFQbhV+iwGw1sJPfxWlV8q2kNjgey7Ucxm3CxLbOI27pstCyBgr+TZLrIw6Hu1GbtgSEEbaopX9CKxaqCJAs9CZq8V5ITEqnPrCZWj3tlJgVe5R+0wd8Dt+6DJo9wDoeXO2FRT2op8rX98yUVXxeuSq/e0wIGwKHAvIsQgUm1P1kuU+VofGY+EIdyqQHDOlaiKcwoT8SMnBN+4FMgvoGxF5oBTD/8eYpQSqApryBb4nRrhmRY26P6Yfxj+tEJPCRp3PoJJODginHiv6o+uzp+wondE5zyNs4QgcDV6EV8w2xf0wlV3CnbdltC6gb2Vgi1NGABdv826lJ7UWyuSgtO9ZQnHdyZY1Hbz3Iz5gm9RRX5Gz+12AkpoTdKLQ9BgdZ5Sy9wRDKPL9u3TJDWmK7LTWK7HcigTbJHUmW8Kyav/Pcg0zczjUrjgSRu9NGmx4GNm7+aWgZVcIV8JJWsh3ml7iSQz9JuXrj74oag3f4g/IBxl6rc4Sx8O4J5MZ2JQTFU6actXcM/m7W2zfd6YpcOVbWf5dc8d3UUj/5YmJbxnDcMJcRwy+2i+moN5rNSLl4ewHXmgs6oVKHxgdljw9IPLQtw06i+4MrnQLQPPsu8IZRAfpzJZF72I8sZ3Ly5PUDIflmMpr38vsbfMaL61E8WjVY+U1ooERNjyYtvGIr8uYHvVL6oeI8jUfbLjXUZTarGd3ooaZj1YfffduSELzsYxNT/c0CXSRSXI4611wyZ0wo+65boTf4r9lZAiieOgWvfASb/NTC3eyEvey8EhdJShV0V/BK9S8uOb1uKIhMHePIt+IkwJKIAuAiY04TTxQrenX8AGE9zqwh5nNhRXrW2AlZN18p8BP94zobPsxURW0H5jSF9LTUSVzBS5ZvYOdBe1dZ16JXStlkr0w/rHiBvX5B25uat9SiKL9ydsCIftNkxJc7qqml0efbD/6kb1A4Md0WhdKzZjH1yD/P3BfuzIm1mBfzfCwM6Q8jhIggrAFSYhhl0Gv+UgOFLQ49bY/jyxxBpsG7tZUd8aC2J4NYWHyFMEM5a5EM0n1mfMK8d93VycEycgPsCJ+/a0v/YB9NIp7MDtYMT4h9QKpk0SBhQUfFJaqYY2Xnq+VP/U/8l+z2EpFxvxdCgCCiriTBKi9+EpbmjIAncEqrJW7UM8d6kCrh6T6zXBP4koxW0D2iePnAW/Kp3QlWMO2dvTj51esrxm82O6kujDFqrpmDa2qKG6ujyUNJt5cDOAaqSGe+s/BfO3A+rQtHv0q4ixwL89o1ktEC/ExPiQpFkfQTvdOKHDDc6xqLB7/PcfKUghqh8XTC0PAWwY799+warknp9X0R0grDCDMpNf86RJruXSm8xJR0YTgX8p9zmgNXlian36RGjoB9G+6hLqNehmHcT1wHT9DLPd07Rdn3K765xVjPnRDmpgyP0V2YSrV4mFA+MA34wKzDkaD0O/kb7rqA0/xUGnp7N1wUx74gEWtNGDwPf3mRJt4bAI1/urfttS32WM27n6M4CCltma4FU6AgTo9vATczDwFXG3Am8iEOfJ5PAmi6PcFWh5W9qKgpi0CN76/5af34hlwPdUowzGTIamwB1p1tgyDmEf1nZ/Aeaa7pBBA3CfH2BbdyjkRES1W8lD0S8LaMp76FTIwh9uJq9llDck+VnXLyiuvJYCN9qVm0cQXZ6ytu89aSTQjrejfBQsUVqdnvIOMfgYoxey4IHQWzlOBkERug/dDGmcZKnFeAXAnBV+8ctqaakblK5GhXZzmm1GFtFb6CwJ+xCdJdJCONXlKy5vYLYDY35A3P3PEvWfa+NvPtodTV2pCbXhA1EhAIWoCrqHFEV95wKLeVmXNj7ZhUI1XfBY8cU7hnCJbcc/FfEotYOv33xMWuCpFgWAmTe49k0pwxETALiuRQSGBp/zIe4im6EygibFG+a59KXpELTG9xC76zRPYS1eGJPSbkxra6Vk9ldS8VEF48MOU36iUghzvPVW1dJZdafEwxGW2ryPiUxpszSlE8Ul9TPrlFRoHn0HuwZxKyGnHU0nfvuM/QH3aaU92PmwQ2C7CtQ2J1LA41l6HbavhTSV9yh2s3/7crLADQ1LYyMIvRhvCewpVNR+vKsSYVlRx0PtOKLhWNi9as3T/BbROgzxvg1+PxLswyyTkrX+FX1vC/vzPUd0EaKLCZiYxWT5qs84ZiR/eR4xb3y7LNwgWCUunnARWSDmg6ZV/JKN+6GmGMZcz2HGz6GoqTdSwrzbAfefDlS3UWWgpl7GM8Uwbhu0WPCQ78w4LoOJf7V+GaVW/Hox3FusvVte7aQ9ty23RImFM6+tgnMDTIMSdounsdbU9/JyPeMAR5aOLwsIK6jEY8ijEEM/otBq37tSPDKTkPe7FV/3DgRoIaErBCF0ZrDpcrroS1cIVXSHY+2KlW3BmXp1XzjbWhA7N9oekgU34ybJi9KHtY+fh+TFH5pzHc/WvATPANuXM28Y0qW88faK4vgSXaT0unbnDCJnxug9XbprzsVM4/7msY5YQG316xoX171LHwUgelsIEGsQ3zHvyrhDbj5lKSSEuARs036BVCa+E1tAQwNHtByEIG/g26OKlwdxEyG2ves5AJ1rW9a0JwYfH5Rlj1IPAYMa9MRsZjK5ncjAT7LR0wfsJTD+XDK+hsaVYnEbzDI4KR1E4+JcFQQHXnuOlMlpxKC9QIs6BHFSQ06n81PpOVOhI61KNs1D5BvNrIAH7L4NW5G2cG8GSHb8Y3hczaQEMW7NqJcBZch8HyOWTwHzzaeBvYD1PL4vGOHnZ2Yf7hgQOpUyh/NUfO1saqzZxp1fPUAxLv299gjiWFys2cXH8/uAWqMxY8g7xXk7VLsODu8sDXw2qs7R/LHUVDowSy3frwaja1wgPJVZZfHAQO90QiqJZsLc2UNulVO3Ux98sv9MZLnnGyzuzpXwQ4wzr06N8ose2vILJXc/9tf5aJqqI69rs1WgFe6uOH4ijxCe+Le0rd95XbI//YJlyQGOwl+km9PJI4O4PNRw0dHHMzwmOGKmYS7JQhFZJC1bZZE67kQmH5LyqbGMuidWs4mThXttUHJNNe0VBUM7WP7cO0DuBsLsG38eUszRVj/g3hifhkCdqXy8Q2Ja9s+S4DqVuCRMnLF1jNuLPO+C25pAZHAM/J8/xAPhVkV7aGf6Ek0wYdnBY2zrd5oWrqcO4CJ2fvLqjpEs0eITUZVeUstpfD/CB2fHakSWmBF1Hfh0vNn8Owo0ggQFM13B5u17b9K1X+yirXmv+1mZ2Hc2I+X1/OpfW78SuUgQHIFS4UBLDsUKU0mOWCe4vSgQ2v0XzOahAHzRZOtJb8pKhfXztifmbBLqHDr/ZBeFO0tl5qeXu7lAl/jpOe5Rddnhf5B6mjPW7Bxe6QY7f2BS6w9vaiW0HkYWdZP4KCWb6Hxx7vAzu7WyzMJJ+mcYAtC0g8lKgOUROFsV3vx0EzNXCMsUwJYkqwWRgmXopWhbkz3AvlV6B7yBRwOzc6MgFRhPUHHP0KA3Onio9b32lvSDrXlSGOE3xz/Fj+X0FcKVHXQ6nTzAUkDj0zJ0a99G8ls7yDzjd9cQku/ZQWi/QgVgkXVY7GmuitdwLGVOUC15nmDn9P6zDC8ipG/ZNriRCv1eJ8joeuT8UteZeqqm9OkdBcZ3G6FkCAZuJXJitN6BgsNq/9kz759S/ZFM5mKdm8rNsqkgic+t0c3i9XRxfugD0eGTosQgeaw9i4qUWhLU08fZF7dQUzTTll+Cc63GFQL3O943xgCS5GWI3ZBlp9K83BRdWZYgL/r7rHsHVjgouS+x5PGT2tXa6yp3s6BpDVIO3XocGeZ+EK8dOJqxDuLrXsnCOZIWAe6zSs4rRc1o28+hd471+me2vyRJD+nJdB4dIXGIE8fkbxGIZcD4hD3Id3JceQPWQviYalk3kHOc9TvDxTkeKkrcEaix4al9GlUDIbiF6QO2XnmsXllJvJ+5SUbUyotuleaVP9yeVwuWZxBjdXOIsQlcjOEpI8vXwhmBMx46vvRA8QxHuEWlDSzcLdz1dAAeh8+eKiate+ZOg8PMdEhYteLWW0ytOLsxv+s8yaYMlmU3p5+Elgo4+YLkJvL1YvnkKOhi0t3wdITAyvTyP0vQDXuc1Vpt17/Z2EUy4fRAJkZnPyseR/G7T23iHNUP/vJJmM4tNOaJ/Ju+5wPEivAGF7/uRvumHrdMT4P2Gzei8YJMO3aMroerqZ2Inf/re6KRZ7jZPUXjBo5aFwfj6jljth9LJY9pzXPilnWnVZgaLGQjkc5mBNZsPvNjkvWH66urilX2BkMah03qG9IePRXL1J++GvTWYi7HKh4Jgmk9od64lAoVKyMMxXgHODMcWJMsB9SengJcfejCDvkTIoqxXtIY5MQevOg39HD4KvKYeIGA8a4xpiU+h+ygqoztXen/+GuUXbUlR/mvlt3GHVOjO/H2yFF7p6m/JTY8m8Qtxc48+6/txgViGuco73Z8n2WeK0fbjsEuHrkfcGeMo+f1BPwAeXZJsMUXSoGkipwXLnZC0gva2PyMIf8YtLsjPABDG8MxH/ePSStLjCAa0srrb2/Bd2JcxOK4UfpdnIcZvf+H6ZV9JLb2z9VRBmy/Lee4dzqdt/27EyuoCaJUMtVDzbJRDSyElcvys2GEgRsf/GOZjbmYROSZUFne9uZySBa1XvGTSe5J9P3FnHwWVVOVchU4U4LVFxyp6m0clTtxg4Uk4wozsAyY4H8KTjRd+Q9bnm5mX+3cXPI+H65kRoUoS6wHURuxU6E7D/M6xCqu7ZyLDR0JILR77SB7K2k2Rqy9+WTPaOSag97YW4YFtflqpxNSnU/SbUKsn3DFB77D9Xc9a6q/sttbiOkLpnuiASUOZ8qAeaRgzPV0tSBocpU211lFdABSL2EMUtN+f+yLlBPKf5juVn2OgT7yBlyh9k9Fegk23h3wScOMB3cEszqoHjPXUwH6hkjsRWW4A0CUnsVSPgx/jr6k3EcVrfKiKE0MIyNdBPg/1krVTrPS4SkidyV+mCInVxZoI+Kyfi5bUUqPaWfc1BStCD2Y37FO4DvNIKnzk6mHI7cd4GBpJbp6lWsD6+xd3B2zZNRdFa9otWkl7/UprfMLfPiJstU6KbLTcB0zm6lprRgBzdARe+Tvl9Qpt5oDNUspH+fcoUkGPu0R9cqAWTIMUVcbbt5kvFg8P+1ZeaSIvArin229FQHBe8345jNjtsoA8OJpoUgTAO7Sd4S4ChSpMXsR0+2Li7y1Zg5Y8U//4ObsBg3N3DkkboL9stS+117b3hgqAzsb01WUd815d8moAyP0WURpnSeMWRmed3/35qKnVxDcbOUuDuKm9rG4VTK66wS7wr/NkE+knEgwPuJG5+28DQFLLkbmyGZw76g2WCKfhfc1M4N8MHEvCEVqVtfPAgehv/w6JgE1Ln0EpgWZXrDiATqG+IkftNvFCFItq2SGCDjjNEb04GvpJTtBJglKaMEUvm2hLCc/JiY4lSHZlBzHG/hTr4BP/w51txsbLzeFgo7p25tqwfioZ22bUqJidhCUnf2dqUtHxbLd8cZqB1ItoY1iOm5QJp4HZz6d2ml3LdimAy+oIIF+b/HsAf8CRyczk47rbrWECCl4u4vVfrTcviOcea7I00AAJWl9qM3SETgbVyzzlJYUtdtYBDGiOinygI4CTKCCaypCI7SAUGiYLb88vPZ8qYs0VRS1DNVvuKK2kKTKHz/U+VVYoJEhzGCVgfL8IXln3RpplitN7+Ug8noYyc17aBM7rJ0nL+ng8CYOTTVd0jYoq/LgOwjOLY6jhTURbvLz46T6FNP8HJD7Py2BeVN1kobCp+5A8O/lGuySSgg+y1pq+BEMSs+4cIA7x1XCbZZWKYdr55SuxxCWknwTLOBHh9LvaWLQi7lcElHydcajEiDQkqBKaweo6ElFjA4hF3wk83aTsxklInP+jrOMPahhVW4hV0baaGf6Hor6VAbAc+fw23OL8Wa5iaHrlwSURjJqk1UULA1sGjp8IWFQezuJW+IgqInZyFGIEpU+Yem711QCcmu15vBeXjSCahDl1is1j5VMNrv1Kpz2VJYQQoPxtSsaTJw4rFOEcH3bL3rxRpHK/HyeJDFZmvi+03dCroSUDPW+++LZKnUIRkQhAhF04gsEW8H0yyXGcwDoq829ii41jAJSohWey7HQ1RQOhdmWShyUStj9IgfwvQk/SM/N8ht8P397R8uDnfhmSaCd+o0gqU8Mbs28R3B2fJKivrSAdaovXx5C2dh0QvDM03Z/Bd2tfI9ldkf//36jeskc/WEiRtS67VtN113JwKlQV/giRpp6FsqfuqhFYXWijsKgY4ZG/fA3ofHzTbBekMquVp8RCAYtW7VuxQfrLwMscQTOJNXuqzJfVsXRS6GTWWzy41VZ3Ubf8z4M00LFoSUW39CexR7QYN9/UsvfpmTTCJNsxfWXNzlZZGCXfOC2Bk7a0kcrdYidtWp1xkgPRkrGbd3GQzf4cxM8+hg33aag7g8ND37NUqQbqPl54xjHhiKFs8RzjS5nJ8se1P1U/KattAET0Mt8I8Z1GpBB81YOsrUFUte+t0sp+SPneJRMC8VpWp6k1aqUwzayZaScqq5dqdU/7Mkxa5c5sB80c1qT9a0J4INmMaUx6DjWb1peMkBQDhbR9IiBcXg8hwWLsk++CuOvYbTAZwQIsXHRzzuqbF57E6eaAM9SnteWh6T7urWWV2nE2MG9jHtYpFnTmbiGIubmLtus/knT1DtpB5DnzehUoKmgwaHyLzcOeGZonLgdqtncyR5DDIumtu08OOdKqakwoFP1ItTnobToKIUwnWpmLwmDNHVwwlB2KX/6Yp4srzLlPSZo8L2CIqA1pzJcHIKRcaGCpG/3Oh0eGeXMy6/0LF7URGBwsMhZyB+3yrKx6L4psseBSVbmHTyvM5D40RFxqh1ilT5U9jRfTivTkGPmepCqA3ITopNsi/iCdHhrmNRFUqaN9W6AVLQvo5sC+8sAJK7Hadg1rf6Dj23kikDpQIZlED2fUb8umM9dNOgvRs5Z0B9ppGgzM/A3We0WtYcofs5VsRT3uTruIZX6/4JsDTNKSvTj4xryNbownKZW36XAKa1iCkw5ovQfY47Z661Xm66h/rTpmMDePUXKAhC4a9gqSESafYTl8yoSjt+fP5MTh2LLqTdVFG+H2JncJMUZmOOMgYAAkfLzC8AuwpYGcHhtwKh49ZYEFeJCcjZy9rphHU1catS0Kx5p53st+Sv/88NI5TSrFnleZsC9Ohc2hWt15RHxYlLhLYk5jHNOmi8izTzj1CtHOetNUf2BJSGavQw8VBFjStcr5rrCvJr0IYol7sO3Xz3Vm5KZMUfZsPw9oPuOabimyhiP5Ey7LO5del5xF2ntdp4zpn9FtNeMPcHOOneJVzkNz4HXhkJPF24qlzjkuP5TuIq9xzUp9LMF64a6WtFO8DuxuStXaSct0LlM7ayH+7nfB1KGd+H+cQl2vGoxb5QC941t/DmYiWxWUwTGAlvrv9L9nikBxhIS8ITBZWMoaK/e1MrYO3ejt4X3ueb5TvxEhOn6lDrwu54XUXezA1Qj2ixX/EuP5h0Nc/gFoaGlsRi0jRgacbes6UKpfoEgbvQMlnxF8JZ5gYs070AqHsnNVoAsSTO5ibdkT4OVehB0rYKheVNmhYHPMTuajgqzBk0dVJxu8WnIYryntLuLW93MvxVjpeN4qm5I8h43UGLBBVJPV0at2tarlz4cf7JUsrN5q6c8aJVqL6kgG25r96D+w+qZfopLCMHFtdPbRuYt64/Le8+o1eAgUrGuA/aIulDgJ7VOxl/eJvoaqj2lcI0/BUCf98H1RG8rFiKhXevEDXyskYYWJvgHnyeB00bndaVcBU3nGI3kLhQRTa62Pr0tQnfCUE6OEHPdHp8EBsfUhuVSZRutyGD33s7ErXrKHfpXXKiVjrtRCAop4uf5EdU1kUm6jPN+QuGE6XmlnJ179zgBFtFXJLH2Bu4TVRTLuiECGG8g+MgtjD6t+/oPQBsOwjhL7KHGbtgKe8UuEIZRVpaOjngKfxrZ9dnwn0M1tPKarfs4lZin2OGU+M4FE89M3wCfha2ybR5Rd6PXhbJd38qqPfwRIbX+XW84/+C06GpjAKD2w5NFS5ThnEJXEyhGckGogs2g0X7EEOQiywVkmOwr3Oocv09NWGAKOKysNKmSt5MzPc7yg/xLErCoVCAe/lIbJxoH8Ou+7zkAcXhKQzU8HcYCjGT/g9pbtCg9CxZEdUUL4UzihlWwLQ4iUVlcFn4Xu5QrBHTHdaBR2ZSE5FDTwW2vR8dkE4wEmxpi8cU/TxSL/1Bf9inbJ5ACmJEMqR6Jqsqya26Q2U/jvlv6kKu1w9IosjwbgCtoFl16Hr63NRijeX2IV3lK7u+ezeyGvlXAt5cji9+0Fda6UjBxbYYsqqp4QgwN3ccD65ql3k55gGmuQKazLXO9p+emXQxKlXJSDQ6XLjJ4XY9RwoBpftloUnCSlLyFdsLmnLfm+f56QVRorcOJXoohoWVFiZrizf7tXd8savHrk2JS+4SzI/p2y9fyKDUa2RUYiYgAN7LSw5fYSD9qMeYidAt1TIaCSJ8gIwO//gZWKOAgWPnxnq4RgRDpfpahkXmjRbcmSaNed1reUmjgtD38+2dST+jU9etotwAAo1TB5hfp3x5fQfJFjmk93kWL2ckXH5vi20ggjEUgjGIIEOxAbAOW/EUNOGBJtGwFncl+zAzK22QG87BirrijsNycgC0yiQqbmhA0MYsSKSdS5JWoLwwDO3QkbJghP4fuzJ8L6S5yrcZ7FdcxhVM+w8re2/dWFxF452MRj057Axiu8GDLNOqiaE2jCH60ylI5Nr3aFXtFOGZ1DWbvg2AXpREus/w8mosXgyBxD+DZKURo4Gxiv1pAXkVLfVjLN4j7+Qf8Hcc2eISliYabCgqUOAt6oM2i1S44UUeustdkvAcqgkIufk2PY/dNU8PAPZVznCjPXY6dnDxGAsNCc4tA32YMZYXNR9r8X2ijbYgk8S4b3cth0r+UygwmZLJPGGs6x2le/w56zce+ChBIEqB20sHSPDTEcIGIQuaGVtXRpl/s43spLRg9FFhEe4ssgpIjYpoocpi3IVbqukZNFxvUwH+daCbQtxziwCiuhfEQ63X3ooHOLuNZW0T6328cqz8TvatvlrqPV0wLrfRz8bZhVPbN2hYFId6eMjxDjZ1t8jsrq+8T9iNYAENgKNj98yLzrHBZo/bdUMUc5Qk7s5T17W04nD5McuHiktk67QqE/CpFeF7y/07dyLLpnlrF+GOCpjtEur0VgY6D9cvbCG9P0+B7NJvdHK50en/aW+mu/sCoNBFtyqfu0Ethe6Z8PBeh4BGC8XE/oWUbiQ/gEy86OP5FqQ1gf3vZ/HWXZKD6L6MZ0dqd9sRsjS03PZp1ycpCUgiXIaDD6HfuHwbhbkYHjHhfKlMolmPoRTGhtmOUmmQTsr015jRRkZowT1d5DgwtAzC+J+ZRlOO+BKKBWCxrdkMu74cGuhIBL75vXFI7zkBMb0StVSq3gGHsXMaqSc38bP4aZqjAAWINsgAEhLMQK8K1KNwqg7ZXCkQfsvE03eXBwoVQZBMuX2ZVXgExwKA/s4ZYcaUeX6X62b/moToaYaN5n2qfknd9ZSOeOPybqhW6vMQTqz1hteLWQMwBGfeoH2uWqjqRGRQqrAzvL79/sOlrUprk7LiUCf8RcOU2iZeuHi61Ue+0ljP4vDxwT/GoMB06KrxiYfeKr9hk/tdLjUlJGKBxgABKkAAAA=";const RULES={
+  "articles": [
+    {
+      "number": 1,
+      "title": "Non, sig ak referans",
+      "chapter": "CHAPIT I — IDANTITE, MISYON, VALÈ AK RÈG DE BAZ",
+      "text": "Asosyasyon an rele Asosyasyon Peyizan Lasal Sitwonye (APLS). Dokiman sa a òganize aktivite Komite Direktè a ak relasyon ofisyèl li ak moun ak enstitisyon ki deyò asosyasyon an, san li pa modifye non, adrès legal oswa objektif ki nan estati APLS yo."
+    },
+    {
+      "number": 2,
+      "title": "Sedi ak zòn entèvansyon",
+      "chapter": "CHAPIT I — IDANTITE, MISYON, VALÈ AK RÈG DE BAZ",
+      "text": "Zòn referans la se Lasal Sitwonye, 9yèm seksyon kominal Leyogàn. Nenpòt biwo segondè oswa ekspansyon teritoryal dwe jwenn otorizasyon ògàn konpetan an dapre estati yo, epi baze sou yon plan finansman ak yon desizyon ekri."
+    },
+    {
+      "number": 3,
+      "title": "Vizyon devlopman entegral",
+      "chapter": "CHAPIT I — IDANTITE, MISYON, VALÈ AK RÈG DE BAZ",
+      "text": "APLS vize amelyorasyon dirab kondisyon lavi kominote a nan tout aspè: agrikilti, ekonomi, edikasyon, sante, dlo, anviwònman, kilti, enfrastrikti, pwoteksyon sosyal ak patisipasyon sitwayen. Pwojè yo dwe reponn bezwen moun yo, pa preferans pèsonèl dirijan yo."
+    },
+    {
+      "number": 4,
+      "title": "Misyon ak responsablite piblik",
+      "chapter": "CHAPIT I — IDANTITE, MISYON, VALÈ AK RÈG DE BAZ",
+      "text": "Komite Direktè a òganize manm, prepare pwojè, chèche resous, kowòdone sèvis, defann enterè kominote a nan limit manda APLS, epi rann kont rezilta yo. Li pa ka pran plas sèvis leta oswa fè pwomès li pa gen kapasite oswa manda pou kenbe."
+    },
+    {
+      "number": 5,
+      "title": "Valè obligatwa",
+      "chapter": "CHAPIT I — IDANTITE, MISYON, VALÈ AK RÈG DE BAZ",
+      "text": "Tout responsab dwe respekte entegrite, solidarite, egalite, diyite moun, transparans, sans responsablite, patisipasyon, angajman volontè, non-diskriminasyon ak pwoteksyon moun vilnerab. Yo dwe evite favoritis, abi pouvwa, enterè komèsyal kache ak detounman resous. Deviz ofisyèl APLS se « Inyon • Solidarite • Devlopman »."
+    },
+    {
+      "number": 6,
+      "title": "Piramid dokiman yo",
+      "chapter": "CHAPIT I — IDANTITE, MISYON, VALÈ AK RÈG DE BAZ",
+      "text": "Nan aplikasyon, lwa ki aplikab yo ak estati APLS yo genyen priyorite sou règleman sa a; Asanble Jeneral la adopte règleman sa a; Komite Direktè a kapab adopte manyèl operasyon, bidjè, kòd etik ak pwosedi siplemantè sèlman nan limit pouvwa yo delege ba li."
+    },
+    {
+      "number": 7,
+      "title": "Nati desizyon yo",
+      "chapter": "CHAPIT I — IDANTITE, MISYON, VALÈ AK RÈG DE BAZ",
+      "text": "Yon anons, yon mesaj WhatsApp oswa yon deklarasyon prezidan an pa otomatikman yon desizyon obligatwa. Yon desizyon enpòtan bezwen reyinyon ki gen kowòm, vòt, pwosèvèbal, anrejistreman ak siyati otorize selon nati angajman an."
+    },
+    {
+      "number": 8,
+      "title": "Definisyon tèm yo",
+      "chapter": "CHAPIT I — IDANTITE, MISYON, VALÈ AK RÈG DE BAZ",
+      "text": "Nan dokiman sa a: “Asanble Jeneral” se reyinyon manm ki gen dwa deside; “Komite Direktè” se ekip egzekitif eli a; “Komisyon Siveyans” se kontwòl endepandan; “manm” se moun anrejistre dapre estati; “konfli enterè” se enterè ki kapab enfliyanse yon desizyon."
+    },
+    {
+      "number": 9,
+      "title": "Asanble Jeneral: pi gwo otorite",
+      "chapter": "CHAPIT II — ÒGÀN, SEPARASYON POUVWA AK DWA MANM YO",
+      "text": "Asanble Jeneral la valide gwo oryantasyon, eleksyon, rapò, bidjè ak chanjman fondamantal selon estati yo. Komite Direktè a dwe kominike enfòmasyon ki sifi pou manm yo vote epi konprann konsekans desizyon yo."
+    },
+    {
+      "number": 10,
+      "title": "Komite Direktè: egzekisyon",
+      "chapter": "CHAPIT II — ÒGÀN, SEPARASYON POUVWA AK DWA MANM YO",
+      "text": "Komite a aplike rezolisyon Asanble a, prepare plan travay, mobilize resous ak kontwole reyalizasyon. Li gen obligasyon prezante pwoblèm ak risk enpòtan san kache enfòmasyon."
+    },
+    {
+      "number": 11,
+      "title": "Komisyon Siveyans: endepandans",
+      "chapter": "CHAPIT II — ÒGÀN, SEPARASYON POUVWA AK DWA MANM YO",
+      "text": "Komisyon Siveyans la pa dwe anba kontwòl prezidan an oswa trezorye a. Li rapòte dirèkteman bay Asanble Jeneral la, gen aksè ak dokiman nesesè nan respè konfidansyalite, epi li pa egzekite peman li dwe verifye."
+    },
+    {
+      "number": 12,
+      "title": "Komisyon tematik ak gwoup travay",
+      "chapter": "CHAPIT II — ÒGÀN, SEPARASYON POUVWA AK DWA MANM YO",
+      "text": "Asanble oswa Komite a kapab mete sou pye komisyon teknik pou sante, edikasyon, jèn, agrikilti, travay piblik, kilti oswa sekirite. Chak komisyon bezwen manda, delè, responsab, bidjè ak rapò; li pa ka siyen kontra poukont li."
+    },
+    {
+      "number": 13,
+      "title": "Dwa manm ki gen dwa yo",
+      "chapter": "CHAPIT II — ÒGÀN, SEPARASYON POUVWA AK DWA MANM YO",
+      "text": "Selon estati yo, manm yo gen dwa resevwa avi Asanble, patisipe, poze kesyon, egzamine rapò piblik, pwopoze rezolisyon, vote epi fè plent san reprezay. Enfòmasyon prive sou benefisyè oswa moun ki denonse abi pa otomatikman piblik."
+    },
+    {
+      "number": 14,
+      "title": "Devwa manm ak respè desizyon",
+      "chapter": "CHAPIT II — ÒGÀN, SEPARASYON POUVWA AK DWA MANM YO",
+      "text": "Manm yo respekte estati, règleman ak desizyon valab yo, pwoteje byen òganizasyon an, pa simaye fo enfòmasyon sou non APLS, epi evite menas oswa presyon kont lòt manm. Opinyon diferan ak kritik fèt ak respè."
+    },
+    {
+      "number": 15,
+      "title": "Delegasyon ekri ak limit li",
+      "chapter": "CHAPIT II — ÒGÀN, SEPARASYON POUVWA AK DWA MANM YO",
+      "text": "Nenpòt delegasyon responsablite dwe ekri: travay, dire, limit lajan, moun pou rann kont ak kondisyon revokasyon. Yon delegasyon pa retire responsablite kolektif Komite a ni dwa siveyans Asanble a."
+    },
+    {
+      "number": 16,
+      "title": "Pa gen pouvwa otomatik pou yon fondatè",
+      "chapter": "CHAPIT II — ÒGÀN, SEPARASYON POUVWA AK DWA MANM YO",
+      "text": "Yon moun ka fondatè oswa ansyen prezidan san li pa gen yon dwa veto, yon siyati bank pèmanan oswa yon pouvwa pou kontwole eleksyon, sof si yon dispozisyon legal ak estati valab yo prevwa sa."
+    },
+    {
+      "number": 17,
+      "title": "Modèl Komite Direktè a",
+      "chapter": "CHAPIT III — KONPOZISYON KOMITE A, KALIFIKASYON AK MANDA",
+      "text": "Yo pwopoze 13 pòs elektif: prezidan, visprezidan, sekretè jeneral, sekretè adjwen, trezorye, trezorye adjwen, responsab pwogram, pwojè, swivi ak evalyasyon, responsab agrikilti/devlopman ekonomik, responsab edikasyon/sante/pwoteksyon sosyal, responsab anviwònman/dlo/enfrastrikti, responsab fanm/jèn/kilti, responsab kominikasyon/patenarya ekstèn, ak responsab lojistik/patrimwàn. Se Asanble a ki valide kantite egzak la."
+    },
+    {
+      "number": 18,
+      "title": "Mank kapasite oswa ti kantite manm",
+      "chapter": "CHAPIT III — KONPOZISYON KOMITE A, KALIFIKASYON AK MANDA",
+      "text": "Si 13 manm pa disponib, Asanble a kapab diminye kantite pòs yo oswa konbine fonksyon tematik, men responsablite kontwòl finansye, revizyon ak apwobasyon pa dwe rete nan yon sèl men. Komisyon Siveyans la dwe rete endepandan de ekzekitif la."
+    },
+    {
+      "number": 19,
+      "title": "Kondisyon kandidati",
+      "chapter": "CHAPIT III — KONPOZISYON KOMITE A, KALIFIKASYON AK MANDA",
+      "text": "Kandida a dwe satisfè kondisyon estati yo, aksepte kòd konduit la, kapab idantifye konfli enterè, gen disponiblite pou travay la, epi li pa dwe anba yon sanksyon valab ki anpeche li kandida. Kondisyon laj ak dire manm yo dwe baze sou estati oswa vòt Asanble, pa sou preferans komite sòti a."
+    },
+    {
+      "number": 20,
+      "title": "Egalite aksè ak reprezantasyon",
+      "chapter": "CHAPIT III — KONPOZISYON KOMITE A, KALIFIKASYON AK MANDA",
+      "text": "Pwosedi rekritman ak eleksyon yo dwe ouvè pou fanm, jèn ki kalifye, moun ki gen andikap ak divès seksyon kominote a. Kritè objektif, lokal reyinyon ak kominikasyon dwe diminye baryè ki anpeche patisipasyon."
+    },
+    {
+      "number": 21,
+      "title": "Dire manda pwopoze",
+      "chapter": "CHAPIT III — KONPOZISYON KOMITE A, KALIFIKASYON AK MANDA",
+      "text": "Manda modèl la se de lane ak posibilite pou yon sèl reeleksyon youn apre lòt nan menm pòs, depi estati APLS yo pa di yon lòt bagay. Dat kòmansman ak dat fen manda yo dwe parèt nan pwosèvèbal rezilta eleksyon an."
+    },
+    {
+      "number": 22,
+      "title": "Fonksyon gratis ak ranbousman",
+      "chapter": "CHAPIT III — KONPOZISYON KOMITE A, KALIFIKASYON AK MANDA",
+      "text": "Lè fonksyon dirijan an volontè, li pa bay salè otomatik. Ranbousman depans ki jistifye posib ak dokiman, bidjè ak otorizasyon. Yon travay peye mande yon kontra apa, respè obligasyon fiskal ak lwa travay ki aplikab yo, ansanm ak pwosedi pou evite konfli enterè."
+    },
+    {
+      "number": 23,
+      "title": "Deklarasyon konfli enterè",
+      "chapter": "CHAPIT III — KONPOZISYON KOMITE A, KALIFIKASYON AK MANDA",
+      "text": "Nan premye 15 jou apre enstalasyon, chak responsab ranpli deklarasyon konfli enterè epi mete l ajou lè gen chanjman. Dwa pou resevwa yon kontra pa soti otomatikman nan yon pòs dirijan."
+    },
+    {
+      "number": 24,
+      "title": "Angajman ekri dirijan",
+      "chapter": "CHAPIT III — KONPOZISYON KOMITE A, KALIFIKASYON AK MANDA",
+      "text": "Chak responsab siyen yon akize resepsyon ki konfime li resevwa estati yo, règleman an, kòd etik la, règ sekirite enfòmasyon yo, lis byen yo ak pwogram fòmasyon debaz la. Sekretarya konsève prèv resepsyon an."
+    },
+    {
+      "number": 25,
+      "title": "Pòs vid ak kantite legal",
+      "chapter": "CHAPIT III — KONPOZISYON KOMITE A, KALIFIKASYON AK MANDA",
+      "text": "Pòs ki vin vid pa otomatikman efase nan kalkil kowòm ak majorite a. Sekretarya dwe kenbe yon lis manm ki an fonksyon, detèmine kalkil dapre estati yo, epi mande Asanble regilarize ranplasman yo san reta."
+    },
+    {
+      "number": 26,
+      "title": "Devwa Prezidan",
+      "chapter": "CHAPIT IV — WÒL, POUVWA AK LIMIT 13 PÒS YO",
+      "text": "Konvoke ak dirije reyinyon; pwopoze ajanda; asire swivi rezolisyon; reprezante APLS avèk manda; mande rapò; ankouraje travay ekip. Li pa ka pran lajan pou kont li, siyen gwo kontra san apwobasyon, revoke eli oswa chanje estati poukont li."
+    },
+    {
+      "number": 27,
+      "title": "Devwa Visprezidan",
+      "chapter": "CHAPIT IV — WÒL, POUVWA AK LIMIT 13 PÒS YO",
+      "text": "Sipòte prezidan, asire swivi kowòdinasyon epi ranplase li lè gen absans oswa anpèchman selon desizyon ekri. Lè li ranplase prezidan an, li eritye menm limit pouvwa yo, pa plis."
+    },
+    {
+      "number": 28,
+      "title": "Devwa Sekretè Jeneral",
+      "chapter": "CHAPIT IV — WÒL, POUVWA AK LIMIT 13 PÒS YO",
+      "text": "Prepare avi, ajanda, rejis desizyon, pwosèvèbal, korespondans, achiv, lis manm ak swivi obligasyon administratif. Li fè konfime presizyon pwosèvèbal yo epi konsève vèsyon siyen yo."
+    },
+    {
+      "number": 29,
+      "title": "Devwa Sekretè Adjwen",
+      "chapter": "CHAPIT IV — WÒL, POUVWA AK LIMIT 13 PÒS YO",
+      "text": "Ede sekretarya, jere klasman elektwonik ak rejis resepsyon dokiman, verifye respè delè reyinyon yo epi ranplase sekretè jeneral selon pwotokòl ki vote. Pa modifye pwosèvèbal siyen san tras koreksyon."
+    },
+    {
+      "number": 30,
+      "title": "Devwa Trezorye",
+      "chapter": "CHAPIT IV — WÒL, POUVWA AK LIMIT 13 PÒS YO",
+      "text": "Kenbe liv kontablite ak klasman resi/fakti; prepare bidjè, rapò kès, rapò bank, rapò don; suiv depans kont liy bidjè; prezante sitiyasyon likidite. Li pa dwe sèl moun ki apwouve, debouse, rekonsilye ak odit pwòp peman li."
+    },
+    {
+      "number": 31,
+      "title": "Devwa Trezorye Adjwen",
+      "chapter": "CHAPIT IV — WÒL, POUVWA AK LIMIT 13 PÒS YO",
+      "text": "Konfime konplè dokiman yo, kenbe yon rejis paralèl selon manda li, ede prepare kont ak rapò, epi ranplase trezorye lè sa nesesè; peman ak rekonsilyasyon dwe toujou gen kontwòl pa yon lòt moun."
+    },
+    {
+      "number": 32,
+      "title": "Devwa Responsab Pwogram, Pwojè ak Swivi-Evalyasyon",
+      "chapter": "CHAPIT IV — WÒL, POUVWA AK LIMIT 13 PÒS YO",
+      "text": "Chèche bezwen, prepare fich pwojè, rezilta, bidjè, kalandriye, endikatè, rapò avansman ak rapò final; suiv kondisyon patnè ak kalite travay ki fèt. Li pa dwe chwazi poukont li tout benefisyè oswa founisè."
+    },
+    {
+      "number": 33,
+      "title": "Devwa Responsab Agrikilti ak Devlopman Ekonomik",
+      "chapter": "CHAPIT IV — WÒL, POUVWA AK LIMIT 13 PÒS YO",
+      "text": "Travay sou pwodiksyon, fòmasyon, koperasyon peyizan, aksè a mache, ti antrepriz, ekonomi lokal ak sekirite alimantè; pwopoze pwojè sou baz dyagnostik ak konsiltasyon manm yo."
+    },
+    {
+      "number": 34,
+      "title": "Devwa Responsab Edikasyon, Sante ak Pwoteksyon Sosyal",
+      "chapter": "CHAPIT IV — WÒL, POUVWA AK LIMIT 13 PÒS YO",
+      "text": "Ankouraje alfabetizasyon, fòmasyon, swen prevantif, oryantasyon moun pou jwenn sèvis nan men pwofesyonèl ki otorize, sipò fanmi frajil ak pwoteksyon timoun. Li pa dwe fè tretman medikal oswa sèvis espesyalize san kalifikasyon/otorizasyon ki nesesè."
+    },
+    {
+      "number": 35,
+      "title": "Devwa Responsab Anviwònman, Dlo ak Enfrastrikti",
+      "chapter": "CHAPIT IV — WÒL, POUVWA AK LIMIT 13 PÒS YO",
+      "text": "Kowòdone bezwen sou pwoteksyon tè, rebozman, dechè, dlo, sanitasyon, wout, drenaj ak rezilyans kont risk; chèche konsèy teknik ak pèmi anvan travay ki ka mete moun oswa anviwònman an danje."
+    },
+    {
+      "number": 36,
+      "title": "Devwa Responsab Fanm, Jèn ak Kilti",
+      "chapter": "CHAPIT IV — WÒL, POUVWA AK LIMIT 13 PÒS YO",
+      "text": "Ankouraje patisipasyon, lidèchip, espas diskisyon, aktivite espòtif/kiltirèl ak pwoteksyon gwoup vilnerab. Li sipèvize mekanis patisipasyon inklizif ak sipò san diskriminasyon."
+    },
+    {
+      "number": 37,
+      "title": "Devwa Responsab Kominikasyon ak Patenarya Ekstèn",
+      "chapter": "CHAPIT IV — WÒL, POUVWA AK LIMIT 13 PÒS YO",
+      "text": "Jere plan kominikasyon, relasyon ak enstitisyon, medya, paj sosyal ak demann patenarya; valide mesaj piblik selon manda. Li pa ka fè pwomès finansman oswa siyen kontra poukont li."
+    },
+    {
+      "number": 38,
+      "title": "Devwa Responsab Lojistik ak Patrimwàn",
+      "chapter": "CHAPIT IV — WÒL, POUVWA AK LIMIT 13 PÒS YO",
+      "text": "Kenbe envantè byen, swivi deplasman, antretyen, depo, ekipman, acha ak distribisyon; fè rapò sou pèt ak domaj. Li pa kapab valide pri, resevwa ak otorize tout etap menm acha a san kontwòl endepandan."
+    },
+    {
+      "number": 39,
+      "title": "Devwa kolektif tout dirijan yo",
+      "chapter": "CHAPIT IV — WÒL, POUVWA AK LIMIT 13 PÒS YO",
+      "text": "Chak dirijan dwe li dokiman finans ak rezolisyon yo, fè deklarasyon veridik, vote san presyon, denonse risk serye, respekte konfidansyalite epi rann kont. Yon dirijan pa eskize neglijans li sèlman paske prezidan te mande li aji."
+    },
+    {
+      "number": 40,
+      "title": "Separasyon wòl ak delegasyon",
+      "chapter": "CHAPIT IV — WÒL, POUVWA AK LIMIT 13 PÒS YO",
+      "text": "Lè yon moun ranplase lòt, sekretarya note jou, rezon, limit ak otorizasyon an. Delegasyon siyati pa janm pèmèt yon responsab apwouve pwòp ranbousman li oswa pwòp kontra li."
+    },
+    {
+      "number": 41,
+      "title": "Eleksyon komisyon siveyans endepandan",
+      "chapter": "CHAPIT V — KOMISYON SIVEYANS, KONTWÒL AK KOMISYON TEMATIK",
+      "text": "Asanble Jeneral la eli twa manm Komisyon Siveyans pou yon manda ki valide nan estati oswa rezolisyon li. Yo pa dwe okipe pòs egzekitif, sèvi kòm siyatè bank, ni patisipe nan acha yo gen responsablite kontwole."
+    },
+    {
+      "number": 42,
+      "title": "Manda Komisyon Siveyans",
+      "chapter": "CHAPIT V — KOMISYON SIVEYANS, KONTWÒL AK KOMISYON TEMATIK",
+      "text": "Omwen chak trimès, revize kont, bank, envantè, itilizasyon resous, kontra, plent sou detounman ak aplikasyon desizyon Asanble a; bay rekòmandasyon ekri; fè rapò bay Asanble a san yo pa pran plas trezorye a."
+    },
+    {
+      "number": 43,
+      "title": "Dwa aksè ak obligasyon sekrè",
+      "chapter": "CHAPIT V — KOMISYON SIVEYANS, KONTWÒL AK KOMISYON TEMATIK",
+      "text": "Responsab yo bay Komisyon Siveyans la dokiman ki nesesè nan delè rezonab. Komisyon an konsève done pèsonèl, enfòmasyon sou viktim ak enfòmasyon konfidansyèl nan kontra ak prekosyon; li pa pibliye enfòmasyon prive san baz valab."
+    },
+    {
+      "number": 44,
+      "title": "Endepandans ak depans revizyon",
+      "chapter": "CHAPIT V — KOMISYON SIVEYANS, KONTWÒL AK KOMISYON TEMATIK",
+      "text": "Komisyon Siveyans la kapab pwopoze yon verifikatè ekstèn pou gwo sibvansyon oswa risk. Bidjè revizyon an dwe apwouve yon fason ki pa pèmèt trezorye a oswa prezidan an bloke yon kontwòl lejitim."
+    },
+    {
+      "number": 45,
+      "title": "Komisyon etik ak plent",
+      "chapter": "CHAPIT V — KOMISYON SIVEYANS, KONTWÒL AK KOMISYON TEMATIK",
+      "text": "Pou plent sou dirijan, Asanble a ka chwazi twa moun san konfli enterè pou egzamine dosye an sekrè. Moun plent lan konsène a pa kapab sèvi kòm ankètè, jij, ni moun ki deside sou apèl la."
+    },
+    {
+      "number": 46,
+      "title": "Komisyon elektoral endepandan",
+      "chapter": "CHAPIT V — KOMISYON SIVEYANS, KONTWÒL AK KOMISYON TEMATIK",
+      "text": "Anvan eleksyon, Asanble a chwazi yon komisyon elektoral ki pa kandida, pou resevwa kandidati, verifye lis elektè, òganize vòt sekrè, konte bilten, prepare pwosèvèbal epi resevwa kontestasyon."
+    },
+    {
+      "number": 47,
+      "title": "Komisyon devlopman espesyalize",
+      "chapter": "CHAPIT V — KOMISYON SIVEYANS, KONTWÒL AK KOMISYON TEMATIK",
+      "text": "Gwoup teknik yo kapab genyen pwofesyonèl ak reprezantan kominote a, men yo rapòte bay responsab deziyen an. Chak komisyon bay rapò travay ak depans; sèlman moun deziyen yo ka pale oswa siyen pou APLS."
+    },
+    {
+      "number": 48,
+      "title": "Reyinyon òdinè Komite a",
+      "chapter": "CHAPIT VI — REYINYON, KOWÒM, VÒT AK PWOSÈVÈBAL",
+      "text": "Komite a reyini omwen yon fwa pa mwa. Sekretarya voye avi, pwopozisyon ajanda ak dokiman enpòtan senk jou davans, sof sikonstans ijan. Yo dwe ankouraje prezans an pèsòn oswa koneksyon kote idantite verifye."
+    },
+    {
+      "number": 49,
+      "title": "Reyinyon ekstraòdinè",
+      "chapter": "CHAPIT VI — REYINYON, KOWÒM, VÒT AK PWOSÈVÈBAL",
+      "text": "Prezidan oswa omwen yon tyè manm an fonksyon kapab mande yon reyinyon avèk rezon ak sijè ki klè. Avi a eksplike ijans; desizyon yo rete nan sijè avi a sof konsantman tout manm ki gen dwa prezan."
+    },
+    {
+      "number": 50,
+      "title": "Kowòm",
+      "chapter": "CHAPIT VI — REYINYON, KOWÒM, VÒT AK PWOSÈVÈBAL",
+      "text": "Lè 13 pòs yo ranpli, yon reyinyon bezwen omwen 7 moun ki gen dwa vote; si kantite apwouve diferan oswa gen pòs vid, sekretarya rekalkile dapre estati ak règ Asanble a. Moun ki gen konfli enterè pa patisipe nan vòt sijè li a."
+    },
+    {
+      "number": 51,
+      "title": "Vòt senp",
+      "chapter": "CHAPIT VI — REYINYON, KOWÒM, VÒT AK PWOSÈVÈBAL",
+      "text": "Desizyon òdinè pran ak plis pase mwatye vòt valab moun ki prezan e ki gen dwa vote; egalite vle di pwopozisyon an pa pase. Abstansyon konte pou kowòm men pa konte kòm yon vòt favorab."
+    },
+    {
+      "number": 52,
+      "title": "Vòt espesyal ak desizyon rezève",
+      "chapter": "CHAPIT VI — REYINYON, KOWÒM, VÒT AK PWOSÈVÈBAL",
+      "text": "Pou rekòmande gwo kontra, prè oswa vant byen enpòtan, Komite a mande vòt favorab omwen de tyè manm li yo ki an fonksyon. Li soumèt desizyon an bay Asanble Jeneral la lè estati yo oswa plafon otorizasyon yo mande sa. Règ sa a pa ranplase pouvwa Asanble a."
+    },
+    {
+      "number": 53,
+      "title": "Vòt sekrè",
+      "chapter": "CHAPIT VI — REYINYON, KOWÒM, VÒT AK PWOSÈVÈBAL",
+      "text": "Vòt sou eleksyon, revokasyon yon moun, dosye disiplin sansib oswa nenpòt lòt sijè kote Asanble a deside dwe fèt an sekrè, avèk anrejistreman rezilta jeneral san revele votè endividyèl yo."
+    },
+    {
+      "number": 54,
+      "title": "Chèz reyinyon ak dwa pale",
+      "chapter": "CHAPIT VI — REYINYON, KOWÒM, VÒT AK PWOSÈVÈBAL",
+      "text": "Moun ki prezide a bay lapawòl avèk respè, kontwole tan, aksepte opinyon minoritè yo epi anpeche jouman ak entimidasyon. Prezidan pa kapab envante yon desizyon apre reyinyon fini."
+    },
+    {
+      "number": 55,
+      "title": "Pwosèvèbal valab",
+      "chapter": "CHAPIT VI — REYINYON, KOWÒM, VÒT AK PWOSÈVÈBAL",
+      "text": "Dokiman reyinyon an dwe genyen dat, kote, orè, prezans, eskiz, kowòm, ajanda, mosyon, rezilta vòt, konfli enterè, desizyon, responsab ak delè. Sekretè ak moun ki prezide siyen apre revizyon; koreksyon fèt ak tras."
+    },
+    {
+      "number": 56,
+      "title": "Rejis rezolisyon",
+      "chapter": "CHAPIT VI — REYINYON, KOWÒM, VÒT AK PWOSÈVÈBAL",
+      "text": "Chak rezolisyon gen kòd, dat, sijè, vòt, otorite ki apwouve, delè ak nivo ekzekisyon. Yon lòt dirijan kapab verifye lis desizyon ki rete ouvè chak mwa."
+    },
+    {
+      "number": 57,
+      "title": "Reyinyon elektwonik",
+      "chapter": "CHAPIT VI — REYINYON, KOWÒM, VÒT AK PWOSÈVÈBAL",
+      "text": "Reyinyon a distans yo posib si manm yo kapab idantifye youn lòt, tande diskisyon an, vote de fason trasab ak anrejistre rezilta yo; mesaj pa dwe sèvi kòm vòt pou gwo desizyon sof règ pwosedi Asanble a pèmèt li klèman."
+    },
+    {
+      "number": 58,
+      "title": "Ijans san kowòm",
+      "chapter": "CHAPIT VI — REYINYON, KOWÒM, VÒT AK PWOSÈVÈBAL",
+      "text": "Nan ka risk imedya pou lavi, sekirite oswa konsèvasyon byen, ekip egzekitif la ka pran sèlman mezi pwoteksyon pwovizwa ki nesesè. Li dwe enfòme Komite a imedyatman, ak dokiman, epi mande ratifikasyon nan reyinyon ki gen kowòm pi vit posib."
+    },
+    {
+      "number": 59,
+      "title": "Aksè ak enfòmasyon reyinyon",
+      "chapter": "CHAPIT VI — REYINYON, KOWÒM, VÒT AK PWOSÈVÈBAL",
+      "text": "Rezime desizyon ki pa konfidansyèl dwe kominike bay manm yo nan yon delè rezonab. Pwosèvèbal konplè ki gen done sansib dwe konsève nan achiv restrenn yo."
+    },
+    {
+      "number": 60,
+      "title": "Kalandriye elektoral",
+      "chapter": "CHAPIT VII — ELEKSYON, MANDAT, DEMISYON AK PASASYON",
+      "text": "Komisyon elektoral la pibliye dat, pòs, kondisyon, delè kandidati, lis elektè ak mwayen kontestasyon ase bonè pou tout manm ki kalifye gen aksè ekitab. Pwosedi a dwe respekte estati APLS yo."
+    },
+    {
+      "number": 61,
+      "title": "Lis elektè ak kandidati",
+      "chapter": "CHAPIT VII — ELEKSYON, MANDAT, DEMISYON AK PASASYON",
+      "text": "Sekretarya prepare lis elektè sou baz kritè estati yo; komisyon elektoral la verifye li. Yon kandida soumèt akseptasyon ekri, pòs li vle a ak deklarasyon konfli enterè."
+    },
+    {
+      "number": 62,
+      "title": "Kanpay ak pwopozisyon",
+      "chapter": "CHAPIT VII — ELEKSYON, MANDAT, DEMISYON AK PASASYON",
+      "text": "Kandida yo jwenn menm règ pou prezante pwogram yo. Itilizasyon lajan APLS, materyèl pwojè oswa distribisyon èd pou achte vòt entèdi."
+    },
+    {
+      "number": 63,
+      "title": "Konduit vòt ak depouyman",
+      "chapter": "CHAPIT VII — ELEKSYON, MANDAT, DEMISYON AK PASASYON",
+      "text": "Vòt fèt an sekrè lè gen konpetisyon. Bilten yo konte piblikman devan temwen ki kalifye; yo pwoklame rezilta chif yo, dokimante bilten nil yo, epi moun responsab yo siyen pwosèvèbal la."
+    },
+    {
+      "number": 64,
+      "title": "Kandida ki pa jwenn majorite",
+      "chapter": "CHAPIT VII — ELEKSYON, MANDAT, DEMISYON AK PASASYON",
+      "text": "Pou pòs kote yon sèl moun dwe eli, si okenn kandida pa jwenn majorite vòt valab yo nan premye tou, yo fè yon dezyèm tou ant de kandida ki devan yo, sof si estati APLS yo prevwa yon lòt mekanis."
+    },
+    {
+      "number": 65,
+      "title": "Kontestasyon eleksyon",
+      "chapter": "CHAPIT VII — ELEKSYON, MANDAT, DEMISYON AK PASASYON",
+      "text": "Kontestasyon depoze alekri nan delè ki fikse nan avi elektoral la, avèk prèv. Komisyon elektoral la reponn epi dokimante desizyon; Asanble a oswa yon komisyon apèl san patipri egzamine rekou ki rete yo."
+    },
+    {
+      "number": 66,
+      "title": "Enstalasyon ak piblikasyon rezilta",
+      "chapter": "CHAPIT VII — ELEKSYON, MANDAT, DEMISYON AK PASASYON",
+      "text": "Nouvo ekip la resevwa dokiman pasasyon an, lis dokiman, byen, kont, kontra, aksè dijital ak obligasyon ki rete. Yo mete lis nouvo reprezantan ak siyatorye yo ajou nan bank ak lòt enstitisyon konsène yo."
+    },
+    {
+      "number": 67,
+      "title": "Absans pwolonje",
+      "chapter": "CHAPIT VII — ELEKSYON, MANDAT, DEMISYON AK PASASYON",
+      "text": "Yon manm ki absan san jistifikasyon nan twa reyinyon konsekitif resevwa yon avi ekri ak chans pou reponn. Komite a kapab rekòmande evalyasyon oswa ranplasman, men li pa deklare otomatikman yon moun revoke si estati yo pa prevwa sa."
+    },
+    {
+      "number": 68,
+      "title": "Demisyon volontè",
+      "chapter": "CHAPIT VII — ELEKSYON, MANDAT, DEMISYON AK PASASYON",
+      "text": "Yon dirijan demisyone pa lèt bay sekretarya ak Asanble/Komite selon estati yo, epi li remèt byen, dosye, modpas ak balans fon. Demisyon pa efase obligasyon pou eksplike tranzaksyon li te jere."
+    },
+    {
+      "number": 69,
+      "title": "Revokasyon ak entèdiksyon reprezay",
+      "chapter": "CHAPIT VII — ELEKSYON, MANDAT, DEMISYON AK PASASYON",
+      "text": "Revokasyon yon moun eli dwe fèt sèlman dapre pwosedi nan estati yo ak garanti defans: avi, prèv, odyans san patipri, vòt otorite ki gen pouvwa epi dwa rekou. Se pa prezidan poukont li ki revoke yon eli."
+    },
+    {
+      "number": 70,
+      "title": "Ranplasman pwovizwa",
+      "chapter": "CHAPIT VII — ELEKSYON, MANDAT, DEMISYON AK PASASYON",
+      "text": "Lè gen yon pòs vid tanporè, adjwen oswa moun ki deziyen legalman pran swivi operasyon esansyèl. Yon vid definitif dwe ranpli dapre estati yo oswa vòt Asanble; tout chanjman dwe anrejistre nan rejis dirijan yo."
+    },
+    {
+      "number": 71,
+      "title": "Pasasyon nan 15 jou",
+      "chapter": "CHAPIT VII — ELEKSYON, MANDAT, DEMISYON AK PASASYON",
+      "text": "Sòf fòs majè, pasasyon dwe fini nan 15 jou apre antre an fonksyon: envantè, dokiman legal, rapò, kès, bank, kontra, materyèl, fich pwojè, aksè WhatsApp/rezo sosyal, kont imèl, modpas ak sètifika."
+    },
+    {
+      "number": 72,
+      "title": "Dyagnostik patisipatif",
+      "chapter": "CHAPIT VIII — PLAN ESTRATEJIK AK DEVLOPMAN KOMINOTÈ",
+      "text": "Anvan gwo pwojè, APLS konsilte plizyè gwoup kominote a, kolekte bezwen ak prèv, idantifye obstak, evalye konsekans ak posiblite. Yon sèl lidè oswa yon sèl fanmi pa kapab defini bezwen tout kominote a."
+    },
+    {
+      "number": 73,
+      "title": "Plan estratejik plizyè ane",
+      "chapter": "CHAPIT VIII — PLAN ESTRATEJIK AK DEVLOPMAN KOMINOTÈ",
+      "text": "Komite a prepare yon plan devlopman 3 a 5 ane pou apwobasyon Asanble a: objektif, gwoup vize, rezilta, endikatè, sous finansman, risk, patnè, responsab ak revizyon anyèl."
+    },
+    {
+      "number": 74,
+      "title": "Plan operasyon ak bidjè anyèl",
+      "chapter": "CHAPIT VIII — PLAN ESTRATEJIK AK DEVLOPMAN KOMINOTÈ",
+      "text": "Chak ane, responsab yo pwopoze aktivite pa sektè ak kalandriye, bidjè, depans fonksyònman, sous resous ak rezilta yo espere. Asanble a valide sa ki depase pouvwa Komite a."
+    },
+    {
+      "number": 75,
+      "title": "Prensip priyorite",
+      "chapter": "CHAPIT VIII — PLAN ESTRATEJIK AK DEVLOPMAN KOMINOTÈ",
+      "text": "Pwojè yo klase selon bezwen reyèl, benefis pou plis moun, ijans, ekite, fezabilite, pri antretyen, risk ak kapasite swivi. Se pa kantite zanmi yon moun genyen ki detèmine priyorite."
+    },
+    {
+      "number": 76,
+      "title": "Angajman ak manm diaspora",
+      "chapter": "CHAPIT VIII — PLAN ESTRATEJIK AK DEVLOPMAN KOMINOTÈ",
+      "text": "APLS ka kolabore ak moun kominote a ki ale lòt kote, men kontribisyon yo dwe fèt atravè mekanis ofisyèl ak resi. Donatè yo pa resevwa otomatikman pouvwa pou chwazi benefisyè oswa vote sou non manm."
+    },
+    {
+      "number": 77,
+      "title": "Revizyon priyorite",
+      "chapter": "CHAPIT VIII — PLAN ESTRATEJIK AK DEVLOPMAN KOMINOTÈ",
+      "text": "Chak sis mwa, komite a revize plan an ak rezilta yo; yon chanjman ki afekte objektif, depans oswa benefisyè yo mande apwobasyon nan nivo apwopriye ak avi bay patnè ki konsène yo."
+    },
+    {
+      "number": 78,
+      "title": "Sous finansman ki admisib",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Kotizasyon, don, sibvansyon, evènman otorize, sèvis oswa revni pwojè dwe antre nan liv APLS yo ak prèv orijin. Trezorye a verifye kondisyon finansman an epi refize resous ki mande fwod, vyolans oswa kondisyon ilegal."
+    },
+    {
+      "number": 79,
+      "title": "Bidjè ak liy depans",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Okenn depans pa dwe fèt san disponiblite fon ak yon liy bidjè oubyen otorizasyon espesyal. Chanjman bidjè yo fèt alekri; transfè ant pwojè diferan entèdi si kontra patnè a pa pèmèt li."
+    },
+    {
+      "number": 80,
+      "title": "Kont bank nan non APLS",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Lè APLS legalman kapab louvri kont, fon òganizasyon an dwe pase nan kont sou non li. Itilize kont pèsonèl yon dirijan kòm sistèm nòmal entèdi; nenpòt solisyon tranzitwa dwe legal, vote, dokimante ak kontwole."
+    },
+    {
+      "number": 81,
+      "title": "Siyatorye ak doub apwobasyon",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Asanble a valide lis moun ki gen siyati bank ak sistèm doub otorizasyon peman yo. Yon siyatorye pa kapab apwouve pwòp ranbousman oswa fè yon peman lè li se benefisyè a; yon lòt moun san konfli enterè dwe valide dosye a."
+    },
+    {
+      "number": 82,
+      "title": "Kat etap yon depans",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Yon depans mande (1) demann, (2) revizyon bidjè ak kondisyon, (3) apwobasyon otorize, (4) peman, prèv ak anrejistreman kontab. Yon moun pa ka kontwole kat etap yo poukont li."
+    },
+    {
+      "number": 83,
+      "title": "Plafon depans",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Asanble a apwouve anèks Tab Otorizasyon Depans lan, ak montan HTG, kantite òf, nivo siyati ak kondisyon kontra. Toutotan plafon yo poko vote, Komite a pa dwe envante yon dwa pou gwo depans."
+    },
+    {
+      "number": 84,
+      "title": "Ti kès",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Si gen ti kès, Asanble a fikse plafon kès, plafon chak tranzaksyon, moun k ap kenbe li ak frekans verifikasyon. Tout sòti mande resi oswa prèv; kontaj sipriz dwe fèt detanzantan."
+    },
+    {
+      "number": 85,
+      "title": "Kotizasyon ak resi",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Montan kotizasyon ak dispans yo defini nan yon rezolisyon ki respekte estati yo. Chak peman resevwa yon resi nimewote; rapò lis manm yo ak kès dwe matche san afiche enfòmasyon prive piblikman."
+    },
+    {
+      "number": 86,
+      "title": "Anrejistreman ak klasman",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Chak mouvman lajan gen dat, nimewo, deskripsyon, pwojè, montan, mwayen peman, moun ki apwouve ak resi; liv yo mete ajou regilyèman. Pa efase tras erè: anrejistre koreksyon ak rezon li."
+    },
+    {
+      "number": 87,
+      "title": "Rekonsilyasyon bank chak mwa",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Trezorye a konpare liv ak relevè chak mwa; yon manm kalifye ki pa t fè peman yo revize epi siyen rezilta. Diferans ki pa eksplike ale nan rejis ensidan pou swivi."
+    },
+    {
+      "number": 88,
+      "title": "Rapò finansye trimès",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Trezorye a prepare yon rapò chak twa mwa: balans ouvèti, resous pa sous, depans pa kategori, balans fèmti, dèt, avans, materyèl ak eksepsyon. Komisyon Siveyans la resevwa rapò a pou revizyon."
+    },
+    {
+      "number": 89,
+      "title": "Kont anyèl ak konsiltasyon",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Yon bilan finansye anyèl prezante devan Asanble a ansanm ak rapò Komisyon Siveyans la. Manm yo gen aksè a yon rezime ki fasil pou konprann; dokiman sansib oswa detay benefisyè bezwen pwoteksyon."
+    },
+    {
+      "number": 90,
+      "title": "Avans ak ranbousman",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Avans vwayaj oswa aktivite bezwen demann ekri, limit, rezon, dat retou ak lis prèv. Avans ki pa regilarize pa dwe kontinye miltipliye; depans prive oswa san resi dwe retounen oswa rapòte bay otorite konpetan yo selon pwosedi a."
+    },
+    {
+      "number": 91,
+      "title": "Fon patnè ki gen restriksyon",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Don ak sibvansyon ki gen destinasyon espesifik dwe suiv avèk yon kòd pwojè, ak balans apa nan liv; pa chanje itilizasyon an san otorizasyon alekri patnè ak APLS. Rapò kontra a egzije dwe soumèt alè."
+    },
+    {
+      "number": 92,
+      "title": "Lajan etranje ak to chanj",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Si APLS resevwa dola oswa lòt lajan, li anrejistre montan orijinal, to konvèsyon ki dokimante, frè ak ekivalan HTG. Pa chanje lajan ant manm pou benefis kache."
+    },
+    {
+      "number": 93,
+      "title": "Dèt, prè ak garanti",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Pèsonn pa ka kontrakte prè, ipoteke byen, garanti obligasyon yon lòt moun oswa louvri kredi nan non APLS san otorizasyon Asanble Jeneral la ak egzamen legal/finansye. Evalyasyon risk dwe vini anvan siyati."
+    },
+    {
+      "number": 94,
+      "title": "Depans finansye ann ijans",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Depans ki nesesè pou anpeche domaj imedya kapab suiv pwosedi ijans ki vote davans, ak plafon, de responsab endepandan, prèv epi ratifikasyon vit. Ijans pa yon eskiz pou peye san dokiman."
+    },
+    {
+      "number": 95,
+      "title": "Deteksyon fwod",
+      "chapter": "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+      "text": "Plent sou mank lajan, fo fakti, peman an doub, transaksyon pèsonèl oswa magouy dwe jwenn revizyon endepandan; APLS pwoteje dokiman, anpeche reprezay, epi fè demach legal apwopriye si sa nesesè."
+    },
+    {
+      "number": 96,
+      "title": "Rekizisyon bezwen",
+      "chapter": "CHAPIT X — ACHA, KONTRA, BYEN AK ACHIV TEKNIK",
+      "text": "Acha kòmanse ak yon fich ki eksplike bezwen, espesifikasyon teknik, delè, kote, pri estime, sous fon ak moun ki pral resevwa materyèl la."
+    },
+    {
+      "number": 97,
+      "title": "Konpetisyon ak konparezon òf",
+      "chapter": "CHAPIT X — ACHA, KONTRA, BYEN AK ACHIV TEKNIK",
+      "text": "Pou acha ki depase plafon Asanble a fikse, mande plizyè òf konparab lè mache a pèmèt sa. Evalye pri, kalite, garanti, delè, kapasite founisè, sekirite ak konfli enterè; konsève prèv lè pa gen plizyè òf."
+    },
+    {
+      "number": 98,
+      "title": "Entèdiksyon divize acha",
+      "chapter": "CHAPIT X — ACHA, KONTRA, BYEN AK ACHIV TEKNIK",
+      "text": "Yo pa gen dwa kraze yon menm acha an plizyè ti acha pou evite plafon otorizasyon, konpetisyon oswa revizyon. Total bezwen ki gen menm objektif dwe konsidere ansanm."
+    },
+    {
+      "number": 99,
+      "title": "Kontra ak estanda siyati",
+      "chapter": "CHAPIT X — ACHA, KONTRA, BYEN AK ACHIV TEKNIK",
+      "text": "Yon kontra ekri presize pati yo, sèvis, livrezon, pri, peman, penalite rezonab, dwa enspeksyon, asirans si nesesè, rezolisyon konfli ak moun ki otorize siyen. Nenpòt kontra enpòtan dwe li epi verifye anvan siyati."
+    },
+    {
+      "number": 100,
+      "title": "Acha nan fanmi ak konpayi dirijan",
+      "chapter": "CHAPIT X — ACHA, KONTRA, BYEN AK ACHIV TEKNIK",
+      "text": "Yon founisè ki gen relasyon ak yon dirijan dwe deklare sa; dirijan sa a pa patisipe nan seleksyon, apwobasyon oswa kontwòl acha a. Komisyon Siveyans la ka mande yon konparezon endepandan."
+    },
+    {
+      "number": 101,
+      "title": "Resepsyon ak validasyon livrezon",
+      "chapter": "CHAPIT X — ACHA, KONTRA, BYEN AK ACHIV TEKNIK",
+      "text": "Moun k ap resevwa materyèl la konpare kantite, kalite, eta ak kondisyon kontra a epi siyen yon bon resepsyon. Si gen diferans, peye sèlman dapre kondisyon kontra ak pwosedi kontwòl la."
+    },
+    {
+      "number": 102,
+      "title": "Envantè ak kòd byen",
+      "chapter": "CHAPIT X — ACHA, KONTRA, BYEN AK ACHIV TEKNIK",
+      "text": "Ekipman, zouti, machin, telefòn, mèb, materyèl agrikòl ak don an nati yo antre nan yon rejis ak kòd, foto si posib, valè, kote, responsab, kondisyon ak dat enspeksyon."
+    },
+    {
+      "number": 103,
+      "title": "Antretyen, prè materyèl ak pèt",
+      "chapter": "CHAPIT X — ACHA, KONTRA, BYEN AK ACHIV TEKNIK",
+      "text": "Pou byen APLS prete, gen fich soti ak retou. Pèt, vòl, aksidan oswa domaj rapòte san reta; responsablite detèmine apre egzamen prèv ak dwa defans, pa sipozisyon."
+    },
+    {
+      "number": 104,
+      "title": "Vann, bay oswa mete byen deyò",
+      "chapter": "CHAPIT X — ACHA, KONTRA, BYEN AK ACHIV TEKNIK",
+      "text": "Transfè oswa vann byen enpòtan mande apwobasyon Asanble ak tès restriksyon donatè yo. Desizyon dokimante ak valè, benefisyè, rezon ak prèv transfè; dirijan pa ka achte byen APLS pou tèt yo san pwosedi ekitab."
+    },
+    {
+      "number": 105,
+      "title": "Achiv kontra ak garanti",
+      "chapter": "CHAPIT X — ACHA, KONTRA, BYEN AK ACHIV TEKNIK",
+      "text": "Sekretarya konsève kontra, aditif, fakti, rapò travay, bon resepsyon, prèv peman ak garanti ansanm. Yo kreye yon dosye pou chak acha, avèk non responsab la ak règ aksè ki aplikab yo."
+    },
+    {
+      "number": 106,
+      "title": "Fich pwojè obligatwa",
+      "chapter": "CHAPIT XI — PWOJÈ, BENEFISYÈ, DON AK PARTENARYA",
+      "text": "Chak pwojè gen tit, bezwen, objektif, kote, delè, gwoup vize, rezilta, endikatè, bidjè, kad risk, kondisyon patnè, responsab, plan achte ak plan swivi."
+    },
+    {
+      "number": 107,
+      "title": "Komite seleksyon benefisyè",
+      "chapter": "CHAPIT XI — PWOJÈ, BENEFISYÈ, DON AK PARTENARYA",
+      "text": "APLS mete sou pye yon ekip ki gen plizyè moun pou seleksyone benefisyè selon kritè piblik, objektif ak verifyab. Dirijan ki gen lyen dirèk ak yon kandida pa evalye dosye sa a; tout desizyon konsève nan yon rejis pwoteje."
+    },
+    {
+      "number": 108,
+      "title": "Kritè ekite ak bezwen",
+      "chapter": "CHAPIT XI — PWOJÈ, BENEFISYÈ, DON AK PARTENARYA",
+      "text": "Nan distribisyon èd oswa sèvis, bezwen ak elijibilite dwe gide chwa yo. APLS entèdi mande lajan kache, relasyon, vòt, favè seksyèl oswa sèvis pèsonèl kòm kondisyon pou resevwa èd."
+    },
+    {
+      "number": 109,
+      "title": "Aksè a plent benefisyè",
+      "chapter": "CHAPIT XI — PWOJÈ, BENEFISYÈ, DON AK PARTENARYA",
+      "text": "Benefisyè yo jwenn yon kanal gratis ak konfidansyèl pou pote plent oswa konteste seleksyon. Yon moun ki pa t patisipe nan premye seleksyon an dwe egzamine plent yo."
+    },
+    {
+      "number": 110,
+      "title": "Kolekte kantite enfòmasyon ki nesesè",
+      "chapter": "CHAPIT XI — PWOJÈ, BENEFISYÈ, DON AK PARTENARYA",
+      "text": "Pou sèvis, APLS ranmase sèlman done ki nesesè, eksplike poukisa, pwoteje dosye moun yo epi limite aksè a ekip otorize. Li pa vann, pibliye oswa pataje lis benefisyè san baz lejitim."
+    },
+    {
+      "number": 111,
+      "title": "Distribisyon ak verifikasyon",
+      "chapter": "CHAPIT XI — PWOJÈ, BENEFISYÈ, DON AK PARTENARYA",
+      "text": "Chak distribisyon gen lis otorize, dat, kantite, resi oswa mak resepsyon, temwen, kontwòl kantite ki rete ak rapò ensidan. Yon moun ki pa ka siyen dwe jwenn yon lòt metòd ki respekte diyite li."
+    },
+    {
+      "number": 112,
+      "title": "Swivi ak evalyasyon ak prèv rezilta",
+      "chapter": "CHAPIT XI — PWOJÈ, BENEFISYÈ, DON AK PARTENARYA",
+      "text": "Responsab pwogram yo konpare depans ak rezilta chak mwa; yo konsilte benefisyè yo, rapòte reta ak erè, epi prezante leson yo aprann. Foto oswa temwayaj pa ranplase prèv ki montre sèvis yo te fèt toutbon."
+    },
+    {
+      "number": 113,
+      "title": "Kondisyon akò donatè",
+      "chapter": "CHAPIT XI — PWOJÈ, BENEFISYÈ, DON AK PARTENARYA",
+      "text": "Anvan aksepte fon, APLS revize dat, obligasyon, bidjè, pwoteksyon moun, dwa odit, itilizasyon logo, pwopriyete materyèl, dat rapò ak konsekans depans ki pa elijib. Gwo akò mande apwobasyon ki valab."
+    },
+    {
+      "number": 114,
+      "title": "Ko-finansman ak kontribisyon kominotè",
+      "chapter": "CHAPIT XI — PWOJÈ, BENEFISYÈ, DON AK PARTENARYA",
+      "text": "Si pwojè mande kontribisyon lajan, tan oswa materyèl kominote a, kondisyon yo dwe ekri davans, klè, aksesib epi san kontrent, ak resi kote sa aplikab; okenn kontribisyon pa dwe kreye diskriminasyon ilegal."
+    },
+    {
+      "number": 115,
+      "title": "Demach FAES, MAST, meri ak lòt enstitisyon",
+      "chapter": "CHAPIT XI — PWOJÈ, BENEFISYÈ, DON AK PARTENARYA",
+      "text": "Korespondans ak enstitisyon fèt atravè moun deziyen, ak nòt rankont ak dosye ofisyèl. APLS pa dwe reklame akreditasyon oswa finansman li pa resevwa. Enskripsyon asosyasyon ak estati ONG se de kategori ki ka gen règ diferan."
+    },
+    {
+      "number": 116,
+      "title": "Antant ak lòt òganizasyon",
+      "chapter": "CHAPIT XI — PWOJÈ, BENEFISYÈ, DON AK PARTENARYA",
+      "text": "Yon memorandòm antant presize objektif, wòl, finans, responsablite, kominikasyon, dwa sou done, pwosedi rezolisyon konfli ak kondisyon pou mete fen nan antant lan. Pa genyen eksklizivite oswa reprezantan pèmanan san vòt ki otorize."
+    },
+    {
+      "number": 117,
+      "title": "Fèmen pwojè ak transfè",
+      "chapter": "CHAPIT XI — PWOJÈ, BENEFISYÈ, DON AK PARTENARYA",
+      "text": "Nan fen pwojè, APLS verifye rapò teknik, sitiyasyon finansye, byen, resi, angajman ki rete, satisfaksyon moun ki benefisye ak dokiman patnè yo. Pou byen ki rete yo, APLS respekte kontra donatè yo ak pwosedi apwobasyon li."
+    },
+    {
+      "number": 118,
+      "title": "Agrikilti ak sekirite alimantè",
+      "chapter": "CHAPIT XII — DOMÈN DEVLOPMAN KOMINOTÈ AK DIREKSYON ETIK",
+      "text": "APLS pwomouvwa bon pratik pou pwoteje tè, dlo, grenn, pwodiksyon, depo, fòmasyon ak aksè a mache, san ankouraje pwodwi oswa teknik ki danjere oswa entèdi. Travay ak sèvis teknik dwe sèvi ak moun ki kalifye."
+    },
+    {
+      "number": 119,
+      "title": "Revni, travay ak antreprenarya",
+      "chapter": "CHAPIT XII — DOMÈN DEVLOPMAN KOMINOTÈ AK DIREKSYON ETIK",
+      "text": "Asosyasyon an kapab devlope fòmasyon pwofesyonèl, ti antrepriz, koperasyon ekonomik ak sèvis pou jèn yo, ak prensip konpetisyon jis, konfli enterè ak swivi rezilta. Li pa garanti travay oswa kredi li pa kapab bay."
+    },
+    {
+      "number": 120,
+      "title": "Edikasyon ak alfabetizasyon",
+      "chapter": "CHAPIT XII — DOMÈN DEVLOPMAN KOMINOTÈ AK DIREKSYON ETIK",
+      "text": "Pwojè edikasyon yo kapab vize leson, alfabetizasyon, sipò eskolè, teknoloji, fòmasyon lidèchip ak konsyantizasyon sivik, avèk patnè lekòl ak pwofesyonèl apwopriye."
+    },
+    {
+      "number": 121,
+      "title": "Sante ak byennèt",
+      "chapter": "CHAPIT XII — DOMÈN DEVLOPMAN KOMINOTÈ AK DIREKSYON ETIK",
+      "text": "APLS ka òganize edikasyon prevansyon, sanitasyon, nitrisyon ak oryantasyon moun pou jwenn sèvis; dyagnostik, preskripsyon medikaman ak entèvansyon klinik dwe fèt sèlman pa pèsonèl ki otorize."
+    },
+    {
+      "number": 122,
+      "title": "Dlo, sanitasyon ak enfrastrikti",
+      "chapter": "CHAPIT XII — DOMÈN DEVLOPMAN KOMINOTÈ AK DIREKSYON ETIK",
+      "text": "Pwojè dlo, pon, wout, drenaj, twalèt ak konstriksyon dwe enkli etid teknik, dwa itilizasyon tè, pèmi si nesesè, sekirite travay, plan antretyen ak konsiltasyon moun ki ka afekte yo."
+    },
+    {
+      "number": 123,
+      "title": "Pwoteksyon anviwònman ak klima",
+      "chapter": "CHAPIT XII — DOMÈN DEVLOPMAN KOMINOTÈ AK DIREKSYON ETIK",
+      "text": "Ankouraje rebozman, itilizasyon responsab resous natirèl, jesyon dechè, rediksyon ewozyon, pwoteksyon rivyè ak preparasyon kont siklòn/inondasyon. Pa koupe pyebwa oswa antre nan zòn sansib san kondisyon ki aplikab."
+    },
+    {
+      "number": 124,
+      "title": "Kilti, fanm ak jèn",
+      "chapter": "CHAPIT XII — DOMÈN DEVLOPMAN KOMINOTÈ AK DIREKSYON ETIK",
+      "text": "APLS ankouraje aktivite kiltirèl, espò, transmisyon konesans ak lidèchip, avèk dispozisyon pou fanm ak jèn yo patisipe nan desizyon ki konsène yo. Prevansyon eksplwatasyon dwe rete yon egzijans nan tout aktivite sa yo."
+    },
+    {
+      "number": 125,
+      "title": "Pwoteksyon sosyal ak kriz",
+      "chapter": "CHAPIT XII — DOMÈN DEVLOPMAN KOMINOTÈ AK DIREKSYON ETIK",
+      "text": "APLS kapab sipòte fanmi frajil ak oryantasyon moun pandan kriz; chak asistans dwe baze sou sekirite, idantifikasyon risk, diyite, konfidansyalite ak kowòdinasyon ak sèvis ki kapab pran swen ka grav."
+    },
+    {
+      "number": 126,
+      "title": "Volontarya ak deskripsyon travay",
+      "chapter": "CHAPIT XIII — MOUN KI TRAVAY, VOLONTÈ AK PWOTEKSYON TRAVAY",
+      "text": "Chak volontè resevwa enfòmasyon sou travay, responsab, limit aksè, dire, sekirite ak posiblite ranbousman. Pa itilize tit volontè pou kache yon relasyon travay ki dwe suiv lwa."
+    },
+    {
+      "number": 127,
+      "title": "Rekritman san patipri",
+      "chapter": "CHAPIT XIII — MOUN KI TRAVAY, VOLONTÈ AK PWOTEKSYON TRAVAY",
+      "text": "Rekritman anplwaye oswa konsiltan fèt sou bezwen reyèl, kritè klè ak konparezon konpetans. Nenpòt kandida ki gen fanmi nan komite mande deklarasyon konfli enterè ak revizyon san patipri."
+    },
+    {
+      "number": 128,
+      "title": "Kontra ak peman sèvis",
+      "chapter": "CHAPIT XIII — MOUN KI TRAVAY, VOLONTÈ AK PWOTEKSYON TRAVAY",
+      "text": "Travay peye mande kontra, livrezon, kondisyon, rapò, resi, kalkil dediksyon obligatwa ak deklarasyon ki obligatwa dapre règ aplikab yo. Dirijan pa kapab mete pwòp non yo sou pewòl san vòt konpetan ak mekanis konfli enterè."
+    },
+    {
+      "number": 129,
+      "title": "Sante ak sekirite nan aktivite",
+      "chapter": "CHAPIT XIII — MOUN KI TRAVAY, VOLONTÈ AK PWOTEKSYON TRAVAY",
+      "text": "Anvan travay sou teren, konstriksyon, deplasman oswa distribisyon, responsab idantifye risk, ekipman pwoteksyon, premye swen, kontak ijans ak kondisyon pou sispann travay. Timoun pa dwe ekspoze ak travay danjere."
+    },
+    {
+      "number": 130,
+      "title": "Sipèvizyon ak evalyasyon",
+      "chapter": "CHAPIT XIII — MOUN KI TRAVAY, VOLONTÈ AK PWOTEKSYON TRAVAY",
+      "text": "Chak anplwaye/volontè gen responsab dirèk, objektif ak mekanis retou enfòmasyon. Nenpòt mezi disiplin travay dwe respekte kontra ak lwa travay ki aplikab."
+    },
+    {
+      "number": 131,
+      "title": "Soti nan òganizasyon an",
+      "chapter": "CHAPIT XIII — MOUN KI TRAVAY, VOLONTÈ AK PWOTEKSYON TRAVAY",
+      "text": "Lè yon travay oswa volontarya fini, yo fè pasasyon materyèl, dokiman, aksè ak obligasyon sekrè. Pa detwi plent ki poko rezoud oswa enfòmasyon ki dwe konsève legalman."
+    },
+    {
+      "number": 132,
+      "title": "Entèdiksyon koripsyon",
+      "chapter": "CHAPIT XIV — ETIK, ENTEGRITE AK PWOTEKSYON MOUN",
+      "text": "Entèdi detounman, fo fakti, fo lis, acha vòt, komisyon kache, pot-de-vin, menas ak nenpòt echanj benefis pou desizyon ofisyèl. Tout endis dwe rapòte bay mekanis etik ak siveyans."
+    },
+    {
+      "number": 133,
+      "title": "Kado ak favè",
+      "chapter": "CHAPIT XIV — ETIK, ENTEGRITE AK PWOTEKSYON MOUN",
+      "text": "Dirijan pa mande oswa aksepte avantaj ki ka enfliyanse acha, seleksyon oswa pwojè. Komite a tabli yon rejis kado ak limit valè; kado ki gen konfli enterè dwe refize oswa remèt bay APLS si legal."
+    },
+    {
+      "number": 134,
+      "title": "Konfli enterè",
+      "chapter": "CHAPIT XIV — ETIK, ENTEGRITE AK PWOTEKSYON MOUN",
+      "text": "Enterè pèsonèl, fanmi, amikal, politik, biznis oswa donatè dwe deklare anvan diskisyon. Moun konsène a pa resevwa dokiman sekrè ki pa nesesè, pa vote epi pa siyen desizyon sou dosye a."
+    },
+    {
+      "number": 135,
+      "title": "Dwa egal ak non-diskriminasyon",
+      "chapter": "CHAPIT XIV — ETIK, ENTEGRITE AK PWOTEKSYON MOUN",
+      "text": "Okenn moun pa dwe refize patisipasyon oswa sèvis sou baz prejije kont sèks, sitiyasyon ekonomik, andikap, orijin, lang, relijyon oswa opinyon. Restriksyon ki nesesè pou yon pwojè dwe objektif, pwopòsyonèl ak piblik."
+    },
+    {
+      "number": 136,
+      "title": "Pwoteksyon timoun ak adolesan",
+      "chapter": "CHAPIT XIV — ETIK, ENTEGRITE AK PWOTEKSYON MOUN",
+      "text": "Tout aktivite ak timoun bezwen yon granmoun responsab, mezi sekirite, otorizasyon paran/titè lè sa nesesè, epi règleman sou foto, kontak prive ak transpò. Abi, eksplwatasyon, neglijans ak pinisyon vyolan pa tolere; yo dwe rapòte danje yo bay sèvis konpetan yo."
+    },
+    {
+      "number": 137,
+      "title": "Pwoteksyon fanm ak lòt moun vilnerab",
+      "chapter": "CHAPIT XIV — ETIK, ENTEGRITE AK PWOTEKSYON MOUN",
+      "text": "Entèdi arasman, manyen san konsantman, eksplwatasyon, demann favè seksyèl pou jwenn èd, vyolans sikolojik ak reprezay. Plent yo dwe jere san patipri, ak konfidansyalite epi santre sou sekirite moun ki afekte a."
+    },
+    {
+      "number": 138,
+      "title": "Konpòtman pandan misyon",
+      "chapter": "CHAPIT XIV — ETIK, ENTEGRITE AK PWOTEKSYON MOUN",
+      "text": "Reprezantan yo pa sèvi ak kat APLS pou entimide oswa fè yon moun kwè yo se lapolis/jistis. Yo respekte moun, koutim, byen prive, règleman lokal, sekirite trafik ak kondisyon sit ki akeyi aktivite yo."
+    },
+    {
+      "number": 139,
+      "title": "Pwoteksyon moun ki denonse",
+      "chapter": "CHAPIT XIV — ETIK, ENTEGRITE AK PWOTEKSYON MOUN",
+      "text": "Moun ki pote yon plent an bòn fwa pa dwe sibi menas, retrè èd, ekspilsyon abitrè oswa imilyasyon. Akizasyon fo ki fèt volontèman kapab egzamine sèlman ak prèv ak pwosedi jis."
+    },
+    {
+      "number": 140,
+      "title": "Konfidansyalite dosye sansib",
+      "chapter": "CHAPIT XIV — ETIK, ENTEGRITE AK PWOTEKSYON MOUN",
+      "text": "Dosye plent, timoun, lasante ak vyolans gen aksè trè limite; yo pa pataje nan gwoup WhatsApp piblik. Lè gen yon risk imedya, responsab yo chèche sèvis konpetan epi limite pataj enfòmasyon ak sa ki nesesè pou pwoteksyon."
+    },
+    {
+      "number": 141,
+      "title": "Sanksyon pwopòsyonèl",
+      "chapter": "CHAPIT XIV — ETIK, ENTEGRITE AK PWOTEKSYON MOUN",
+      "text": "Sanksyon yo dwe baze sou gravite, prèv, entansyon, repetisyon, domaj ak dwa defans. Mezi pwoteksyon imedya pa dwe tounen yon kondanasyon san ankèt."
+    },
+    {
+      "number": 142,
+      "title": "Rejis dokiman òganizasyon an",
+      "chapter": "CHAPIT XV — DONE, MEDYA, KÒRESPONDANS AK PWOPRIYETE ENTELEKTYÈL",
+      "text": "Sekretarya konsève nimewo vèsyon règleman, lis estati, pwosèvèbal, kontra, rapò, kont, dosye pwojè ak rejis byen. Chak kategori gen moun ki responsab, sistèm kopi sovgad ak dwa aksè."
+    },
+    {
+      "number": 143,
+      "title": "Kont dijital ak sekirite",
+      "chapter": "CHAPIT XV — DONE, MEDYA, KÒRESPONDANS AK PWOPRIYETE ENTELEKTYÈL",
+      "text": "Imèl, paj Facebook, WhatsApp, sit, depo nwaj ak modpas òganizasyon an se byen APLS. Omwen de responsab otorize dwe gen aksè sekirize pou asire kontinite sèvis la; itilize verifikasyon de etap epi retire ansyen aksè lè yon manm fini manda li."
+    },
+    {
+      "number": 144,
+      "title": "Kominikasyon ofisyèl",
+      "chapter": "CHAPIT XV — DONE, MEDYA, KÒRESPONDANS AK PWOPRIYETE ENTELEKTYÈL",
+      "text": "Se responsab kominikasyon ak prezidan oswa moun deziyen ki valide kominikasyon piblik selon sijè a. Piblikasyon ki site finans, moun oswa patnè dwe verifye enfòmasyon ak konsantman nesesè davans."
+    },
+    {
+      "number": 145,
+      "title": "Foto, videyo, entèvyou ak temwayaj",
+      "chapter": "CHAPIT XV — DONE, MEDYA, KÒRESPONDANS AK PWOPRIYETE ENTELEKTYÈL",
+      "text": "Anvan itilizasyon medya kote yon moun idantifyab, eksplike objektif, platfòm, itilizasyon posib ak fason pou refize. Pou timoun oswa dosye frajil, mande pwoteksyon ak otorizasyon ki apwopriye."
+    },
+    {
+      "number": 146,
+      "title": "Logo, non ak mak APLS",
+      "chapter": "CHAPIT XV — DONE, MEDYA, KÒRESPONDANS AK PWOPRIYETE ENTELEKTYÈL",
+      "text": "Logo ak non APLS sèvi sèlman pou misyon ki otorize. Yon manm pa ka itilize yo pou piblisite pèsonèl, politik oswa biznis san manda. Vèsyon logo ki adopte a dwe figire nan yon rejis idantite vizyèl."
+    },
+    {
+      "number": 147,
+      "title": "Konsèvasyon ak destriksyon done",
+      "chapter": "CHAPIT XV — DONE, MEDYA, KÒRESPONDANS AK PWOPRIYETE ENTELEKTYÈL",
+      "text": "APLS adopte yon kalandriye retansyon ki respekte obligasyon legal, fiskal ak donatè yo. Dokiman ki gen enfòmasyon prive yo detwi an sekirite apre peryòd obligatwa a; dokiman ki gen ankèt ouvè pa dwe detwi."
+    },
+    {
+      "number": 148,
+      "title": "Manda reprezantan ak korespondans",
+      "chapter": "CHAPIT XVI — RELASYON EKSTÈN, NEUTRALITE AK REPREZANTASYON",
+      "text": "Pou rankont ofisyèl, komite a bay moun deziyen an nòt manda: objektif, limit sa li ka pwomèt, patnè, mesaj ak moun pou rann kont. Apre rankont, li depoze yon rapò ak aksyon pou suiv."
+    },
+    {
+      "number": 149,
+      "title": "Relasyon ak administrasyon piblik",
+      "chapter": "CHAPIT XVI — RELASYON EKSTÈN, NEUTRALITE AK REPREZANTASYON",
+      "text": "APLS kapab kolabore ak meri, CASEC, ASEC, MAST, FAES, lekòl ak lòt sèvis, pandan li respekte règ òganizasyon yo. Pèsonn pa ka reklame li reprezante leta oswa li gen finansman garanti san dokiman."
+    },
+    {
+      "number": 150,
+      "title": "Relasyon ak patnè prive oswa ONG",
+      "chapter": "CHAPIT XVI — RELASYON EKSTÈN, NEUTRALITE AK REPREZANTASYON",
+      "text": "Nenpòt pwojè ansanm bezwen verifye non, kapasite, objektif, responsab, kontra ak sous fon patnè a; chanjman kote oswa benefisyè dwe apwouve; pwomès oral pa ranplase akò ekri."
+    },
+    {
+      "number": 151,
+      "title": "Pozisyon politik enstitisyonèl",
+      "chapter": "CHAPIT XVI — RELASYON EKSTÈN, NEUTRALITE AK REPREZANTASYON",
+      "text": "APLS pa dwe sèvi kòm zouti kanpay kandida oswa pati politik. Manm ka gen opinyon ak dwa sitwayen pèsonèl, men yo pa sèvi ak lajan, materyèl, lis benefisyè oswa logo APLS pou favorize kandida. Nenpòt pozisyon piblik sou kestyon kominotè bezwen apwobasyon ògàn konpetan."
+    },
+    {
+      "number": 152,
+      "title": "Relijyon ak kwayans",
+      "chapter": "CHAPIT XVI — RELASYON EKSTÈN, NEUTRALITE AK REPREZANTASYON",
+      "text": "APLS respekte libète kwayans tout manm yo; sèvis kominotè ki gen finansman APLS pa dwe egzije patisipasyon nan yon aktivite relijye ki pa fè pati objektif sèvis la."
+    },
+    {
+      "number": 153,
+      "title": "Aksyon medya ak kriz repitasyon",
+      "chapter": "CHAPIT XVI — RELASYON EKSTÈN, NEUTRALITE AK REPREZANTASYON",
+      "text": "Nan yon kriz, sèlman moun ki otorize pale sou non APLS. Yo verifye reyalite anvan deklarasyon, pwoteje idantite viktim, evite blame moun san prèv epi korije erè piblik yo lè sa nesesè."
+    },
+    {
+      "number": 154,
+      "title": "Akò ak kontra ekstèn",
+      "chapter": "CHAPIT XVI — RELASYON EKSTÈN, NEUTRALITE AK REPREZANTASYON",
+      "text": "Angajman ki kreye dèt, chanjman misyon, eksklizivite, vann byen, rekritman san bidjè oswa obligasyon plizyè ane bezwen apwobasyon selon plafon ak estati yo, revizyon tèks epi siyati otorize."
+    },
+    {
+      "number": 155,
+      "title": "Kanal plent aksesib",
+      "chapter": "CHAPIT XVII — PLENT, MEDYASYON, ANKÈT, SANKSYON AK REKOU",
+      "text": "APLS dwe ofri omwen de kanal plent: youn dirèk ak sekretarya/moun etik deziyen, epi yon kanal endepandan pou plent ki vize prezidan oswa lòt dirijan. Kanal yo dwe fasil pou moun ki pa ekri byen itilize."
+    },
+    {
+      "number": 156,
+      "title": "Resepsyon ak klasman",
+      "chapter": "CHAPIT XVII — PLENT, MEDYASYON, ANKÈT, SANKSYON AK REKOU",
+      "text": "Yo bay plent lan yon kòd, dat, sijè ak nivo ijans; yo evite pataje detay konfidansyèl yo nan reyinyon piblik. Konfime resepsyon an lè sa san danje; voye ka ki gen risk grav yo bay sèvis ki apwopriye."
+    },
+    {
+      "number": 157,
+      "title": "Evalyasyon risk ak pwoteksyon",
+      "chapter": "CHAPIT XVII — PLENT, MEDYASYON, ANKÈT, SANKSYON AK REKOU",
+      "text": "Premye etap la se pwoteje moun ak prèv yo, pa jije koupab. Si gen menas, abi seksyèl, risk kont timoun oswa fwod grav, moun ki responsab yo itilize mezi pwoteksyon, sèvis konpetan ak pwosedi legal aplikab yo."
+    },
+    {
+      "number": 158,
+      "title": "Deziyasyon moun san konfli",
+      "chapter": "CHAPIT XVII — PLENT, MEDYASYON, ANKÈT, SANKSYON AK REKOU",
+      "text": "Moun ki resevwa/egzamine plent lan dwe endepandan de moun ki site yo; si majorite komite a gen enterè, Asanble a deziyen ekip espesyal oubyen mande ekspètiz deyò."
+    },
+    {
+      "number": 159,
+      "title": "Dwa tande ak bay prèv",
+      "chapter": "CHAPIT XVII — PLENT, MEDYASYON, ANKÈT, SANKSYON AK REKOU",
+      "text": "Moun yo akize a resevwa akizasyon ase klè pou li reponn, eksepte enfòmasyon ki ka mete viktim/temwen an danje; li kapab bay prèv ak temwen. Okenn sanksyon definitif pa pran sèlman sou rimè."
+    },
+    {
+      "number": 160,
+      "title": "Medyasyon ak limit",
+      "chapter": "CHAPIT XVII — PLENT, MEDYASYON, ANKÈT, SANKSYON AK REKOU",
+      "text": "Medyasyon volontè posib pou dezakò administratif ki pa grav. Yo pa dwe fòse medyasyon nan ka vyolans, eksplwatasyon oswa risk pou moun fè reprezay; sekirite moun konsène yo gen priyorite."
+    },
+    {
+      "number": 161,
+      "title": "Lè pou pran sanksyon",
+      "chapter": "CHAPIT XVII — PLENT, MEDYASYON, ANKÈT, SANKSYON AK REKOU",
+      "text": "Mezi posib: konsèy ak fòmasyon, avètisman ekri, blam, retrè delegasyon, sispansyon pwovizwa, rekòmandasyon revokasyon, restitisyon fon kote sa aplikab. Tout sa dwe respekte estati, kontra ak lwa, avèk desizyon ekri."
+    },
+    {
+      "number": 162,
+      "title": "Mezi sispansyon pwovizwa",
+      "chapter": "CHAPIT XVII — PLENT, MEDYASYON, ANKÈT, SANKSYON AK REKOU",
+      "text": "Lè prèv yo oswa sekirite mande sa, ògàn konpetan kapab retire aksè oswa devwa yon moun pou yon peryòd limite pandan verifikasyon. Li pa otomatikman yon desizyon koupab, e yon revizyon regilye nesesè."
+    },
+    {
+      "number": 163,
+      "title": "Rekou ak revizyon endepandan",
+      "chapter": "CHAPIT XVII — PLENT, MEDYASYON, ANKÈT, SANKSYON AK REKOU",
+      "text": "Moun ki resevwa yon desizyon ka depoze rekou nan delè make sou avi a, devan yon ògàn ki pa t pran premye desizyon an. Rezilta rekou a ak rezon li konsève alekri."
+    },
+    {
+      "number": 164,
+      "title": "Reparasyon ak prevansyon",
+      "chapter": "CHAPIT XVII — PLENT, MEDYASYON, ANKÈT, SANKSYON AK REKOU",
+      "text": "Apre yon ka, APLS korije feblès sistèm nan, fè rapò anonim sou leson aprann, mete kontwòl siplemantè epi suiv si gen reprezay. Dosye grav remèt otorite konpetan lè lwa oswa sekirite mande sa."
+    },
+    {
+      "number": 165,
+      "title": "Rejis risk",
+      "chapter": "CHAPIT XVIII — IJANS, SEKIRITE, ANVIWÒNMAN AK KONTINITE",
+      "text": "Komite a kenbe rejis risk: sekirite moun, siklòn, inondasyon, aksidan, move jesyon fon, vòl, maladi, konfli, pèt done ak domaj anviwònman. Pou chak risk: pwobabilite, gravite, mezi, responsab ak dat revizyon."
+    },
+    {
+      "number": 166,
+      "title": "Plan repons ijans",
+      "chapter": "CHAPIT XVIII — IJANS, SEKIRITE, ANVIWÒNMAN AK KONTINITE",
+      "text": "Chak gwo aktivite dwe gen kote reyinyon, kontak ijans, ki moun ki ka kanpe travay la, kote pou refij, sèvis sante ak plan pou kontakte manm ak benefisyè yo san ekspoze done yo."
+    },
+    {
+      "number": 167,
+      "title": "Sispann aktivite ki danjere",
+      "chapter": "CHAPIT XVIII — IJANS, SEKIRITE, ANVIWÒNMAN AK KONTINITE",
+      "text": "Nenpòt responsab ki wè danje imedya ka mande pou yo kanpe yon aktivite tanporèman epi rapòte danje a san reta. Relanse travay la sèlman apre revizyon risk ak apwobasyon nesesè."
+    },
+    {
+      "number": 168,
+      "title": "Kontinite jesyon",
+      "chapter": "CHAPIT XVIII — IJANS, SEKIRITE, ANVIWÒNMAN AK KONTINITE",
+      "text": "APLS kenbe kopi sekirize dokiman kritik, yon lis moun pou kontakte, plan pou ranplase siyatorye ak aksè kont, epi yon fich pasasyon ijans si prezidan oswa trezorye pa disponib."
+    },
+    {
+      "number": 169,
+      "title": "Evalyasyon anviwònman/sosyal",
+      "chapter": "CHAPIT XVIII — IJANS, SEKIRITE, ANVIWÒNMAN AK KONTINITE",
+      "text": "Pwojè ki ka chanje dlo, tè, pyebwa, mouvman moun oswa mwayen viv yo bezwen revizyon teknik ak konsiltasyon moun ki afekte yo, epi pèmi/otorite apwopriye lè sa obligatwa."
+    },
+    {
+      "number": 170,
+      "title": "Rapò mwa, trimès ak ane",
+      "chapter": "CHAPIT XIX — RANN KONT, ODIT, EVALYASYON AK AMELYORASYON",
+      "text": "Chak responsab bay rapò aktivite chak mwa; finans ak pwojè prezante rapò trimès; yon rapò anyèl konsolide dwe kominike devan Asanble a avèk rezilta, depans, difikilte, mezi koreksyon ak plan ane k ap vini."
+    },
+    {
+      "number": 171,
+      "title": "Tab endikatè",
+      "chapter": "CHAPIT XIX — RANN KONT, ODIT, EVALYASYON AK AMELYORASYON",
+      "text": "Ekip swivi ak evalyasyon an dokimante endikatè sou kantite moun ki resevwa sèvis, aktivite ki fèt, kalite sèvis, satisfaksyon, depans, distribisyon benefisyè ak rezilta alontèm kote sa posib. Done yo dwe verifyab e pa gonfle pou fè patnè plezi."
+    },
+    {
+      "number": 172,
+      "title": "Odit ak verifikasyon espesyal",
+      "chapter": "CHAPIT XIX — RANN KONT, ODIT, EVALYASYON AK AMELYORASYON",
+      "text": "Yon odit ekstèn kapab mande dapre kontra, risk oswa desizyon Asanble a. Komite a bay aksè ak dokiman, reponn rekòmandasyon yo epi kenbe yon plan koreksyon ak responsab/delè."
+    },
+    {
+      "number": 173,
+      "title": "Evalyasyon pèfòmans Komite a",
+      "chapter": "CHAPIT XIX — RANN KONT, ODIT, EVALYASYON AK AMELYORASYON",
+      "text": "Yon fwa pa ane, Komite a egzamine prezans, swivi pwomès, jesyon finans, sèvis kominotè, bon jan tretman plent ak transparans; Asanble a resevwa yon rezime ak posiblite poze kesyon."
+    },
+    {
+      "number": 174,
+      "title": "Peryòd revizyon règleman",
+      "chapter": "CHAPIT XIX — RANN KONT, ODIT, EVALYASYON AK AMELYORASYON",
+      "text": "Sekretarya mete yon dat revizyon chak ane pou idantifye kontradiksyon, bezwen aktyalizasyon, chanjman kad legal ak eksperyans pwojè yo. Chanjman enpòtan mande vòt ògàn ki gen otorite."
+    },
+    {
+      "number": 175,
+      "title": "Entèpretasyon ak konfli tèks",
+      "chapter": "CHAPIT XX — DISPOZISYON FINAL AK ANTRE AN VIGÈ",
+      "text": "Lè gen dout, chèche solisyon ki respekte lwa, estati APLS yo, dwa manm yo, jistis pwosedi ak transparans. Sekretarya konsève tout rezolisyon entèpretasyon; komite a pa ka sèvi ak entèpretasyon pou anile dwa Asanble a."
+    },
+    {
+      "number": 176,
+      "title": "Amannman règleman",
+      "chapter": "CHAPIT XX — DISPOZISYON FINAL AK ANTRE AN VIGÈ",
+      "text": "Nenpòt manm ki kalifye ka pwopoze chanjman alekri. Sekretarya pataje tèks la ak rezon li davans; Asanble a vote ak kowòm ak majorite ki egzije nan estati yo. Yo pwopoze yon majorite de tyè (2/3) si estati yo pa fikse lòt kondisyon, men yo dwe valide metòd sa a legalman."
+    },
+    {
+      "number": 177,
+      "title": "Règleman pratik siplemantè",
+      "chapter": "CHAPIT XX — DISPOZISYON FINAL AK ANTRE AN VIGÈ",
+      "text": "Tab plafon finansye, kòd etik, pwosedi achte, règleman komisyon ak fòm yo ka mete ajou pa Asanble a oubyen pa Komite a si Asanble a delege sa klèman, san yo pa kontredi prensip fondamantal ki nan dokiman sa a."
+    },
+    {
+      "number": 178,
+      "title": "Disolisyon ak byen",
+      "chapter": "CHAPIT XX — DISPOZISYON FINAL AK ANTRE AN VIGÈ",
+      "text": "Komite a pa kapab fèmen APLS oswa separe byen li ant dirijan yo. Disolisyon an ak transfè byen ki rete yo fèt selon estati, kontra donatè ak lwa ki aplikab yo, ak vòt ògàn ki gen pouvwa."
+    },
+    {
+      "number": 179,
+      "title": "Validasyon ak siyati",
+      "chapter": "CHAPIT XX — DISPOZISYON FINAL AK ANTRE AN VIGÈ",
+      "text": "Dokiman sa a antre an vigè sèlman apre Asanble Jeneral la fin egzamine, amande si nesesè, vote epi siyen pwosèvèbal apwobasyon an. Nimewo vèsyon, dat, kowòm, kantite vòt ak manm otorize siyen dwe ranpli."
+    }
+  ],
+  "chapters": [
+    "CHAPIT I — IDANTITE, MISYON, VALÈ AK RÈG DE BAZ",
+    "CHAPIT II — ÒGÀN, SEPARASYON POUVWA AK DWA MANM YO",
+    "CHAPIT III — KONPOZISYON KOMITE A, KALIFIKASYON AK MANDA",
+    "CHAPIT IV — WÒL, POUVWA AK LIMIT 13 PÒS YO",
+    "CHAPIT V — KOMISYON SIVEYANS, KONTWÒL AK KOMISYON TEMATIK",
+    "CHAPIT VI — REYINYON, KOWÒM, VÒT AK PWOSÈVÈBAL",
+    "CHAPIT VII — ELEKSYON, MANDAT, DEMISYON AK PASASYON",
+    "CHAPIT VIII — PLAN ESTRATEJIK AK DEVLOPMAN KOMINOTÈ",
+    "CHAPIT IX — FINANS, KÈS, BIDJÈ AK KONTWÒL",
+    "CHAPIT X — ACHA, KONTRA, BYEN AK ACHIV TEKNIK",
+    "CHAPIT XI — PWOJÈ, BENEFISYÈ, DON AK PARTENARYA",
+    "CHAPIT XII — DOMÈN DEVLOPMAN KOMINOTÈ AK DIREKSYON ETIK",
+    "CHAPIT XIII — MOUN KI TRAVAY, VOLONTÈ AK PWOTEKSYON TRAVAY",
+    "CHAPIT XIV — ETIK, ENTEGRITE AK PWOTEKSYON MOUN",
+    "CHAPIT XV — DONE, MEDYA, KÒRESPONDANS AK PWOPRIYETE ENTELEKTYÈL",
+    "CHAPIT XVI — RELASYON EKSTÈN, NEUTRALITE AK REPREZANTASYON",
+    "CHAPIT XVII — PLENT, MEDYASYON, ANKÈT, SANKSYON AK REKOU",
+    "CHAPIT XVIII — IJANS, SEKIRITE, ANVIWÒNMAN AK KONTINITE",
+    "CHAPIT XIX — RANN KONT, ODIT, EVALYASYON AK AMELYORASYON",
+    "CHAPIT XX — DISPOZISYON FINAL AK ANTRE AN VIGÈ"
+  ],
+  "annexes": [
+    "ANÈKS A — TABLO PÒS, POUVWA AK KONTWÒL",
+    "ANÈKS B — REZOLISYON PLAFON DEPANS AK ACHA",
+    "ANÈKS C — MODÈL AJANDA AK PWOSÈVÈBAL REYINYON",
+    "ANÈKS D — FICH DEMANN, OTORIZASYON AK PEMAN",
+    "ANÈKS E — KONPAREZON ÒF AK BON RESEPSYON",
+    "ANÈKS F — DEKLARASYON KONFLI ENTERÈ",
+    "ANÈKS G — FICH SELEKSYON BENEFISYÈ AK PWOTEKSYON DONE",
+    "ANÈKS H — REJIS ENVANTÈ AK PASASYON PATRIMWÀN",
+    "ANÈKS I — FICH PLENT AK SWIVI SEKIRITE",
+    "ANÈKS J — KAD PWOJÈ, ENDIKATÈ AK RISK",
+    "ANÈKS K — FICH REPREZANTASYON EKSTÈN AK PATENARYA",
+    "ANÈKS L — KÒD KONDUIT POU SIYEN",
+    "ANÈKS M — PASASYON RESPONSAB AK AKSÈ DIJITAL",
+    "ANÈKS N — AKT ADOPSYON ASANBLE JENERAL LA",
+    "ANÈKS O — LIS VERIFIKASYON POU APLIKASYON 90 JOU",
+    "ANÈKS P — FÈY FÒMÈL APWOBASYON AK SIYATI"
+  ]
+};</script><script>/* APLS community association manager — offline demonstration; no authentication or server. */
+'use strict';
+const LSKEY='APLS_LOCAL_DEMO_V1';
+const POSITIONS=[
+'Prezidan','Visprezidan','Sekretè jeneral','Sekretè adjwen','Trezorye','Trezorye adjwen',
+'Responsab pwogram, pwojè ak swivi-evalyasyon','Responsab agrikilti ak devlopman ekonomik',
+'Responsab edikasyon, sante ak pwoteksyon sosyal','Responsab anviwònman, dlo ak enfrastrikti',
+'Responsab fanm, jèn ak kilti','Responsab kominikasyon ak patenarya ekstèn','Responsab lojistik ak patrimwàn'];
+const ANNEX_DATA={"A":["Tablo pòs, pouvwa ak kontwòl",[["post","Pòs oswa komisyon","text"],["person","Responsab","text"],["responsibility","Responsablite","textarea"],["authority","Limit pouvwa","textarea"],["checker","Moun ki verifye","text"]]],"B":["Rezolisyon plafon depans ak acha",[["resolution","Nimewo rezolisyon","text"],["meeting_date","Dat Asanble","date"],["currency","Lajan referans","select:HTG|USD"],["thresholds","Plafon ak nivo apwobasyon VOTE (pa envante montan)","textarea"],["votes","Rezilta vòt ak referans PV","textarea"]]],"C":["Ajanda ak pwosèvèbal",[["body","Ògàn ki reyini","text"],["meeting_date","Dat","date"],["location","Kote","text"],["chair","Prezidan seyans","text"],["secretary","Sekretè","text"],["agenda","Ajanda","textarea"],["quorum","Kowòm verifye","select:Pa verifye|Wi|Non"],["motions","Mosyon, vòt, desizyon, responsab ak delè","textarea"],["signatures","Non siyatè ak dat siyati (siyati ofisyèl fèt apa)","textarea"]]],"D":["Demann, otorizasyon ak peman",[["project","Pwojè / liy bidjè","text"],["requester","Moun k ap mande","text"],["purpose","Bezwen / kantite","textarea"],["amount","Montan HTG","decimal"],["budget_check","Verifikasyon bidjè","textarea"],["approvers","Apwobasyon endepandan / dat","textarea"],["proof","Referans devis, fakti ak resi","text"]]],"E":["Konparezon òf ak bon resepsyon",[["purchase","Acha / sèvis","text"],["offers","Lis òf konpare ak pri yo","textarea"],["supplier","Founisè chwazi","text"],["reason","Rezon chwa","textarea"],["received","Sa yo resevwa / kantite / eta","textarea"],["check","Moun ki verifye resepsyon","text"]]],"F":["Deklarasyon konfli enterè",[["declarant","Non ak pòs","text"],["declaration_date","Dat","date"],["conflict","Konfli enterè","select:Non|Wi"],["details","Detay ki nesesè","textarea"],["recusal","Mezi: pa diskite, pa vote, pa siyen","textarea"],["reviewer","Responsab revizyon","text"]]],"G":["Seleksyon benefisyè / pwoteksyon done",[["project","Pwojè","text"],["candidate_code","Kòd kandida ANONIM","text"],["criteria","Kritè, pwen, prèv ak nòt total","textarea"],["decision","Rezilta","select:An atant|Aksepte pwovizwaman|Lis atant|Rejete"],["appeal","Mwayen apèl ak delè","textarea"],["privacy","Ki jan done yo pwoteje","textarea"]]],"H":["Rejis envantè ak pasasyon byen",[["asset_code","Kòd byen","text"],["description","Deskripsyon","textarea"],["location","Kote","text"],["holder","Responsab byen","text"],["status","Eta","text"],["movement","Antre / sòti / retou / antretyen","textarea"],["witness","Moun ki verifye","text"]]],"I":["Plent ak swivi sekirite (restrenn)",[["case_code","Kòd plent san non viktim","text"],["received","Dat resepsyon","date"],["channel","Kanal","text"],["nature","Nati kestyon an (san enfòmasyon idantifyan)","textarea"],["risk","Nivo risk","select:Òdinè|Enpòtan|Ijan"],["safety","Mezi sekirite imedya","textarea"],["review","Moun endepandan ak pwochen etap","textarea"]]],"J":["Kad pwojè, endikatè ak risk",[["name","Non pwojè","text"],["need","Bezwen kominotè","textarea"],["objectives","Objektif ak rezilta","textarea"],["indicators","Endikatè ak prèv","textarea"],["budget","Bidjè ak sous finansman","textarea"],["risks","Risk, mezi ak responsab","textarea"],["schedule","Kalandriye ak swivi","textarea"]]],"K":["Reprezantasyon ekstèn ak patenarya",[["representative","Reprezantan otorize","text"],["partner","Patnè / enstitisyon","text"],["objective","Objektif rankont","textarea"],["limits","Limit manda ak angajman ki otorize","textarea"],["documents","Dokiman pataje / mesaj piblik","textarea"],["next","Rapò rankont / responsab swivi","textarea"]]],"L":["Kòd konduit pou siyen",[["person","Non","text"],["post","Pòs","text"],["agreement","Angajman pou respekte kòd etik","select:Poko siyen|Li epi aksepte (deklarasyon)|Refize"],["date","Dat","date"],["witness","Temwen","text"],["signature_ref","Referans siyati orijinal konsève","text"]]],"M":["Pasasyon responsab ak aksè dijital",[["outgoing","Moun k ap remèt","text"],["incoming","Moun k ap resevwa","text"],["handover_date","Dat","date"],["assets","Dokiman ak byen transfere","textarea"],["accounts","Kont transfere / revokasyon ansyen aksè (pa mete modpas)","textarea"],["witness","Temwen ak verifikasyon","text"]]],"N":["Akt adopsyon Asanble Jeneral",[["meeting","Reyinyon / kote / dat","text"],["eligible","Moun ki gen dwa vote","number"],["present","Prezans valab","number"],["quorum","Kowòm dapre estati","number"],["version","Vèsyon dokiman ki soumèt","text"],["amendments","Amannman vote","textarea"],["vote","Pou / Kont / Abstansyon","text"],["decision","Adopte? (sèlman selon PV valab)","select:Pa vote|Wi|Non"]]],"O":["Lis verifikasyon aplikasyon 90 jou",[["period","Peryòd","select:0–15 jou|15–30 jou|30–45 jou|45–60 jou|60–75 jou|75–90 jou"],["items","Travay yo ak sa ki rete","textarea"],["owner","Responsab","text"],["deadline","Dat limit","date"],["evidence","Prèv / referans dokiman","textarea"],["state","Estati","select:Pa kòmanse|Ankou|Fini"]]],"P":["Fèy fòmèl apwobasyon ak siyati",[["document","Dokiman / vèsyon","text"],["meeting","Asanble / dat / kote","text"],["decision","Desizyon Asanble","select:Poko vote|Adopte|Pa adopte"],["minutes_ref","Referans PV ak amannman","textarea"],["signatories","Moun ki siyen, pòs ak dat (pa simile siyati)","textarea"],["archive","Kote orijinal siyen an sere","text"]]]};
+const SECTORS=['Agrikilti','Devlopman ekonomik','Edikasyon','Sante','Dlo ak sanitasyon','Anviwònman','Enfrastrikti','Kilti ak jèn','Pwoteksyon sosyal','Lòt'];
+const defaults=()=>({members:[],annexForms:[],appointments:[],oversight:[],meetings:[],payments:[],projects:[],assets:[],complaints:[],elections:[],partners:[],logs:[],config:{annualDues:'',currency:'HTG',contact:'',reglementApproved:false,acceptedOn:'',approvalReference:'',financeThreshold:''}});
+let db=load();let page='dashboard';let searchText='';let searchStatus='Tout';let ruleSearch='';let modalAction=null;
+const NAV=[['dashboard','▦','Tablo jeneral'],['members','♙','Manm ak enskripsyon'],['committee','♜','Komite ak komisyon'],['meetings','▤','Reyinyon ak desizyon'],['forms','▧','16 fòm A–P'],['finance','◈','Finans ak kotizasyon'],['projects','◉','Pwojè kominotè'],['assets','▣','Byen ak envantè'],['elections','☷','Eleksyon ak manda'],['complaints','♧','Plent ak etik'],['partners','◇','Patnè ak korespondans'],['rules','▧','Règleman (179 atik)'],['founder','★','Fondatè ak APLS'],['reports','↗','Rapò ak ekspòtasyon'],['settings','⚙','Paramèt']];
+const esc=v=>String(v==null?'':v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const eatt=esc;
+const txt=v=>esc(v||'—');
+const today=()=>new Date().toISOString().slice(0,10);
+const now=()=>new Date().toLocaleString('fr-HT',{dateStyle:'medium',timeStyle:'short'});
+const id=(p)=>p+'-'+Date.now().toString(36).toUpperCase()+'-'+Math.random().toString(36).slice(2,5).toUpperCase();
+function load(){try{const raw=localStorage.getItem(LSKEY);if(!raw)return defaults();let x=JSON.parse(raw);let d=defaults();for(const k of Object.keys(d))if(k in x){d[k]=k==='config'?{...d[k],...x[k]}:Array.isArray(x[k])?x[k]:d[k]};return d}catch(e){return defaults()}}
+function save(log){if(log)db.logs.unshift({date:now(),text:log});db.logs=db.logs.slice(0,80);try{localStorage.setItem(LSKEY,JSON.stringify(db))}catch(e){notify('Pa gen ase espas pou sere done yo. Ekspòte backup la.',true)}render()}
+function notify(m,err){const old=document.querySelector('.toast');if(old)old.remove();let n=document.createElement('div');n.className='toast';if(err)n.style.background='#923e35';n.textContent=m;document.body.appendChild(n);setTimeout(()=>n.remove(),3900)}
+const collection=k=>Array.isArray(db[k])?db[k]:[];
+const fullName=m=>[m.first,m.last].filter(Boolean).join(' ');
+const getMember=id=>db.members.find(x=>x.id===id);
+const fmtMoney=(n,c='HTG')=>Number(n||0).toLocaleString('fr-FR',{maximumFractionDigits:2})+' '+c;
+const sum=(xs,pred=()=>true)=>xs.filter(pred).reduce((a,x)=>a+Number(x.amount||0),0);
+const status=(v)=>{const cls=({'Aktif':'','Apwouve':'','Fèt':'','Fini':'','Resevwa':'','Peye':'','An kou':'gold','An atant':'gold','Pwograme':'gold','Soumèt':'gold','An egzamen':'gold','Anile':'grey','Sispann':'red','Rejte':'red','Fèmen':'grey'}[v]||'grey');return `<span class="tag ${cls}">${esc(v||'—')}</span>`};
+function setPage(p){if(!NAV.some(i=>i[0]===p))p='dashboard';page=p;searchText='';searchStatus='Tout';ruleSearch='';closeSidebar();render();window.scrollTo({top:0,behavior:'smooth'})}
+function toggleSidebar(){document.querySelector('.sidebar')?.classList.toggle('open');document.querySelector('.mobile-shade')?.classList.toggle('open')}
+function closeSidebar(){document.querySelector('.sidebar')?.classList.remove('open');document.querySelector('.mobile-shade')?.classList.remove('open')}
+function install(){document.getElementById('app').innerHTML=`<div class="app"><aside class="sidebar"><div class="brand"><img src="${LOGO}" alt="Logo ofisyèl APLS"><div><strong>APLS</strong><small>Jesyon asosyasyon<br>Lasal Sitwonye • Leyogàn</small></div></div><div class="navlabel">Administrasyon</div><div id="navlinks"></div><div class="sidebar-bottom"><div class="side-foot-logo">Inyon • Solidarite • Devlopman</div><p>Pwojè aplikasyon · vèsyon demonstrasyon</p></div></aside><div class="mobile-shade" onclick="closeSidebar()"></div><div class="workspace"><header class="topbar"><div class="firstrow"><button class="menu-open" aria-label="Louvri meni" onclick="toggleSidebar()">☰</button><div><div class="crumb">Asosyasyon Peyizan Lasal Sitwonye</div><div class="topname" id="pagetitle">Tablo jeneral</div></div></div><div class="toolbar"><span class="tag gold">DEMO • PA GEN SENKWONIZASYON</span><div class="avatar">A</div></div></header><main class="main"><section class="apls-demo-banner" role="status" aria-label="Avis sekirite demonstrasyon"><strong>VÈSYON TÈS</strong><span>Pa mete enfòmasyon pèsonèl oswa finansye reyèl. Done tès yo rete sou aparèy sa a; yo pa senkronize ant telefòn ak òdinatè.</span><a class="apls-install-link" href="./kijan_enstale.html" title="Enstriksyon iPhone, Android, ak òdinatè">Kijan pou enstale</a><button type="button" onclick="aplsClearTestData()" title="Retire tout done tès ki nan navigatè sa a">Efase done tès</button></section><div id="view"></div><div class="footer-note">APLS · Lasal Sitwonye, 9yèm seksyon kominal Leyogàn, Ayiti · Inyon • Solidarite • Devlopman</div></main></div></div><nav class="mobile-tabs" aria-label="Aksè rapid APLS"><button class="mobile-tab active" type="button" data-page="dashboard" onclick="setPage('dashboard')"><span class="tab-symbol">⌂</span>Akèy</button><button class="mobile-tab" type="button" data-page="members" onclick="setPage('members')"><span class="tab-symbol">♙</span>Manm</button><button class="mobile-tab" type="button" data-page="meetings" onclick="setPage('meetings')"><span class="tab-symbol">▤</span>Reyinyon</button><button class="mobile-tab" type="button" data-page="finance" onclick="setPage('finance')"><span class="tab-symbol">◈</span>Finans</button><button class="mobile-tab" type="button" data-page="projects" onclick="setPage('projects')"><span class="tab-symbol">◉</span>Pwojè</button></nav><div id="modalhost"></div>`;render()}
+function render(){if(!document.getElementById('view'))return;document.getElementById('navlinks').innerHTML=NAV.map(x=>`<button class="navbutton ${page===x[0]?'active':''}" onclick="setPage('${x[0]}')"><span class="ico">${x[1]}</span><span>${x[2]}</span></button>`).join('');document.getElementById('pagetitle').textContent=NAV.find(i=>i[0]===page)?.[2]||'APLS';const routes={dashboard:dashboard,members:membersView,committee:committeeView,meetings:meetingsView,forms:formsView,finance:financeView,projects:projectsView,assets:assetsView,elections:electionsView,complaints:complaintsView,partners:partnersView,rules:rulesView,founder:founderView,reports:reportsView,settings:settingsView};document.getElementById('view').innerHTML=routes[page]();document.querySelectorAll('.mobile-tab').forEach(el=>{const active=el.dataset.page===page;el.classList.toggle('active',active);el.setAttribute('aria-current',active?'page':'false')});}
+function section(title,desc,buttons=''){return `<div class="sectionhead"><div><h2>${title}</h2><p class="subtitle">${desc}</p></div>${buttons?`<div class="actions">${buttons}</div>`:''}</div>`}
+function b(text,call,kind='primary'){return `<button class="btn ${kind}" onclick="${call}">${text}</button>`}
+function empty(icon,title,desc){return `<div class="empty"><span style="font-size:28px">${icon}</span><b>${title}</b><span>${desc}</span></div>`}
+function table(headers,rows,blank){return rows.length?`<div class="table-wrap"><table><thead><tr>${headers.map(h=>`<th>${h}</th>`).join('')}</tr></thead><tbody>${rows.join('')}</tbody></table></div>`:blank}
+function newActivity(text){db.logs.unshift({date:now(),text});db.logs=db.logs.slice(0,80)}
+function hero(){return `<div class="hero"><div class="hero-text"><div class="eyebrow">Espas administrasyon • APLS</div><h1>Ansanm nou bati yon kominote pi solid.</h1><p>Sistèm jesyon manm, Komite Direktè, reyinyon, resous ak pwojè pou devlopman Lasal Sitwonye.</p><button class="btn hero-btn" onclick="openMember()">✚ Nouvo enskripsyon</button></div><img src="${LOGO}" alt="APLS"></div>`}
+function dashboard(){let approved=db.members.filter(x=>x.status==='Aktif').length,pending=db.members.filter(x=>x.status==='An atant').length,activeProjects=db.projects.filter(x=>x.status==='An kou').length,exec=db.appointments.filter(x=>x.status==='Aktif').length;let upcoming=db.meetings.filter(x=>x.date>=today()&&x.status==='Pwograme').sort((a,b)=>a.date.localeCompare(b.date)).slice(0,3);return `<div class="stack">${hero()}<div class="notice"><b>Vèsyon demonstrasyon:</b> done yo rete sèlman nan navigatè kote ou ouvri fichye a. Pa antre enfòmasyon reyèl oswa plent konfidansyèl avan yon vèsyon ak otantifikasyon, backup sekirize ak baz done pwoteje disponib. Règleman 179 atik la toujou se yon <b>pwojè pou apwobasyon</b>.</div><div class="grid4"><div class="stat"><span class="bubble">♙</span><div class="statname">Manm anrejistre</div><div class="statnum">${db.members.length}</div><div class="statfoot">${pending} ap tann egzamen</div></div><div class="stat"><span class="bubble">✓</span><div class="statname">Manm aktif</div><div class="statnum">${approved}</div><div class="statfoot">Estati administratif sèlman</div></div><div class="stat"><span class="bubble">♜</span><div class="statname">Pòs komite ranpli</div><div class="statnum">${exec}<span style="font-size:14px;color:#859388"> / 13</span></div><div class="statfoot">Modèl 13 pòs pou valide</div></div><div class="stat"><span class="bubble">◉</span><div class="statname">Pwojè an kou</div><div class="statnum">${activeProjects}</div><div class="statfoot">${db.projects.length} dosye pwojè</div></div></div><div class="grid2"><div class="panel"><div class="panelhead"><div><h3>Aksyon rapid</h3><p class="subtitle">Travay sekretarya ak komite a itilize pi souvan</p></div></div><div class="grid2" style="gap:10px"><button class="btn outline" onclick="openMember()">♙ Enskri yon manm</button><button class="btn outline" onclick="openMeeting()">▤ Kreye reyinyon</button><button class="btn outline" onclick="openPayment()">◈ Anrejistre resi</button><button class="btn outline" onclick="openProject()">◉ Nouvo pwojè</button></div><div style="margin-top:20px" class="notice green"><b>Prensip APLS:</b> yon demann enskripsyon pa vle di manm nan apwouve; yon kotizasyon pa bay dwa vote otomatikman. Se estati ak rezolisyon ki valab ki detèmine dwa yo (atik 6, 13, 85).</div></div><div class="panel"><div class="panelhead"><div><h3>Reyinyon k ap vini</h3><p class="subtitle">Pwogram Komite ak Asanble a</p></div>${b('Wè tout','setPage(\'meetings\')','outline')}</div>${upcoming.length?upcoming.map(m=>`<div class="feature"><div class="feature-ico">▤</div><div><h4>${txt(m.title)}</h4><p>${txt(m.date)} · ${txt(m.location)}<br>${txt(m.type)}</p></div></div>`).join(''):empty('🗓','Pa gen reyinyon pwograme','Ajoute yon reyinyon ansanm ak ajanda ak kote li.')}</div></div><div class="grid2"><div class="panel"><div class="panelhead"><div><h3>Aktivite ki sot fèt</h3><p class="subtitle">Istwa aksyon ki fèt sou navigatè sa a</p></div></div>${db.logs.length?db.logs.slice(0,5).map(x=>`<div class="activity"><span class="dot"></span><div><div>${txt(x.text)}</div><div class="mini" style="margin-top:5px">${txt(x.date)}</div></div></div>`).join(''):empty('◷','Poko gen aktivite','Lè ou kòmanse itilize aplikasyon an, aktivite ou yo ap parèt isit la.')}</div><div class="panel"><div class="panelhead"><div><h3>Distribisyon manm</h3><p class="subtitle">Estati dosye admisyon yo</p></div></div>${['Aktif','An atant','Sispann','Rejte'].map(s=>{let q=db.members.filter(x=>x.status===s).length;return `<div class="barline"><div class="barname">${s}</div><div class="bar"><span style="width:${db.members.length?(q/db.members.length*100):0}%"></span></div><div class="count">${q}</div></div>`}).join('')}<div style="margin-top:18px" class="statusrow"><span class="pill-note">Règleman: 179 atik</span><span class="pill-note">20 chapit</span><span class="pill-note">16 anèks</span></div></div></div><div class="panel"><div class="firstrow"><div class="symbol">★</div><div style="flex:1"><b>Joseph Wilner Delisca</b><div class="fine">Fondatè APLS — espas prezantasyon ofisyèl pou òganizasyon an</div></div>${b('Konnen APLS','setPage(\'founder\')','outline')}</div></div></div>`}
+function membersView(){let q=searchText.toLowerCase(),data=db.members.filter(x=>(!q||[x.first,x.last,x.number,x.phone,x.zone,x.email].join(' ').toLowerCase().includes(q))&&(searchStatus==='Tout'||x.status===searchStatus));return `<div class="stack">${section('Manm ak demann enskripsyon','Enskri, verifye, apwouve ak suiv manm yo. Tout demann kòmanse kòm « An atant ».',b('✚ Nouvo manm','openMember()')+b('🖨 Fòm vid','printBlankRegistration()','outline')+b('⬇ CSV','exportCsv(\'members\')','outline'))}<div class="grid4"><div class="stat"><div class="statname">Total</div><div class="statnum">${db.members.length}</div></div><div class="stat"><div class="statname">Aktif</div><div class="statnum">${db.members.filter(m=>m.status==='Aktif').length}</div></div><div class="stat"><div class="statname">An atant</div><div class="statnum">${db.members.filter(m=>m.status==='An atant').length}</div></div><div class="stat"><div class="statname">Rejete / sispann</div><div class="statnum">${db.members.filter(m=>['Rejte','Sispann'].includes(m.status)).length}</div></div></div><div class="panel"><div class="search-row"><input id="search" value="${eatt(searchText)}" oninput="filterSearch(this.value)" placeholder="Chèche non, kòd manm, lokalite oswa telefòn"><select id="memberfilter" onchange="filterStatus(this.value)">${['Tout','An atant','Aktif','Sispann','Rejte'].map(s=>`<option ${searchStatus===s?'selected':''}>${s}</option>`).join('')}</select></div>${table(['Kòd','Non konplè','Lokalite','Dat demann','Estati','Aksyon'],data.map(m=>`<tr><td><span class="code">${txt(m.number)}</span></td><td><strong>${esc(fullName(m))}</strong><div class="sub">${txt(m.phone)}</div></td><td>${txt(m.zone)}</td><td>${txt(m.joined)}</td><td>${status(m.status)}</td><td><div class="inline-actions"><button class="linkbtn" onclick="openMember('${m.id}')">Edit</button><button class="linkbtn" onclick="printRegistration('${m.id}')">Fich</button>${m.status==='An atant'?`<button class="linkbtn" onclick="updateMemberStatus('${m.id}','Aktif')">Apwouve</button>`:''}</div></td></tr>`),empty('♙','Pa gen manm nan lis sa a','Sèvi ak bouton Nouvo manm pou ranpli yon fich enskripsyon.'))}</div><div class="notice green"><b>Pwosedi:</b> anrejistre demann → verifye kondisyon nan estati APLS → pran desizyon admisyon → dokimante desizyon an. Pa konfonn « manm aktif » ak « elektè kalifye » san lis elektoral apwouve (atik 13, 19, 61).</div></div>`}
+function filterSearch(t){let e=document.getElementById('search');let a=e?.selectionStart;searchText=t;render();let f=document.getElementById('search');if(f){f.focus();f.setSelectionRange(a,a)}}
+function filterStatus(s){searchStatus=s;render()}
+function committeeView(){let roles=POSITIONS.map((pos,i)=>{let a=db.appointments.find(x=>x.position===pos&&x.status==='Aktif');return `<div class="position"><div class="firstrow"><span class="num">${String(i+1).padStart(2,'0')}</span><div><div class="position-title">${pos}</div><div class="position-sub">${a?esc(a.memberName)+' · '+esc(a.start||'')+' → '+esc(a.end||''): 'Pòs pou ranpli / konfime'}</div></div></div><button class="btn small outline" onclick="openAppointment('${i}')">${a?'Chanje':'Deziyen'}</button></div>`}).join('');return `<div class="stack">${section('Komite Direktè ak komisyon','Responsablite yo, manm eli yo, manda, pasasyon ak siveyans endepandan.')}<div class="notice"><b>Atik 17–21:</b> dokiman an pwopoze yon komite 13 pòs ak manda modèl 2 lane. Sa se pa yon apwobasyon; Asanble a dwe valide kantite pòs, manda yo ak eleksyon yo. Non fondatè a pa bay yon pòs oswa dwa veto otomatikman (atik 16).</div><div class="grid4"><div class="stat"><div class="statname">Pòs egzekitif</div><div class="statnum">13</div><div class="statfoot">Modèl pwopoze</div></div><div class="stat"><div class="statname">Pòs ranpli</div><div class="statnum">${db.appointments.filter(x=>x.status==='Aktif').length}</div></div><div class="stat"><div class="statname">Siveyans</div><div class="statnum">${db.oversight.filter(x=>x.status==='Aktif').length} <span style="font-size:14px">/ 3</span></div></div><div class="stat"><div class="statname">Manda pase dat</div><div class="statnum">${db.appointments.filter(x=>x.status==='Aktif'&&x.end&&x.end<today()).length}</div></div></div><div class="panel"><div class="panelhead"><div><h3>13 pòs yo</h3><p class="subtitle">Deziyasyon egzije yon referans pwosèvèbal oswa rezolisyon.</p></div></div><div class="grid2">${roles}</div></div><div class="panel"><div class="panelhead"><div><h3>Komisyon Siveyans</h3><p class="subtitle">3 manm endepandan ki pa dwe fè pati egzekitif la (atik 41–44).</p></div>${b('✚ Manm siveyans','openOversight()')}</div>${table(['Manm','Kòmansman','Finisman','PV / rezolisyon','Estati'],db.oversight.map(x=>`<tr><td>${txt(x.memberName)}</td><td>${txt(x.start)}</td><td>${txt(x.end)}</td><td>${txt(x.reference)}</td><td>${status(x.status)}</td></tr>`),empty('♧','Pa gen manm siveyans','Komisyon an dwe eli oswa valide pa ògàn konpetan an.'))}</div></div>`}
+function meetingsView(){let data=[...db.meetings].sort((a,b)=>b.date.localeCompare(a.date));return `<div class="stack">${section('Reyinyon ak pwosèvèbal','Ajanda, dat, konvokasyon, prezans, rezolisyon ak swivi desizyon.',b('✚ Planifye reyinyon','openMeeting()'))}<div class="notice green"><b>Atik 48–59:</b> reyinyon òdinè Komite a omwen yon fwa pa mwa; avi pwopoze 5 jou davans, eksepte ijans. Pou modèl 13 manm ranpli yo, dokiman an endike kowòm 7, men aplikasyon an pa sètifye validite okenn vòt.</div><div class="panel">${table(['Dat','Reyinyon','Kote','Prezans','PV / rezolisyon','Estati','Aksyon'],data.map(x=>`<tr><td><strong>${txt(x.date)}</strong></td><td>${txt(x.title)}<div class="sub">${txt(x.type)}</div></td><td>${txt(x.location)}</td><td>${txt(x.attendance)} / ${txt(x.expected)}</td><td>${txt(x.reference)}</td><td>${status(x.status)}</td><td><button class="linkbtn" onclick="openMeeting('${x.id}')">Edit</button></td></tr>`),empty('▤','Poko gen reyinyon','Planifye premye rankont APLS la epi konsève ajanda li.'))}</div></div>`}
+function financeView(){const incomes=db.payments.filter(x=>x.flow==='Antre'&&x.status==='Resevwa');const expenses=db.payments.filter(x=>x.flow==='Sòti'&&x.status==='Peye');const htgIn=sum(incomes,x=>x.currency==='HTG'),htgOut=sum(expenses,x=>x.currency==='HTG');return `<div class="stack">${section('Finans ak kotizasyon','Resi, don, kotizasyon, depans ak tras apwobasyon.',b('✚ Antre / depans','openPayment()')+b('⬇ CSV','exportCsv(\'payments\')','outline'))}<div class="grid4"><div class="stat"><div class="statname">Antre HTG</div><div class="statnum" style="font-size:22px">${Number(htgIn).toLocaleString('fr-FR')}</div><div class="statfoot">Peman konfime sèlman</div></div><div class="stat"><div class="statname">Depans HTG</div><div class="statnum" style="font-size:22px">${Number(htgOut).toLocaleString('fr-FR')}</div></div><div class="stat"><div class="statname">Balans HTG</div><div class="statnum" style="font-size:22px">${Number(htgIn-htgOut).toLocaleString('fr-FR')}</div></div><div class="stat"><div class="statname">Kotizasyon ki fikse</div><div class="statnum" style="font-size:22px">${db.config.annualDues?fmtMoney(db.config.annualDues):'Pa fikse'}</div><div class="statfoot">Se rezolisyon ki dwe fikse l</div></div></div><div class="notice"><b>Atik 81–95:</b> trezorye a pa dwe apwouve, peye ak verifye menm tranzaksyon an poukont li. Nan demonstrasyon sa a, ou ka anrejistre etap yo, men pa gen siyati dijital, tranzaksyon bankè, oswa otantifikasyon moun ki apwouve yo.</div><div class="panel">${table(['Resi / kòd','Dat','Nati','Manm / sous','Montan','Estati','Aksyon'],[...db.payments].reverse().map(x=>`<tr><td class="code">${txt(x.receipt)}</td><td>${txt(x.date)}</td><td>${txt(x.category)}<div class="sub">${txt(x.flow)}</div></td><td>${txt(x.party)}</td><td><strong>${fmtMoney(x.amount,x.currency)}</strong></td><td>${status(x.status)}</td><td><div class="inline-actions"><button class="linkbtn" onclick="openPayment('${x.id}')">Edit</button>${x.flow==='Antre'&&x.status==='Resevwa'?`<button class="linkbtn" onclick="printReceipt('${x.id}')">Resi</button>`:''}</div></td></tr>`),empty('◈','Pa gen tranzaksyon','Antre premye kotizasyon, don oswa depans tès la.'))}</div></div>`}
+function projectsView(){return `<div class="stack">${section('Pwojè kominotè','Planifye travay agrikòl, edikatif, sosyal, ekonomik, kiltirèl ak anviwònmantal.',b('✚ Nouvo pwojè','openProject()'))}<div class="grid3">${db.projects.map(p=>`<div class="cardline"><div class="statusrow">${status(p.status)}<span class="pill-note">${txt(p.sector)}</span></div><h4 style="font-size:17px;margin-top:16px">${txt(p.title)}</h4><p>${txt(p.description)}</p><p><strong>Kote:</strong> ${txt(p.location)}<br><strong>Responsab:</strong> ${txt(p.owner)}<br><strong>Bidjè:</strong> ${p.budget?fmtMoney(p.budget,p.currency):'Pa fikse'}<br><strong>Dat:</strong> ${txt(p.start)} → ${txt(p.end)}</p><button class="btn small outline" onclick="openProject('${p.id}')">Revize pwojè</button></div>`).join('')||empty('◉','Pa gen pwojè','Ajoute yon pwojè ak objektif, zòn, bidjè ak swivi (atik 106–117).')}</div></div>`}
+function assetsView(){return `<div class="stack">${section('Rejis byen ak envantè','Materyèl, ekipman, valè, kote, responsab ak kondisyon byen yo.',b('✚ Ajoute yon byen','openAsset()'))}<div class="panel">${table(['Kòd byen','Deskripsyon','Kote','Responsab','Valè','Kondisyon','Aksyon'],db.assets.map(x=>`<tr><td class="code">${txt(x.code)}</td><td>${txt(x.name)}</td><td>${txt(x.location)}</td><td>${txt(x.owner)}</td><td>${x.value?fmtMoney(x.value,x.currency):'—'}</td><td>${status(x.condition)}</td><td><button class="linkbtn" onclick="openAsset('${x.id}')">Edit</button></td></tr>`),empty('▣','Pa gen byen anrejistre','Kreye kòd envantè pou chak materyèl oswa ekipman APLS posede.'))}</div></div>`}
+function electionsView(){return `<div class="stack">${section('Eleksyon, kandidati ak manda','Kalandriye, lis elektoral ak pwosèvèbal rezilta.',b('✚ Dosye eleksyon','openElection()'))}<div class="notice"><b>Atik 60–66:</b> komisyon elektoral la dwe endepandan. Fòm sa a konsève dosye, li pa deside kalifikasyon elektè, pa fè vòt sekrè sou entènèt, epi li pa pwoklame rezilta otomatikman.</div><div class="panel">${table(['Dat','Eleksyon / ògàn','Pòs / objektif','Responsab','PV','Estati','Aksyon'],db.elections.map(x=>`<tr><td>${txt(x.date)}</td><td><strong>${txt(x.title)}</strong></td><td>${txt(x.position)}</td><td>${txt(x.owner)}</td><td>${txt(x.reference)}</td><td>${status(x.status)}</td><td><button class="linkbtn" onclick="openElection('${x.id}')">Edit</button></td></tr>`),empty('☷','Poko gen eleksyon','Prepare premye kalandriye elektoral la apre validasyon estati yo.'))}</div></div>`}
+function complaintsView(){return `<div class="stack">${section('Plent, etik ak medyasyon','Rejis pwosedi pou resevwa, klase ak swiv plent nan respè konfidansyalite.',b('✚ Nouvo dosye tès','openComplaint()'))}<div class="notice red"><b>Done trè sansib:</b> modil demonstrasyon sa a pa gen sekirite, ni kont prive ni chifreman. Pa antre non denonsyatè, detay vyolans, done timoun oswa enfòmasyon konfidansyèl reyèl. Pou pwodiksyon, plent yo dwe nan yon espas izole kote sèlman moun otorize gen aksè (atik 139–140, 155–164).</div><div class="panel">${table(['Kòd','Dat','Kategori','Rezime ki pa sansib','Responsab','Estati'],db.complaints.map(x=>`<tr><td class="code">${txt(x.code)}</td><td>${txt(x.date)}</td><td>${txt(x.category)}</td><td>${txt(x.summary)}</td><td>${txt(x.owner)}</td><td>${status(x.status)}</td></tr>`),empty('♧','Pa gen dosye tès','Plent reyèl yo mande yon sistèm sekirize apa.'))}</div></div>`}
+function partnersView(){return `<div class="stack">${section('Patnè, kontak ak korespondans','Enstitisyon piblik, ONG, donatè, asosyasyon ak antant fòmèl.',b('✚ Nouvo patnè','openPartner()'))}<div class="panel">${table(['Òganizasyon','Kalite','Kontak','Dosye / akò','Estati','Aksyon'],db.partners.map(x=>`<tr><td><strong>${txt(x.name)}</strong></td><td>${txt(x.type)}</td><td>${txt(x.contact)}</td><td>${txt(x.reference)}</td><td>${status(x.status)}</td><td><button class="linkbtn" onclick="openPartner('${x.id}')">Edit</button></td></tr>`),empty('◇','Pa gen patnè','Anrejistre kontak ofisyèl ak referans akò yo.'))}</div><div class="notice green">Komite a dwe gen otorizasyon pou reprezante APLS ak siyen dokiman pou li (atik 148–154).</div></div>`}
+function rulesView(){let data=RULES.articles.filter(x=>!ruleSearch||(`${x.number} ${x.title} ${x.text} ${x.chapter}`).toLowerCase().includes(ruleSearch.toLowerCase()));return `<div class="stack">${section('Règleman Entèn APLS','179 atik • 20 chapit • 16 anèks. Tèks pwojè vèsyon 2.3 (18 oktòb 2026).')}<div class="notice"><b>Pwojè pou apwobasyon:</b> sitasyon sa yo ede moun jwenn règ yo, men yo pa fè yo vin lwa oswa règ deja adopte. Yo dwe verifye avèk estati ak rezolisyon APLS ki valab.</div><div class="panel"><div class="search-row"><input id="rulesearch" placeholder="Chèche yon atik, pa egzanp: kotizasyon, reyinyon, eleksyon, plent" value="${eatt(ruleSearch)}" oninput="filterRules(this.value)"><span class="pill-note">${data.length} rezilta</span></div><div class="rules">${data.map(a=>`<article class="rule" onclick="showRule(${a.number})"><span class="code">ATIK ${a.number}</span><h4>${txt(a.title)}</h4><p>${txt(a.text.slice(0,178))}${a.text.length>178?'…':''}</p></article>`).join('')||empty('⌕','Pa gen rezilta','Eseye yon lòt mo oswa nimewo atik.')}</div></div></div>`}
+function filterRules(t){const p=document.getElementById('rulesearch'),a=p?.selectionStart;ruleSearch=t;render();const x=document.getElementById('rulesearch');x?.focus();try{x?.setSelectionRange(a,a)}catch(e){}}
+function showRule(n){let a=RULES.articles.find(x=>x.number===n);openModal(`Atik ${n} — ${esc(a.title)}`,`<p class="subtitle">${txt(a.chapter)}</p><p style="font-size:14px;line-height:1.85">${txt(a.text)}</p><div class="notice">Dokiman sous: Règleman Entèn APLS, pwojè pou apwobasyon — vèsyon 2.3.</div>`,null)}
+function founderView(){return `<div class="stack">${section('Fondatè ak prezantasyon APLS','Idantite òganizasyon an, misyon li, valè li ak referans fondatè a.')}<div class="founder"><div class="round">JW</div><div><div class="eyebrow" style="color:#598469">Fondatè Asosyasyon an</div><h2>Joseph Wilner Delisca</h2><p>Prezantasyon fondatè <strong>Asosyasyon Peyizan Lasal Sitwonye (APLS)</strong>. Espas sa a ka resevwa biyografi, foto, kontribisyon nan kreyasyon asosyasyon an ak mesaj fondatè a apre òganizasyon an fin verifye epi apwouve enfòmasyon yo.</p><div class="quote">Inyon • Solidarite • Devlopman</div></div></div><div class="grid2"><div class="panel"><div class="panelhead"><h3>Ki sa APLS ye?</h3></div><p class="fine" style="font-size:13px">APLS vle di <b>Asosyasyon Peyizan Lasal Sitwonye</b>. Li se yon inisyativ kominotè ki vize devlopman Lasal Sitwonye, 9yèm seksyon kominal Leyogàn, Ayiti. Travay li pa limite ak agrikilti: li konsène ekonomi, edikasyon, sante, anviwònman, dlo, kilti, enfrastrikti ak patisipasyon kominotè.</p><img src="${LOGO}" alt="Logo APLS" style="height:130px;display:block;margin:24px auto 4px"></div><div class="panel"><div class="panelhead"><h3>Prensip administrasyon</h3></div>${[['♙','Patisipasyon manm','Dwa, devwa ak mekanis pou pote kestyon bay Asanble Jeneral la.'],['♜','Komite Direktè','Responsablite depann de eleksyon, manda ak pwosèvèbal apwouve.'],['♧','Siveyans endepandan','Komisyon Siveyans ak pwosedi etik pou kontwòl ak rann kont.'],['★','Wòl fondatè','Tit fondatè a se yon rekonesans istorik; li pa bay yon pouvwa otomatik (atik 16).']].map(x=>`<div class="feature"><div class="feature-ico">${x[0]}</div><div><h4>${x[1]}</h4><p>${x[2]}</p></div></div>`).join('')}</div></div><div class="notice green"><b>Pwoteksyon enfòmasyon:</b> pa ajoute dat nesans, istwa pèsonèl, foto oswa deklarasyon sou Joseph Wilner Delisca san verifikasyon ak konsantman apwopriye. Non fondatè a soti nan enfòmasyon moun ki mande aplikasyon an bay.</div></div>`}
+function reportsView(){return `<div class="stack">${section('Rapò ak ekspòtasyon','Swiv aktivite APLS epi fè kopi done tès ou yo.')}<div class="grid4"><div class="stat"><div class="statname">Manm</div><div class="statnum">${db.members.length}</div></div><div class="stat"><div class="statname">Reyinyon</div><div class="statnum">${db.meetings.length}</div></div><div class="stat"><div class="statname">Pwojè</div><div class="statnum">${db.projects.length}</div></div><div class="stat"><div class="statname">Peman</div><div class="statnum">${db.payments.length}</div></div></div><div class="grid2"><div class="panel"><h3>Ekspòte lis yo</h3><p class="fine">CSV fasil pou ouvri nan Excel, Google Sheets oswa lòt lojisyèl jesyon.</p><div class="actions" style="margin-top:19px">${b('Manm CSV',`exportCsv('members')`,'outline')}${b('Finans CSV',`exportCsv('payments')`,'outline')}${b('Reyinyon CSV',`exportCsv('meetings')`,'outline')}${b('Pwojè CSV',`exportCsv('projects')`,'outline')}</div></div><div class="panel"><h3>Sovgad demonstrasyon an</h3><p class="fine">Telechaje tout done yo kòm JSON. Fichye sa a pa chiffre: konsève l yon kote ki pwoteje.</p><div class="actions" style="margin-top:19px">${b('⬇ Telechaje backup JSON','exportBackup()')}${b('↥ Enpòte backup','document.getElementById(\'importFile\').click()','outline')}<input type="file" id="importFile" accept=".json,application/json" onchange="importBackup(this)" style="display:none"></div></div></div><div class="panel"><h3>Sa ki rete pou yon vèsyon ofisyèl sou entènèt</h3><div class="grid2">${[['🔐','Kont ak pèmisyon','Kreye kont admin, sekretarya, trezorye, Komisyon Siveyans ak manm òdinè.'],['☁','Sèvè ak backup','Baz done chifre, kopi otomatik, tras odit ki pa ka modifye.'],['📩','Pòtay manm','Manm yo ranpli demann adistans epi resevwa konfimasyon.'],['🧾','Finans verifyab','Siyati, resi sekirize, doub apwobasyon ak rekonsilyasyon.']].map(x=>`<div class="feature"><div class="feature-ico">${x[0]}</div><div><h4>${x[1]}</h4><p>${x[2]}</p></div></div>`).join('')}</div></div></div>`}
+function settingsView(){return `<div class="stack">${section('Paramèt APLS','Règleman finansye ak enfòmasyon jeneral yo dwe sòti nan rezolisyon ki apwouve.')}<div class="panel" style="max-width:820px"><form onsubmit="saveSettings(event)" class="formgrid"><div class="field"><label>Montan kotizasyon (HTG)</label><input name="annualDues" type="number" min="0" step="0.01" value="${eatt(db.config.annualDues)}" placeholder="Pa fikse"><div class="hint">Pa fikse tarif san vòt valab (atik 85).</div></div><div class="field"><label>Plafon depans referans (HTG)</label><input name="financeThreshold" type="number" min="0" step="0.01" value="${eatt(db.config.financeThreshold)}" placeholder="Pa fikse"><div class="hint">Montan sa a bezwen rezolisyon nan Anèks B.</div></div><div class="field full"><label>Kontak piblik APLS (telefòn oswa imèl)</label><input name="contact" value="${eatt(db.config.contact)}" placeholder="Apre verifikasyon"></div><div class="field"><label>Dat apwobasyon règleman (si gen PV)</label><input name="acceptedOn" type="date" value="${eatt(db.config.acceptedOn)}"></div><div class="field"><label>Estati règleman</label><select name="reglementApproved"><option value="false" ${db.config.reglementApproved?'':'selected'}>Pwojè pou apwobasyon</option><option value="true" ${db.config.reglementApproved?'selected':''}>Apwouve selon PV Asanble</option></select><div class="hint">Pa chanje sa san yon pwosèvèbal Asanble ki valab.</div></div><div class="field full"><label>Referans PV apwobasyon règleman</label><input name="approvalReference" value="${eatt(db.config.approvalReference)}" placeholder="Rezolisyon / pwosèvèbal Asanble"></div><div class="field full"><button class="btn primary" type="submit">Anrejistre paramèt yo</button></div></form></div><div class="notice red"><b>Efase done tès yo:</b> aksyon sa a pa ka retounen san backup. <button class="btn danger small" style="margin-left:12px" onclick="clearData()">Efase tout done demonstrasyon</button></div></div>`}
+function saveSettings(ev){ev.preventDefault();const a=Object.fromEntries(new FormData(ev.target));if(a.reglementApproved==='true'&&(!a.acceptedOn||!a.approvalReference?.trim())){notify('Pou make règleman kòm apwouve, fòk dat ak referans PV Asanble a prezan.',true);return}db.config={...db.config,...a,reglementApproved:a.reglementApproved==='true'};save('Paramèt òganizasyon an modifye');notify('Paramèt yo anrejistre lokalman')}
+function clearData(){if(confirm('Èske ou vle efase TOUT done ki sou navigatè sa a? Fè backup anvan.')){db=defaults();save('Baz done demonstrasyon an reset');notify('Tout done tès yo efase')}}
+let pending=null;
+function openModal(title,body,foot){document.getElementById('modalhost').innerHTML=`<div class="modal-scrim" onclick="if(event.target===this)closeModal()"><div class="modal" role="dialog" aria-modal="true" aria-label="${eatt(title)}"><div class="modal-top"><h2>${title}</h2><button class="modal-x" onclick="closeModal()" aria-label="Fèmen">×</button></div><div class="modal-body">${body}</div>${foot===null?'':`<div class="modal-bottom">${foot||b('Fèmen','closeModal()','outline')}</div>`}</div></div>`}
+function closeModal(){document.getElementById('modalhost').innerHTML='';pending=null}
+function field(name,label,value='',opts={}){let req=opts.required?'required':'';let hint=opts.hint?`<div class="hint">${esc(opts.hint)}</div>`:'';let markup='';if(opts.options){let arr=opts.options;markup=`<select name="${name}" ${req}>${arr.map(op=>{let x=typeof op==='string'?{value:op,label:op}:op;return `<option value="${eatt(x.value)}" ${String(value??'')===String(x.value)?'selected':''}>${esc(x.label)}</option>`}).join('')}</select>`}else if(opts.area){markup=`<textarea name="${name}" ${req} placeholder="${eatt(opts.placeholder||'')}">${esc(value)}</textarea>`}else{markup=`<input name="${name}" type="${opts.type||'text'}" ${req} ${opts.min!=null?`min="${opts.min}"`:''} ${opts.step?`step="${opts.step}"`:''} value="${eatt(value||'')}" placeholder="${eatt(opts.placeholder||'')}">`}return `<div class="field ${opts.full?'full':''}"><label>${esc(label)}${opts.required?' *':''}</label>${markup}${hint}</div>`}
+function formModal(title,formBody,kind,recordId){pending={kind,recordId};openModal(esc(title),`<form id="recordform" onsubmit="submitRecord(event)"><div class="formgrid">${formBody}</div></form>`,`<button class="btn outline" onclick="closeModal()">Anile</button><button class="btn primary" type="submit" form="recordform">Anrejistre</button>`)}
+function assignRecord(collection,recordId,obj){let r=db[collection];if(recordId){let x=r.find(z=>z.id===recordId);if(!x)throw Error('Dosye sa pa egziste');Object.assign(x,obj);return x}let x={id:id(collection),...obj};r.push(x);return x}
+function getObj(k,id){return db[k].find(z=>z.id===id)||{}}
+function memberOptions(value='',onlyActive=true){return [{value:'',label:'Chwazi yon manm'},...db.members.filter(x=>!onlyActive||x.status==='Aktif').map(x=>({value:x.id,label:`${fullName(x)} (${x.number})`}))]}
+function openMember(i){const r=getObj('members',i);let body=field('first','Prenon',r.first,{required:true,placeholder:'Egzanp: Marie'})+field('last','Non fanmi',r.last,{required:true,placeholder:'Egzanp: Pierre'})+field('phone','Telefòn',r.phone,{type:'tel'})+field('email','Imèl (opsyonèl)',r.email,{type:'email'})+field('zone','Lokalite / abitasyon',r.zone,{required:true,placeholder:'Lasal Sitwonye'})+field('address','Adrès kontak (opsyonèl)',r.address)+field('occupation','Aktivite / pwofesyon',r.occupation)+field('interest','Domen enterè',r.interest,{options:['Agrikilti','Edikasyon','Sante','Ekonomi','Anviwònman','Kilti','Enfrastrikti','Plizyè domèn','Lòt']})+field('joined','Dat demann enskripsyon',r.joined||today(),{type:'date',required:true})+field('status','Estati demann',r.status||'An atant',{options:i?['An atant','Aktif','Sispann','Rejte']:['An atant'],hint:'Admisyon dwe verifye anvan w chanje estati.'})+field('reference','Referans desizyon / PV admisyon',r.reference,{full:true,placeholder:'Si dosye a apwouve'})+field('notes','Nòt administratif',r.notes,{area:true,full:true,placeholder:'Pa mete detay pèsonèl ki pa nesesè'})+`<div class="field full"><label class="checkline"><input type="checkbox" name="consent" value="yes" ${r.consent?'checked':''} required> Moun nan bay konsantman pou APLS itilize enfòmasyon kontak sa yo pou jesyon manm, jan règleman ak politik vi prive òganizasyon an pèmèt li. *</label><div class="hint">Pa mande nimewo idantifikasyon leta oswa enfòmasyon sante nan demonstrasyon sa a.</div></div>`;formModal(i?'Modifye fich manm':'Fòm enskripsyon manm APLS',body,'members',i)}
+function updateMemberStatus(memberId,statusValue){let r=getObj('members',memberId);let reference=prompt(`Referans desizyon admisyon pou ${fullName(r)} (PV oubyen rezolisyon obligatwa):`);if(reference===null)return;if(!reference.trim()){notify('Fòk gen yon referans desizyon pou admisyon.',true);return}r.status=statusValue;r.reference=reference.trim();save('Admisyon '+fullName(r)+' → '+statusValue);notify('Estati manm nan ajou')}
+function openAppointment(num){let position=POSITIONS[Number(num)];let a=db.appointments.find(x=>x.position===position&&x.status==='Aktif')||{};let bdy=`<div class="field full"><label>Pòs</label><input readonly value="${eatt(position)}" name="position"></div>`+field('memberId','Manm eli oswa deziyen',a.memberId,{options:memberOptions(a.memberId),required:true})+field('start','Dat kòmansman manda',a.start||today(),{type:'date',required:true})+field('end','Dat finisman manda',a.end,{type:'date',required:true})+field('reference','Referans PV / rezolisyon Asanble',a.reference,{required:true,full:true,hint:'Yon pòs pa ka ranpli san yon desizyon otorize.'})+field('notes','Nòt / pasasyon',a.notes,{area:true,full:true});formModal('Deziyasyon: '+position,bdy,'appointments',a.id)}
+function openOversight(){let body=field('memberId','Manm Komisyon Siveyans', '',{options:memberOptions(),required:true})+field('start','Dat kòmansman',today(),{type:'date',required:true})+field('end','Dat fen manda','',{type:'date',required:true})+field('reference','PV eleksyon / rezolisyon','',{required:true,full:true});formModal('Manm Komisyon Siveyans',body,'oversight',null)}
+function openMeeting(i){let x=getObj('meetings',i);let body=field('title','Tit reyinyon',x.title,{required:true,full:true,placeholder:'Reyinyon òdinè Komite Direktè'})+field('type','Ògàn / kalite',x.type||'Komite Direktè',{options:['Komite Direktè','Asanble Jeneral','Komisyon Siveyans','Komisyon tematik','Reyinyon ekstraòdinè']})+field('date','Dat reyinyon',x.date||today(),{required:true,type:'date'})+field('location','Kote / mwayen reyinyon',x.location,{required:true})+field('noticeDate','Dat konvokasyon',x.noticeDate,{type:'date'})+field('expected','Manm ki gen dwa prezan',x.expected,{type:'number',min:0})+field('attendance','Manm prezan',x.attendance,{type:'number',min:0})+field('status','Estati',x.status||'Pwograme',{options:['Pwograme','Fèt','Anile']})+field('reference','Kòd PV / rezolisyon',x.reference,{full:true})+field('participants','Non manm prezan / lis prezans',x.participants,{area:true,full:true,hint:'Lis sa a konplete kantite prezan; PV siyen an rete referans final.'})+field('agenda','Pwen ajanda',x.agenda,{area:true,full:true})+field('decisions','Desizyon / aksyon swivi',x.decisions,{area:true,full:true,hint:'Presize responsab, dat limit ak rezilta vòt la nan PV ofisyèl la.'});formModal(i?'Revize reyinyon':'Planifye reyinyon APLS',body,'meetings',i)}
+function openPayment(i){let x=getObj('payments',i);let body=field('flow','Direksyon lajan an',x.flow||'Antre',{options:['Antre','Sòti']})+field('category','Kategori',x.category||'Kotizasyon',{options:['Kotizasyon','Don','Kontribisyon','Sibvansyon','Depans pwojè','Acha / materyèl','Fonksyònman','Lòt']})+field('memberId','Manm (si sa aplikab)',x.memberId||'',{options:memberOptions(x.memberId,false)})+field('party','Moun / enstitisyon sous oswa destinatè',x.party||'',{placeholder:'Non moun / òganizasyon'})+field('amount','Montan',x.amount||'',{type:'number',step:'0.01',min:'0.01',required:true})+field('currency','Lajan',x.currency||'HTG',{options:['HTG','USD']})+field('date','Dat tranzaksyon an',x.date||today(),{type:'date',required:true})+field('status','Etap tranzaksyon',x.status||(x.flow==='Sòti'?'An atant':'Resevwa'),{options:['An atant','Apwouve','Peye','Resevwa','Anile']})+field('reference','Referans bank / prèv peman',x.reference||'',{full:true})+field('approver1','Premye moun ki apwouve (pou depans)',x.approver1||'')+field('approver2','Dezyèm moun ki apwouve (pou depans)',x.approver2||'')+field('notes','Deskripsyon / liy bidjè',x.notes||'',{area:true,full:true});formModal(i?'Modifye tranzaksyon':'Antre / depans ak resi',body,'payments',i)}
+function openProject(i){let x=getObj('projects',i);let body=field('title','Non pwojè a',x.title,{required:true,full:true})+field('sector','Domèn devlopman',x.sector||SECTORS[0],{options:SECTORS,required:true})+field('location','Lokalite',x.location||'Lasal Sitwonye')+field('owner','Responsab pwojè',x.owner)+field('start','Dat kòmansman',x.start||today(),{type:'date'})+field('end','Dat finisman',x.end,{type:'date'})+field('budget','Bidjè prevwa',x.budget,{type:'number',step:'0.01',min:'0'})+field('currency','Lajan',x.currency||'HTG',{options:['HTG','USD']})+field('status','Estati',x.status||'Planifye',{options:['Planifye','An kou','Fini','Sispann','Anile']})+field('description','Bezwen, objektif, benefisyè ak endikatè rezilta',x.description,{area:true,full:true})+field('reference','PV / referans apwobasyon',x.reference,{full:true});formModal(i?'Revize pwojè':'Fich nouvo pwojè',body,'projects',i)}
+function openAsset(i){let x=getObj('assets',i);let body=field('name','Deskripsyon byen',x.name,{required:true,full:true})+field('location','Kote byen an ye',x.location,{required:true})+field('owner','Moun ki responsab',x.owner)+field('value','Valè estime',x.value,{type:'number',min:'0',step:'0.01'})+field('currency','Lajan',x.currency||'HTG',{options:['HTG','USD']})+field('condition','Kondisyon',x.condition||'Bon',{options:['Bon','Pou repare','Andomaje','Pèdi','Retire']})+field('date','Dat anrejistreman',x.date||today(),{type:'date'})+field('notes','Nòt / seri / prèv acha',x.notes,{area:true,full:true});formModal(i?'Modifye byen':'Nouvo byen / envantè',body,'assets',i)}
+function openElection(i){let x=getObj('elections',i);let body=field('title','Tit eleksyon',x.title,{required:true,full:true})+field('date','Dat eleksyon',x.date||today(),{type:'date',required:true})+field('position','Pòs / ògàn konsène',x.position)+field('owner','Komisyon elektoral / responsab',x.owner)+field('status','Estati',x.status||'Pwograme',{options:['Pwograme','An kou','Fini','Anile']})+field('reference','PV rezilta / kontestasyon',x.reference,{full:true})+field('notes','Kalandriye, kondisyon, avi, kontestasyon',x.notes,{area:true,full:true});formModal(i?'Modifye eleksyon':'Nouvo dosye eleksyon',body,'elections',i)}
+function openComplaint(){let body=field('category','Kategori dosye tès','Plent sèvis',{options:['Plent sèvis','Konfli enterè','Etik','Demann rekou','Lòt']})+field('date','Dat',today(),{type:'date',required:true})+field('summary','Rezime jeneral san done sansib','',{area:true,full:true,required:true,hint:'Pa mete non, nimewo oswa detay ki ka idantifye moun.'})+field('owner','Moun ki gen responsabilite egzamen an','')+field('status','Estati','An egzamen',{options:['An atant','An egzamen','Fèmen']});formModal('Fich plent — TÈS SÈLMAN',body,'complaints',null)}
+function openPartner(i){let x=getObj('partners',i);let body=field('name','Non òganizasyon / patnè',x.name,{required:true,full:true})+field('type','Kategori',x.type||'ONG',{options:['ONG','Enstitisyon leta','Asosyasyon','Donatè','Konpayi prive','Lòt']})+field('contact','Kontak ofisyèl',x.contact)+field('reference','Referans korespondans / akò',x.reference,{full:true})+field('status','Estati',x.status||'An atant',{options:['An atant','Aktif','Fèmen']})+field('notes','Objektif relasyon an',x.notes,{area:true,full:true});formModal(i?'Modifye patnè':'Ajoute yon patnè',body,'partners',i)}
+function submitRecord(event){event.preventDefault();if(!pending)return;let kind=pending.kind,recordId=pending.recordId;let obj=Object.fromEntries(new FormData(event.target));let old=recordId?getObj(kind,recordId):{};
+ if(kind==='members'){
+  obj.consent=obj.consent==='yes';if(!obj.consent){notify('Konsantman nesesè pou enskripsyon sa a.',true);return}
+  if(obj.status==='Aktif'&&(!obj.reference||!obj.reference.trim())){notify('Pou apwouve manm nan, mete referans PV/rezolisyon an.',true);return}
+  obj.number=old.number||`APLS-${new Date().getFullYear()}-${String(db.members.length+1).padStart(4,'0')}`;
+ }
+ if(kind==='appointments'||kind==='oversight'){
+  let m=getMember(obj.memberId);if(!m||m.status!=='Aktif'){notify('Chwazi yon manm aktif ki nan rejis manm yo.',true);return}
+  if(obj.end<obj.start){notify('Dat fen manda a pa ka avan dat kòmansman.',true);return}
+  if(kind==='oversight'&&db.appointments.some(x=>x.memberId===obj.memberId&&x.status==='Aktif')){notify('Manm Komisyon Siveyans pa ka fè pati Komite egzekitif la.',true);return}
+  if(kind==='appointments'&&db.oversight.some(x=>x.memberId===obj.memberId&&x.status==='Aktif')){notify('Yon manm siveyans pa ka sèvi nan Komite egzekitif la.',true);return}
+  if(kind==='appointments'&&db.appointments.some(x=>x.id!==recordId&&x.memberId===obj.memberId&&x.status==='Aktif')){notify('Manm sa a deja okipe yon lòt pòs egzekitif.',true);return}
+  obj.memberName=fullName(m);obj.status='Aktif';
+  if(kind==='appointments')db.appointments.filter(x=>x.position===obj.position&&x.id!==recordId&&x.status==='Aktif').forEach(x=>x.status='Fini');
+  if(kind==='oversight'&&db.oversight.filter(x=>x.status==='Aktif').length>=3){notify('Modèl Komisyon Siveyans la limite a 3 manm.',true);return}
+ }
+ if(kind==='meetings'&&Number(obj.attendance||0)>Number(obj.expected||Infinity)){notify('Prezans pa ka depase kantite manm ki gen dwa prezan.',true);return}
+ if(kind==='payments'){
+  obj.amount=Number(obj.amount||0);if(obj.amount<=0){notify('Montan tranzaksyon an dwe pi gran pase zewo.',true);return}
+  if(obj.memberId){let m=getMember(obj.memberId);if(m)obj.party=fullName(m)}
+  if(obj.flow==='Sòti'){
+   if(obj.status==='Resevwa'){notify('Pou depans, itilize An atant / Apwouve / Peye.',true);return}
+   if(['Apwouve','Peye'].includes(obj.status)&&(!obj.approver1?.trim()||!obj.approver2?.trim()||obj.approver1.trim().toLowerCase()===obj.approver2.trim().toLowerCase())){notify('Depans apwouve yo mande 2 moun diferan pou verifikasyon.',true);return}
+   if(obj.status==='Peye'&&!obj.reference.trim()){notify('Peman final mande yon referans prèv peman.',true);return}
+  }else if(obj.status==='Peye'){obj.status='Resevwa'}
+  obj.receipt=old.receipt||`APLS-${obj.flow==='Antre'?'R':'D'}-${new Date().getFullYear()}-${String(db.payments.length+1).padStart(4,'0')}`;
+ }
+ if(kind==='assets')obj.code=old.code||`APLS-B-${String(db.assets.length+1).padStart(4,'0')}`;
+ if(kind==='complaints')obj.code=old.code||`APLS-P-${String(db.complaints.length+1).padStart(4,'0')}`;
+ if(kind==='projects'&&obj.budget)obj.budget=Number(obj.budget);
+ let x=assignRecord(kind,recordId,obj);
+ if(kind==='appointments'&&old.id)db.appointments=db.appointments.filter(z=>z.id!==old.id||z.position===x.position);
+ closeModal();save((recordId?'Mizajou':'Kreyasyon')+' nan '+kind+': '+(obj.title||obj.name||obj.memberName||fullName(obj)||obj.receipt||obj.code||''));notify('Dosye a anrejistre nan navigatè sa a')
+}
+function safeCsvCell(v){let s=String(v==null?'':v);if(/^[=+@\-\t\r]/.test(s))s="'"+s;return '"'+s.replace(/"/g,'""')+'"'}
+function download(name,content,mime){const blob=new Blob([content],{type:mime});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),2000)}
+function exportCsv(kind){let data=db[kind];if(!Array.isArray(data)||!data.length){notify('Pa gen done pou ekspòte nan seksyon sa a.',true);return}let headers=Array.from(new Set(data.flatMap(x=>Object.keys(x))));let content='\uFEFF'+headers.map(safeCsvCell).join(',')+'\r\n'+data.map(x=>headers.map(h=>safeCsvCell(x[h])).join(',')).join('\r\n');download('APLS_'+kind+'_'+today()+'.csv',content,'text/csv;charset=utf-8');notify('CSV a pare')}
+function exportBackup(){download('APLS_sovgad_DEMO_'+today()+'.json',JSON.stringify({app:'APLS',version:'1.0-demo',exported:now(),data:db},null,2),'application/json');notify('Sovgad la telechaje. Pwoteje fichye sa a.')}
+async function importBackup(input){let file=input.files?.[0];if(!file)return;try{let x=JSON.parse(await file.text());if(x.app!=='APLS'||!x.data||!Array.isArray(x.data.members)||!Array.isArray(x.data.payments))throw Error('Fòma sa a pa bon');if(!confirm('Sa pral ranplase done APLS ki sou navigatè sa a. Èske ou gen yon backup?'))return;let d=defaults();Object.keys(d).forEach(k=>{if(k in x.data)d[k]=k==='config'?{...d[k],...x.data[k]}:Array.isArray(x.data[k])?x.data[k]:d[k]});db=d;save('Backup APLS enpòte');notify('Backup la enpòte')}catch(e){notify('Fichye a pa yon backup APLS ki valab.',true)}finally{input.value=''}}
+function printHtml(title,body){let html=`<!doctype html><html lang="ht"><head><meta charset="utf-8"><title>${esc(title)}</title><style>body{font-family:Arial,Helvetica,sans-serif;color:#183d2d;padding:42px;max-width:820px;margin:auto}h1{color:#0d4a37;font-size:25px}header{display:flex;align-items:center;gap:18px;border-bottom:3px solid #d6a33c;padding-bottom:20px;margin-bottom:28px}header img{width:84px;height:84px;object-fit:contain}.slogan{color:#84682c;margin:8px 0}.item{padding:13px 0;border-bottom:1px solid #dfe6df}small{color:#627165}.sign{display:flex;justify-content:space-between;margin-top:55px}.sign>div{border-top:1px solid #555;width:41%;padding-top:9px;font-size:12px}@media print{body{padding:15px}}</style></head><body><header><img src="${LOGO}"/><div><h1>APLS · ${esc(title)}</h1><div>Asosyasyon Peyizan Lasal Sitwonye</div><div class="slogan">Inyon • Solidarite • Devlopman</div><small>Lasal Sitwonye, 9yèm seksyon kominal Leyogàn, Ayiti</small></div></header>${body}<p style="margin-top:30px;font-size:11px;color:#758477">Fich administrasyon APLS · Enprime oswa sove kòm PDF · Nenpòt desizyon mande yon PV otorize.</p></body></html>`;let win=window.open('','_blank');if(!win){notify('Pèmèt fenèt pop-up la pou enprime fich la.',true);return}win.document.open();win.document.write(html);win.document.close();setTimeout(()=>{try{win.focus();win.print()}catch(e){}},550)}
+function printBlankRegistration(){const labels=['Non fanmi','Prenon','Telefòn','Imèl (opsyonèl)','Lokalite / abitasyon','Adrès kontak (opsyonèl)','Aktivite / pwofesyon','Domèn enterè','Dat demann','Referans desizyon admisyon'];printHtml('Fòm enskripsyon manm (vid)',labels.map(k=>`<div class="item" style="min-height:46px"><b>${esc(k)}:</b> ______________________________________________</div>`).join('')+`<p style="font-size:12px;margin-top:20px">☐ Mwen dakò APLS itilize enfòmasyon mwen bay yo pou jesyon manm, nan respè règleman li yo ak politik vi prive li.</p><div class="sign"><div>Siyati kandida a</div><div>Siyati responsab enskripsyon</div></div>`)}
+function printRegistration(i){let x=getMember(i);if(!x)return;let fields=[['Kòd demann',x.number],['Non konplè',fullName(x)],['Telefòn',x.phone],['Imèl',x.email],['Lokalite',x.zone],['Adrès',x.address],['Aktivite / pwofesyon',x.occupation],['Domèn enterè',x.interest],['Dat demann',x.joined],['Estati admisyon',x.status],['PV / desizyon',x.reference]];printHtml('Fòm enskripsyon manm',fields.map(([k,v])=>`<div class="item"><b>${esc(k)}:</b> ${txt(v)}</div>`).join('')+`<p style="margin-top:22px"><small>Konsantman sou itilizasyon done: ${x.consent?'Wi':'Pa konfime'}</small></p><div class="sign"><div>Siyati kandida a</div><div>Siyati responsab enskripsyon</div></div>`)}
+function printReceipt(i){let x=db.payments.find(z=>z.id===i);if(!x)return;printHtml('Resi APLS',`<div class="item"><b>Nimewo resi:</b> ${txt(x.receipt)}</div><div class="item"><b>Dat:</b> ${txt(x.date)}</div><div class="item"><b>Sous:</b> ${txt(x.party)}</div><div class="item"><b>Kalite:</b> ${txt(x.category)}</div><div class="item"><b>Montan:</b> ${fmtMoney(x.amount,x.currency)}</div><div class="item"><b>Referans peman:</b> ${txt(x.reference)}</div><div class="sign"><div>Moun ki resevwa / trezorye</div><div>Responsab verifikasyon</div></div>`)}
+window.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+
+// 16 annex forms from APLS governing-rules draft. Demo data stays only in browser.
+function formsView(){
+ const keys=Object.keys(ANNEX_DATA);
+ return `<div class="stack">${section('Sant fòm ak anèks A–P','Tout 16 modèl règleman entèn APLS yo — pwojè pou apwobasyon. Dosye yo rete nan navigatè demonstrasyon an.',b('↓ Backup dosye yo','exportBackup()','outline'))}
+ <div class="notice gold"><b>Limit:</b> sa yo se fòm pou prepare dokiman; yon ranplisaj pa konsidere kòm siyati, vòt, otorizasyon peman oswa apwobasyon ofisyèl.</div>
+ <div class="grid3">${keys.map(k=>{const n=db.annexForms.filter(x=>x.letter===k).length;return `<div class="cardline"><div class="eyebrow">ANÈKS ${k} · ${n} dosye</div><h3>${esc(ANNEX_DATA[k][0])}</h3><div class="actions"><button class="btn primary" onclick="openAnnex('${k}')">✚ Ranpli fòm</button><button class="btn outline" onclick="printEmptyAnnex('${k}')">Enprime vid</button></div></div>`}).join('')}</div>
+ <div class="panel"><h2>Fòm ki deja anrejistre (${db.annexForms.length})</h2>${table(['Anèks','Tit','Dat','Aksyon'],db.annexForms.slice().reverse().map((x)=>`<tr><td><b>${esc(x.letter)}</b></td><td>${esc(ANNEX_DATA[x.letter]?.[0]||'Fòm')}</td><td>${esc(x.date)}</td><td><button class="btn outline" onclick="printAnnex('${eatt(x.id)}')">Enprime / PDF</button></td></tr>`),empty('▧','Poko gen fòm ranpli','Chwazi yon anèks anwo a.'))}</div></div>`;
+}
+function openAnnex(letter){
+ let conf=ANNEX_DATA[letter];if(!conf)return;
+ let body=conf[1].map(([key,label,type])=>{
+  if(type==='textarea')return field(key,label,'',{area:true,full:true});
+  if(type.startsWith('select:'))return field(key,label,type.split(':')[1].split('|')[0],{options:type.split(':').slice(1).join(':').split('|')});
+  if(type==='number'||type==='decimal')return field(key,label,'',{type:'number',min:0,step:type==='decimal'?'0.01':'1'});
+  return field(key,label,'',{type:type==='date'?'date':'text'});
+ }).join('');
+ openModal(`Anèks ${esc(letter)} — ${esc(conf[0])}`,`<div class="notice">Fòm sa a pa bay otorizasyon ni pa reprezante siyati ofisyèl. Sèvi sèlman ak done fiktif pou teste.</div><form id="annexform" onsubmit="saveAnnex(event,'${letter}')"><div class="formgrid">${body}</div></form>`,`<button class="btn outline" onclick="closeModal()">Anile</button><button class="btn primary" type="submit" form="annexform">Anrejistre fòm</button>`);
+}
+function saveAnnex(e,letter){
+ e.preventDefault();if(!ANNEX_DATA[letter])return;
+ const fd=new FormData(e.target),values={};for(const [k,v] of fd)values[k]=String(v).trim().slice(0,4000);
+ db.annexForms.push({id:id('ANEX'),letter,date:now(),values});closeModal();save(`Fòm anèks ${letter} anrejistre`);notify('Fòm nan anrejistre (DEMO)');
+}
+function printAnnex(idv){let x=db.annexForms.find(f=>f.id===idv);if(!x)return;let a=ANNEX_DATA[x.letter];
+ const body=a[1].map(([key,label])=>`<div class="item"><b>${esc(label)}:</b> ${txt(x.values[key])}</div>`).join('')+`<p><small>Referans demonstrasyon: ${esc(x.id)} · ${esc(x.date)}</small></p><div class="sign"><div>Siyati orijinal lè dokiman an apwouve</div><div>Dat / Sekretarya</div></div>`;
+ printHtml(`Anèks ${x.letter} — ${a[0]}`,body);
+}
+function printEmptyAnnex(letter){const a=ANNEX_DATA[letter];if(!a)return;printHtml(`Anèks ${letter} — ${a[0]}`,a[1].map(([k,label])=>`<div class="item" style="min-height:50px"><b>${esc(label)}:</b> _________________________________________</div>`).join('')+`<div class="sign"><div>Siyati ak dat</div><div>Verifikasyon</div></div>`)}
+
+install();
+</script><script>if('serviceWorker' in navigator && /^https?:$/.test(location.protocol)){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}</script><script>function aplsClearTestData(){if(!confirm('Èske ou vle efase TOUT done demonstrasyon APLS ki sou aparèy sa a? Aksyon sa a pa ka anile.'))return;try{localStorage.removeItem('apls-mobile-demo-v1');if(typeof LSKEY!=='undefined'){localStorage.removeItem(LSKEY)}}catch(e){}location.reload();}</script></body></html>
